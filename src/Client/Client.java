@@ -50,7 +50,7 @@ public class Client {
 
         System.out.println("*************************************");
         System.out.println("*************************************");
-        System.out.println("Please Enter your UserID(For Concurrency test enter 'ConTest'):");
+        System.out.println("Please Enter your UserID:");
         userID = sc.next().trim().toUpperCase();
 //        if (userID.equalsIgnoreCase("ConTest")) {
 //            startConcurrencyTest(ncRef);
@@ -62,7 +62,7 @@ public class Client {
                     try {
                         System.out.println("Customer Login successful (" + userID + ")");
                         ClientLogger.clientLog(userID, " Customer Login successful");
-                        customer(userID, Constant.getServerPort(userID.substring(0, 3)), ncRef);
+                        customer(userID, ncRef);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -71,7 +71,7 @@ public class Client {
                     try {
                         System.out.println("Admin Login successful (" + userID + ")");
                         ClientLogger.clientLog(userID, " Admin Login successful");
-                        admin(userID, Constant.getServerPort(userID.substring(0, 3)), ncRef);
+                        admin(userID,  ncRef);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -180,15 +180,12 @@ public class Client {
     /**
      *
      * @param customerID
-     * @param serverPort
      * @param ncRef
      * @throws Exception
      */
-    private static void customer(String customerID, int serverPort,NamingContextExt ncRef) throws Exception{
+    private static void customer(String customerID, NamingContextExt ncRef) throws Exception{
         String serverID = Constant.getServerID(customerID);
-        if (serverPort == 1) {
-            return;
-        }
+
 //        Registry registry = LocateRegistry.getRegistry(serverPort);
 //        MovieManagementInterface remoteObject = (MovieManagementInterface) registry.lookup(Constant.MOVIE_MANAGEMENT_REGISTERED_NAME);
         ServerObjectInterface servant = ServerObjectInterfaceHelper.narrow(ncRef.resolve_str(serverID));
@@ -270,7 +267,7 @@ public class Client {
         }
         if(repeat)
         {
-            customer(customerID,serverPort,ncRef);
+            customer(customerID,ncRef);
 
         }
     }
@@ -278,15 +275,13 @@ public class Client {
     /**
      *
      * @param adminID
-     * @param serverPort
      * @param ncRef
      * @throws Exception
      */
-    private static void admin(String adminID, int serverPort,NamingContextExt ncRef) throws Exception{
+    private static void admin(String adminID, NamingContextExt ncRef) throws Exception{
         String serverID = Constant.getServerID(adminID);
-        if (serverPort == 1) {
-            return;
-        }
+        System.out.println(serverID);
+
 //        Registry registry = LocateRegistry.getRegistry(serverPort);
 //        MovieManagementInterface remoteObject = (MovieManagementInterface) registry.lookup(Constant.MOVIE_MANAGEMENT_REGISTERED_NAME);
         ServerObjectInterface servant = ServerObjectInterfaceHelper.narrow(ncRef.resolve_str(serverID));
@@ -388,7 +383,7 @@ public class Client {
 
         }
         if (repeat) {
-            admin(adminID, serverPort, ncRef);
+            admin(adminID,  ncRef);
         }
     }
 
