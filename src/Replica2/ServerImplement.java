@@ -106,11 +106,13 @@ public class ServerImplement extends ServerObjectInterface2POA {
             movieSlot.setBookingCapacity(bookingCapacity);
             allMovieShows.get(movieName).put(movieID, movieSlot);
             response = "Success: Movie Show " + movieID + " updated with number of booking seats " + bookingCapacity;
+            System.out.println(serverName + ">>>" + response);
             try {
                 Logger.serverLog(serverID, "null", " RMI addMovieSlot ", " movieID: " + movieID + " eventType: " + movieName + " bookingCapacity " + bookingCapacity + " ", response);
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            return CommonOutput.addMovieSlotOutput(true, CommonOutput.addMovieSlot_success_capacity_updated);
         }
 
         if (Constant.detectServer(movieID).equals(serverName)) {
@@ -121,20 +123,24 @@ public class ServerImplement extends ServerObjectInterface2POA {
             //movieHashMap.put(movieID,bookingCapacity );
             allMovieShows.put(movieName, movieSlot);
             response = "Success: Movie " + movieID + " added successfully";
+            System.out.println(serverName + ">>>" + response);
             try {
-                Logger.serverLog(serverID, "null", " RMI addMovieSlot ", " movieID: " + movieID + " eventType: " + movieName + " bookingCapacity " + bookingCapacity + " ", response);
+                Logger.serverLog(serverID, "null", " CORBA addMovieSlot ", " movieID: " + movieID + " eventType: " + movieName + " bookingCapacity " + bookingCapacity + " ", response);
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            return CommonOutput.addMovieSlotOutput(true, CommonOutput.addMovieSlot_success_added);
         } else {
             response = "Failed: Cannot Add Event to servers other than " + serverName;
+            System.out.println(serverName + ">>>" + response);
             try {
-                Logger.serverLog(serverID, "null", " RMI addMovieSlot ", " movieID: " + movieID + " eventType: " + movieName + " bookingCapacity " + bookingCapacity + " ", response);
+                Logger.serverLog(serverID, "null", " CORBA addMovieSlot ", " movieID: " + movieID + " eventType: " + movieName + " bookingCapacity " + bookingCapacity + " ", response);
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            return CommonOutput.addMovieSlotOutput(true, null);
         }
-        return response;
+
     }
 
     /**
@@ -157,18 +163,22 @@ public class ServerImplement extends ServerObjectInterface2POA {
 
 
                 response = "Success: Movie Show Removed Successfully";
+                System.out.println(serverName + ">>>" + response);
                 try {
                     Logger.serverLog(serverID, "null", " RMI removeMovieSlot ", " movieID: " + movieID + " movieName: " + movieName + " ", response);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+                return CommonOutput.removeMovieSlotOutput(true, null);
             } else {
                 response = "Failed: Movie " + movieID + " Does Not Exist";
+                System.out.println(serverName + ">>>" + response);
                 try {
                     Logger.serverLog(serverID, "null", " RMI removeMovieSlot ", " movieID: " + movieID + " movieName: " + movieName + " ", response);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+                return CommonOutput.removeMovieSlotOutput(false, CommonOutput.removeMovieSlot_fail_no_such_movieShow);
             }
         } else {
             response = "Failed: Cannot Remove Movie Show from servers other than " + serverName;
@@ -177,8 +187,9 @@ public class ServerImplement extends ServerObjectInterface2POA {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            return CommonOutput.removeMovieSlotOutput(true, null);
         }
-        return response;
+
     }
 
     /**
@@ -193,9 +204,9 @@ public class ServerImplement extends ServerObjectInterface2POA {
 
         if (allMovieShows.get(movieName).containsKey(movieID)) {
                 List<String> registeredClients = allMovieShows.get(movieName).get(movieID).getRegisteredClientIDs();
-                System.out.println(registeredClients+" registered clients from udp");
 
-            System.out.println(allMovieShows.get(movieName).get(movieID)+" abababababa");
+
+
                 addCustomersToNextSameEvent(movieID, movieName, registeredClients);
 
                 response = "Success: Movie Show Removed Successfully";
@@ -348,6 +359,7 @@ public class ServerImplement extends ServerObjectInterface2POA {
      */
     @Override
     public String listMovieShowAvailability(String movieName){
+        List<String> allMovieShowIDsWithCapacity = new ArrayList<>();
         Map<String, MovieModel> movieShows = allMovieShows.get(movieName);
         StringBuilder builder = new StringBuilder();
         builder.append(serverName + " Server " + movieName + ":\n");
@@ -355,6 +367,7 @@ public class ServerImplement extends ServerObjectInterface2POA {
             builder.append("No Movie show for movie " + movieName);
         } else {
             movieShows.entrySet().forEach(items -> {
+                allMovieShowIDsWithCapacity.add(items.getValue().getMovieID() + " " + items.getValue().getTheaterRemainCapacity());
                 builder.append(items.getValue().toString() + " ||\n");
                 //builder.append(items.getKey() + " "+ items.getValue().getBookingCapacity() + " & Booked seats: "+ items.getValue().getBookedSeats()+" || ");
             });
@@ -373,12 +386,19 @@ public class ServerImplement extends ServerObjectInterface2POA {
         }
         builder.append(otherServer1).append(otherServer2);
         builder.append("\n=====================================\n");
+        System.out.println(serverName + ">>>" + builder.toString());
+        List<String> otherServ1 = new ArrayList<>();
+        List<String> otherServ2 = new ArrayList<>();
+        otherServ1 = Arrays.asList(otherServer1.split("@"));
+        otherServ2 = Arrays.asList(otherServer2.split("@"));
+        allMovieShowIDsWithCapacity.addAll(otherServ1);
+        allMovieShowIDsWithCapacity.addAll(otherServ2);
         try {
             Logger.serverLog(serverID, "Admin", " RMI List Movie Show Schedule ", "  movieName: " + movieName + " ", builder.toString());
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return builder.toString();
+        return CommonOutput.listMovieShowAvailabilityOutput(true, allMovieShowIDsWithCapacity, null);
 
     }
 
@@ -405,7 +425,9 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 int seatsAvailable = movieSlot.getTheaterRemainCapacity();
                 if(numberOfTickets>movieSlot.getTheaterRemainCapacity())
                 {
-                    return "Does not have asked number seats Might Theater get Full";
+                    response = "Does not have asked number seats Might Theater get Full";
+                    System.out.println(serverName + ">>>" + response);
+                    return CommonOutput.bookMovieTicketsOutput(false, CommonOutput.bookMovieShow_no_capacity);
                 }
                 if (seatsAvailable > 0) {
                     if (seatsAvailable - numberOfTickets < 0) {
@@ -417,7 +439,9 @@ public class ServerImplement extends ServerObjectInterface2POA {
                             if (!clientEvents.get(customerID).get(movieName).containsKey(movieID)) {
                                 clientEvents.get(customerID).get(movieName).put(movieID, numberOfTickets);
                             } else {
-                                response = "Failed: Event " + movieID + " Already Booked";
+                                response = "Failed: Movieshow " + movieID + " Already Booked";
+                                System.out.println(serverName + ">>>" + response);
+                                return CommonOutput.bookMovieTicketsOutput(false, null);
                             }
                         } else {
 //                            List<String> temp = new ArrayList<>();
@@ -425,6 +449,7 @@ public class ServerImplement extends ServerObjectInterface2POA {
                             Map<String, Integer> temp = new ConcurrentHashMap();
                             temp.put(movieID, numberOfTickets);
                             clientEvents.get(customerID).put(movieName, temp);
+
 
                         }
                     } else {
@@ -442,23 +467,31 @@ public class ServerImplement extends ServerObjectInterface2POA {
                         movieSlot.seatBooked(numberOfTickets);
                         allMovieShows.get(movieName).put(movieID, movieSlot);
                         response = "Success: Movie Show " + movieID + " Booked Successfully";
+                        System.out.println(serverName + ">>>" + response);
+                        return CommonOutput.bookMovieTicketsOutput(true, null);
                     } else if (movieSlot.addRegisteredClientID(customerID) == Constant.SHOW_FULL_FLAG) {
                         response = "Failed: Movie Show " + movieID + " is Full";
+                        System.out.println(serverName + ">>>" + response);
+                        return CommonOutput.bookMovieTicketsOutput(false, CommonOutput.bookMovieShow_no_capacity);
                     } else {
                         response = "Failed: Cannot Add You To Movie Show " + movieID;
+                        System.out.println(serverName + ">>>" + response);
                     }
                 } else {
                     response = "Failed: Movie Show " + movieID + " is Full";
+                    System.out.println(serverName + ">>>" + response);
                 }
             } else {
                 response = "Movie Show is not opened yet by Administration";
+                System.out.println(serverName + ">>>" + response);
+                return CommonOutput.bookMovieTicketsOutput(false, CommonOutput.bookMovieShow_fail_no_such_movieShow);
             }
             try {
-                Logger.serverLog(serverID, customerID, " RMI bookMovieShow ", " movieID: " + movieID + " movieName: " + movieName + " ", response);
+                Logger.serverLog(serverID, customerID, " CORBA bookMovieShow ", " movieID: " + movieID + " movieName: " + movieName + " ", response);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return response;
+
 
         } else {
 
@@ -468,10 +501,16 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 response=serverResponse;
                 if (!serverResponse.startsWith("Success:")) {
                     response = "Failed: Unable to Book tickets";
+                    System.out.println(serverName + ">>>" + response);
+                    return CommonOutput.bookMovieTicketsOutput(false, null);
+
                 }
             }
             else {
                 response = "Failed: You Cannot Book Event in Other Servers For This Week(Max Weekly Limit = 3)";
+                System.out.println(serverName + ">>>" + response);
+                return CommonOutput.bookMovieTicketsOutput(false, CommonOutput.bookMovieShow_fail_weekly_limit);
+
             }
         }
         try {
@@ -479,7 +518,7 @@ public class ServerImplement extends ServerObjectInterface2POA {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return response;
+        return CommonOutput.bookMovieTicketsOutput(true, null);
     }
 
     /**
@@ -746,17 +785,21 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 }
 
                 builder.append("\n=====================================\n");
-                //response = builder.toString();
+                response = builder.toString();
+                System.out.println(serverName + ">>>" + response);
                 try {
                     Logger.serverLog(serverID, customerID, " RMI getBookingSchedule ", "null", response);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+                return CommonOutput.getBookingScheduleOutput(true, movieShows, null);
 
             }
             else
             {
                 builder.append("Booking Schedule Empty For " + customerID);
+                System.out.println(serverName + ">>>" + builder.toString());
+                return CommonOutput.getBookingScheduleOutput(false, new HashMap<>(), null);
 //            try {
 //                Logger.serverLog(serverID, customerID, " RMI getBookingSchedule ", "null", response);
 //            } catch (IOException e) {
@@ -769,11 +812,13 @@ public class ServerImplement extends ServerObjectInterface2POA {
         else
         {
             builder.append("Booking Schedule Empty For " + customerID);
+            System.out.println(serverName + ">>>" + builder.toString());
+            return CommonOutput.getBookingScheduleOutput(false, new HashMap<>(), null);
 
 
         }
-        response = builder.toString();
-        return response;
+//        response = builder.toString();
+//        return response;
 
 
 
@@ -783,7 +828,6 @@ public class ServerImplement extends ServerObjectInterface2POA {
      *
      * @param customerID
      * @return
-     * @throws RemoteException
      */
     public String getBookingScheduleUDP(String customerID) throws RemoteException {
         String response="";
@@ -849,21 +893,23 @@ public class ServerImplement extends ServerObjectInterface2POA {
 
 
                     response = "Failed: You " + customerID + " Are Not Registered for movie " + movieName;
+                    System.out.println(serverName + ">>>" + response);
                     try {
                         Logger.serverLog(serverID, customerID, " RMI cancel Movie Show ", " MovieId: " + movieID + " movieName: " + movieName + " ", response);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    return response;
+                    return CommonOutput.cancelMovieTicketsOutput(false, CommonOutput.cancelMovieShow_fail_not_registered_in_movieShow);
                 }
                 else if (!clientEvents.get(customerID).containsKey(movieName)) {
                     response = "Failed: You " + customerID + " Are Not Registered for movie " + movieName + " in Movie Show" + movieID;
+                    System.out.println(serverName + ">>>" + response);
                     try {
                         Logger.serverLog(serverID, customerID, " RMI cancel Movie Show ", " MovieId: " + movieID + " movieName: " + movieName + " ", response);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    return response;
+                    return CommonOutput.cancelMovieTicketsOutput(false, CommonOutput.cancelMovieShow_fail_not_registered_in_movieShow);
                 }
                 else {
                     if (clientEvents.get(customerID).get(movieName).containsKey(movieID)) {
@@ -874,31 +920,38 @@ public class ServerImplement extends ServerObjectInterface2POA {
                         } else if (count < numberOfTickets) {
 
                             response = "Failed: You cannot Canceled " + numberOfTickets + " tickets. Maximum limit is " + count;
+                            System.out.println(serverName + ">>>" + response);
+
                             try {
                                 Logger.serverLog(serverID, customerID, " RMI cancel Movie Show ", " MovieId: " + movieID + " movieName: " + movieName + " ", response);
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
-                            return response;
+                            return CommonOutput.cancelMovieTicketsOutput(false, null);
+
                         } else {
                             clientEvents.get(customerID).get(movieName).put(movieID, count - numberOfTickets);
                         }
 
                         MovieModel movieSlot = allMovieShows.get(movieName).get(movieID);
                         movieSlot.seatCanceled(numberOfTickets);
-                        System.out.println("Before Cancel Hashmap of All MovieShows: "+ allMovieShows.get(movieName).get(movieID).getTheaterRemainCapacity());
                         allMovieShows.get(movieName).put(movieID, movieSlot);
-                        System.out.println("After Cancel Hashmap of All MovieShows: "+ allMovieShows.get(movieName).get(movieID).getTheaterRemainCapacity());
                         response = "Success: " + numberOfTickets + " tickets of Movie Show " + movieID + " Canceled for " + customerID;
+                        System.out.println(serverName + ">>>" + response);
+                        return CommonOutput.cancelMovieTicketsOutput(true, null);
+
                     } else {
                         response = "Failed: You " + customerID + " Are Not Registered in " + movieID;
+                        System.out.println(serverName + ">>>" + response);
+                        try {
+                            Logger.serverLog(serverID, customerID, " RMI cancel Movie Show ", " MovieId: " + movieID + " movieName: " + movieName + " ", response);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        return CommonOutput.cancelMovieTicketsOutput(false, CommonOutput.cancelMovieShow_fail_not_registered_in_movieShow);
                     }
-                    try {
-                        Logger.serverLog(serverID, customerID, " RMI cancel Movie Show ", " MovieId: " + movieID + " movieName: " + movieName + " ", response);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                    return response;
+
+
                 }
 
         }
@@ -966,9 +1019,10 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 synchronized (this) {
                     if (Constant.onTheSameWeek(newMovieID.substring(4), oldMovieID) && !exceedWeeklyLimit(customerID, newMovieID.substring(4))) {
                         cancelResp = cancelMovieTickets(customerID, oldMovieID, newMovieName, numberOfTickets);
-                        System.out.println("cancel Response");
+
                         if (cancelResp.startsWith("Success:")) {
                             bookResp = bookMovieTickets(customerID, newMovieID, newMovieName,numberOfTickets);
+
                         }
                     } else {
                         bookResp = bookMovieTickets(customerID, newMovieID, newMovieName,numberOfTickets);
@@ -979,41 +1033,67 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 }
                 if (bookResp.startsWith("Success:") && cancelResp.startsWith("Success:")) {
                     response = "Success: Event " + oldMovieID + " swapped with " + newMovieID;
+                    System.out.println(serverName + ">>>" + response);
+                    try {
+                        Logger.serverLog(serverID, customerID, " CORBA exchangeTickets ", " oldMovieID: " + oldMovieID + " oldMovieName: " + newMovieName + " newMovieID: " + newMovieID + " newMovieName: " + newMovieName + " ", response);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return CommonOutput.exchangeTicketsOutput(true,null);
                 } else if (bookResp.startsWith("Success:") && cancelResp.startsWith("Failed:")) {
                     bookMovieTickets(customerID, newMovieID, newMovieName,numberOfTickets);
                     response = "Failed: Your oldEvent " + oldMovieID + " Could not be Canceled reason: " + cancelResp;
+                    System.out.println(serverName + ">>>" + response);
+                    try {
+                        Logger.serverLog(serverID, customerID, " CORBA exchangeTickets ", " oldMovieID: " + oldMovieID + " oldMovieName: " + newMovieName + " newMovieID: " + newMovieID + " newMovieName: " + newMovieName + " ", response);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return CommonOutput.exchangeTicketsOutput(false,null);
                 } else if (bookResp.startsWith("Failed:") && cancelResp.startsWith("Success:")) {
                     //hope this won't happen, but just in case.
                     String resp1 = bookMovieTickets(customerID, oldMovieID, newMovieName,numberOfTickets);
                     response = "Failed: Your newEvent " + newMovieID + " Could not be Booked reason: " + bookResp + " And your oldMovieID Rolling back: " + resp1;
+                    System.out.println(serverName + ">>>" + response);
+                    try {
+                        Logger.serverLog(serverID, customerID, " CORBA exchangeTickets ", " oldMovieID: " + oldMovieID + " oldMovieName: " + newMovieName + " newMovieID: " + newMovieID + " newMovieName: " + newMovieName + " ", response);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return CommonOutput.exchangeTicketsOutput(false,null);
                 } else {
                     response = "Failed: on Both newEvent " + newMovieID + " Booking reason: " + bookResp + " and oldMovieID " + oldMovieID + " Canceling reason: " + cancelResp;
+                    System.out.println(serverName + ">>>" + response);
+                    try {
+                        Logger.serverLog(serverID, customerID, " CORBA exchangeTickets ", " oldMovieID: " + oldMovieID + " oldMovieName: " + newMovieName + " newMovieID: " + newMovieID + " newMovieName: " + newMovieName + " ", response);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return CommonOutput.exchangeTicketsOutput(false,null);
                 }
-                try {
-                    Logger.serverLog(serverID, customerID, " CORBA exchangeTickets ", " oldMovieID: " + oldMovieID + " oldMovieName: " + newMovieName + " newMovieID: " + newMovieID + " newMovieName: " + newMovieName + " ", response);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                return response;
+
+
             } else {
                 response = "Failed: You " + customerID + " Are Not Registered in " + oldMovieID;
+                System.out.println(serverName + ">>>" + response);
                 try {
                     Logger.serverLog(serverID, customerID, " CORBA exchangeTickets ", " oldMovieID: " + oldMovieID + " oldMovieName: " + newMovieName + " newMovieID: " + newMovieID + " newMovieName: " + newMovieName + " ", response);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                return response;
+                return CommonOutput.exchangeTicketsOutput(false,CommonOutput.exchangeTicket_fail_not_registered_in_movieShow);
             }
         }
         else
         {
             response = sendUDPMessage(Constant.getUDPServerPort(oldMovieID.substring(0, 3)), "exchangeTickets", customerID, newMovieName, newMovieID,numberOfTickets,oldMovieID);
+            System.out.println(serverName + ">>>" + response);
             try {
                 Logger.serverLog(serverID, customerID, " CORBA exchangeTickets ", " MovieId: " + newMovieID + " movieName: " + newMovieName + " ", response);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return response;
+            return CommonOutput.exchangeTicketsOutput(false,null);
         }
 
         //}

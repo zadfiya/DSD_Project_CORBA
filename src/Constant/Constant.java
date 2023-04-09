@@ -263,7 +263,7 @@ public class Constant {
      * @return
      */
     public static String getServerID(String userID) {
-        String branchAcronym = userID.substring(0, 3);
+        String branchAcronym = userID.substring(0, 3).toUpperCase();
         if (branchAcronym.equalsIgnoreCase("ATW")) {
             return branchAcronym;
         } else if (branchAcronym.equalsIgnoreCase("VER")) {
