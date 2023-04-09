@@ -1,0 +1,27 @@
+module ServerObjectInterfaceApp2
+{
+  interface ServerObjectInterface2
+  	{
+		/**
+        * Only for admin
+        */
+        string addMovieSlot(in string movieID, in string movieName,in long bookingCapacity) ;
+
+            string removeMovieSlots(in string movieID, in string movieName);
+
+            string listMovieShowAvailability(in string movieName);
+
+            /**
+             * Both admin and Customer
+             */
+            string bookMovieTickets(in string customerID, in string movieID,in string movieName,in long numberOfTickets);
+
+            string getBookingSchedule(in string customerID);
+
+            string cancelMovieTickets(in string customerID,in string movieID, in string movieName,in long numberOfTickets);
+
+            string exchangeTickets(in string customerID, in string newMovieID, in string newMovieName, in string oldMovieID, in long numberOfTickets );
+
+	    oneway void shutdown();
+    };
+};
