@@ -1,0 +1,927 @@
+DATE: 2023-02-10 02:41:04 p.m.  Server is Up & Running
+DATE: 2023-02-10 02:41:04 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 03:04:25 p.m.  Server is Up & Running
+DATE: 2023-02-10 03:04:25 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 03:06:42 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 145  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 03:42:57 p.m.  Server is Up & Running
+DATE: 2023-02-10 03:42:57 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 03:58:06 p.m.  Server is Up & Running
+DATE: 2023-02-10 03:58:06 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 04:05:41 p.m.  Server is Up & Running
+DATE: 2023-02-10 04:05:41 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 04:13:10 p.m.  Server is Up & Running
+DATE: 2023-02-10 04:13:10 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 04:25:48 p.m.  Server is Up & Running
+DATE: 2023-02-10 04:25:48 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 04:48:58 p.m.  Server is Up & Running
+DATE: 2023-02-10 04:48:58 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 05:00:58 p.m.  Server is Up & Running
+DATE: 2023-02-10 05:00:58 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 05:14:44 p.m.  Server is Up & Running
+DATE: 2023-02-10 05:14:44 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 05:23:10 p.m.  Server is Up & Running
+DATE: 2023-02-10 05:23:10 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 05:26:38 p.m.  Server is Up & Running
+DATE: 2023-02-10 05:26:38 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 05:28:28 p.m.  Server is Up & Running
+DATE: 2023-02-10 05:28:28 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 05:32:00 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 45  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 06:04:07 p.m.  Server is Up & Running
+DATE: 2023-02-10 06:04:07 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 06:31:48 p.m.  Server is Up & Running
+DATE: 2023-02-10 06:31:48 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 06:43:44 p.m.  Server is Up & Running
+DATE: 2023-02-10 06:43:44 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 06:52:37 p.m.  Server is Up & Running
+DATE: 2023-02-10 06:52:37 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 06:54:21 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 07:06:55 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:06:55 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 07:07:49 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 07:12:19 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:12:19 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 07:13:13 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 07:22:46 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:22:46 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 07:23:45 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 10  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 07:27:49 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:27:49 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 07:33:50 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:33:50 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 07:41:25 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:41:25 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 07:47:46 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:47:46 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 07:56:41 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:56:41 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 07:59:03 p.m.  Server is Up & Running
+DATE: 2023-02-10 07:59:03 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 08:06:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 08:15:41 p.m.  Server is Up & Running
+DATE: 2023-02-10 08:15:41 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 08:17:25 p.m. ClientID: VERC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For VERC1234
+DATE: 2023-02-10 08:18:11 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 08:18:45 p.m. ClientID: VERC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 2 ||
+nullAvtar:
+VERA100223 , #ticket: 4 ||
+
+=====================================
+
+DATE: 2023-02-10 08:42:53 p.m.  Server is Up & Running
+DATE: 2023-02-10 08:42:53 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 08:43:57 p.m. ClientID: VERC1234 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA100223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA100223 Booked Successfully
+DATE: 2023-02-10 08:44:00 p.m. ClientID: VERC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For VERC1234
+DATE: 2023-02-10 08:44:41 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 10  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 08:45:09 p.m. ClientID: VERC1234 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: VERA100223 movieName: Avtar  | ServerResponse: Success: Movie Show VERA100223 Booked Successfully
+DATE: 2023-02-10 08:45:14 p.m. ClientID: VERC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 2 ||
+nullAvtar:
+VERA100223 , #ticket: 5 ||
+
+=====================================
+
+DATE: 2023-02-10 08:46:02 p.m. ClientID: VERC1234 | RequestType:  RMI cancel Movie Show  | RequestParameters:  MovieId: ATWA100223 movieName: Avtar  | ServerResponse: Failed: You Avtar Are Not Registered in VERC1234
+DATE: 2023-02-10 08:46:20 p.m. ClientID: VERC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 2 ||
+nullAvtar:
+VERA100223 , #ticket: 5 ||
+
+=====================================
+
+DATE: 2023-02-10 08:51:30 p.m.  Server is Up & Running
+DATE: 2023-02-10 08:51:30 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-10 08:52:26 p.m. ClientID: VERA1234 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA100223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA100223 Booked Successfully
+DATE: 2023-02-10 08:52:31 p.m. ClientID: VERA1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For VERA1234
+DATE: 2023-02-10 08:53:22 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 3  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-10 08:54:28 p.m. ClientID: VERA1234 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: VERA100223 movieName: Avtar  | ServerResponse: Success: Movie Show VERA100223 Booked Successfully
+DATE: 2023-02-10 08:54:33 p.m. ClientID: VERA1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 5 ||
+Avtar:
+VERA100223 , #ticket: 2 ||
+
+=====================================
+
+DATE: 2023-02-10 08:55:00 p.m. ClientID: VERA1234 | RequestType:  RMI cancel Movie Show  | RequestParameters:  MovieId: ATWA100223 movieName: Avtar  | ServerResponse: Failed: You Avtar Are Not Registered in VERA1234
+DATE: 2023-02-10 09:01:52 p.m.  Server is Up & Running
+DATE: 2023-02-10 09:01:52 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 02:25:50 a.m.  Server is Up & Running
+DATE: 2023-02-13 02:25:50 a.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 02:31:37 a.m.  Server is Up & Running
+DATE: 2023-02-13 02:31:37 a.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 02:34:46 a.m.  Server is Up & Running
+DATE: 2023-02-13 02:34:46 a.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 02:38:46 a.m.  Server is Up & Running
+DATE: 2023-02-13 02:38:46 a.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 02:40:26 a.m.  Server is Up & Running
+DATE: 2023-02-13 02:40:26 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 02:40:26 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 02:40:26 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 02:40:26 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 02:40:26 a.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 02:41:48 a.m. ClientID: VERC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For VERC1234
+DATE: 2023-02-13 02:42:19 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:42:38 a.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA100223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA100223 Booked Successfully
+DATE: 2023-02-13 02:42:41 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 2 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:42:59 a.m. ClientID: VERC1111 | RequestType:  RMI cancel Movie Show  | RequestParameters:  MovieId: ATWA100223 movieName: Avtar  | ServerResponse: Failed: You Avtar Are Not Registered in VERC1111
+DATE: 2023-02-13 02:43:03 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 2 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:45:05 a.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: VERM100223 movieName: Avtar  | ServerResponse: Success: Movie Show Removed Successfully
+DATE: 2023-02-13 02:45:30 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 2 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:49:46 a.m.  Server is Up & Running
+DATE: 2023-02-13 02:49:46 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 02:49:46 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 02:49:46 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 02:49:46 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 02:49:46 a.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 02:50:23 a.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA100223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA100223 Booked Successfully
+DATE: 2023-02-13 02:50:29 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:50:45 a.m. ClientID: VERC1111 | RequestType:  RMI cancel Movie Show  | RequestParameters:  MovieId: ATWA100223 movieName: Avtar  | ServerResponse: Failed: You VERC1111 Are Not Registered for movie Avtar in Movie ShowATWA100223
+DATE: 2023-02-13 02:52:06 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:56:01 a.m.  Server is Up & Running
+DATE: 2023-02-13 02:56:01 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 02:56:01 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 02:56:01 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 02:56:01 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 02:56:01 a.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 02:56:35 a.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA100223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA100223 Booked Successfully
+DATE: 2023-02-13 02:56:37 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA100223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:57:24 a.m. ClientID: VERC1111 | RequestType:  RMI cancel Movie Show  | RequestParameters:  MovieId: ATWA100223 movieName: Avtar  | ServerResponse: Success: 5 tickets of Movie Show ATWA100223 Canceled for VERC1111
+DATE: 2023-02-13 02:57:29 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:59:43 a.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: VERA100223 movieName: Avtar  | ServerResponse: Success: Movie Show Removed Successfully
+DATE: 2023-02-13 03:00:20 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 03:15:55 a.m. ClientID: VERC1234 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA110223 Booked Successfully
+DATE: 2023-02-13 03:15:59 a.m. ClientID: VERC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For VERC1234
+DATE: 2023-02-13 03:16:34 a.m. ClientID: VERC1234 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: VERA100223 movieName: Avtar  | ServerResponse: Movie Show is not opened yet by Administration
+DATE: 2023-02-13 03:16:35 a.m. ClientID: VERC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For VERC1234
+DATE: 2023-02-13 03:17:01 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 03:17:17 a.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA110223 Booked Successfully
+DATE: 2023-02-13 03:17:19 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 03:18:27 a.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: VERA150223 movieName: Avtar  | ServerResponse: Failed: Movie VERA150223 Does Not Exist
+DATE: 2023-02-13 03:24:05 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 03:34:47 a.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA110223 Booked Successfully
+DATE: 2023-02-13 03:34:53 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 10:47:31 a.m.  Server is Up & Running
+DATE: 2023-02-13 10:47:31 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 10:47:31 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 10:47:31 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 10:47:31 a.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 10:47:31 a.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 10:47:57 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 11:02:40 a.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA110223 Booked Successfully
+DATE: 2023-02-13 11:03:16 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 11:04:32 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 11:04:47 a.m. ClientID: VERC1111 | RequestType:  RMI cancel Movie Show  | RequestParameters:  MovieId: ATWA110223 movieName: Avtar  | ServerResponse: Success: 5 tickets of Movie Show ATWA110223 Canceled for VERC1111
+DATE: 2023-02-13 11:05:37 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 11:06:01 a.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 11:15:22 a.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 02:44:56 p.m.  Server is Up & Running
+DATE: 2023-02-13 02:44:56 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 02:44:56 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 02:44:56 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 02:44:56 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 02:44:56 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 03:57:37 p.m.  Server is Up & Running
+DATE: 2023-02-13 03:57:37 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 03:57:37 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 03:57:37 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 03:57:37 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 03:57:37 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 03:59:20 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 03:59:55 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 04:00:07 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 04:00:07 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 04:01:08 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA110223 Booked Successfully
+DATE: 2023-02-13 04:01:23 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: VERA100223 movieName: Avtar  | ServerResponse: Success: Movie Show VERA100223 Booked Successfully
+DATE: 2023-02-13 04:01:25 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA110223 , #ticket: 3 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 04:16:25 p.m.  Server is Up & Running
+DATE: 2023-02-13 04:16:25 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 04:16:25 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 04:16:25 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 04:16:25 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 04:16:25 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 04:19:42 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 04:20:33 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 04:20:36 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 04:21:11 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 04:21:11 p.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Failed: Cannot Remove Movie Show from servers other than VERDUN
+DATE: 2023-02-13 04:21:11 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Failed: Cannot Remove Movie Show from servers other than VERDUN;
+DATE: 2023-02-13 04:21:18 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 04:21:34 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 04:23:44 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 04:23:57 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 04:23:57 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 04:28:57 p.m.  Server is Up & Running
+DATE: 2023-02-13 04:28:57 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 04:28:57 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 04:28:57 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 04:28:57 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 04:28:57 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 04:30:36 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 04:30:42 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 9 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 04:31:42 p.m.  Server is Up & Running
+DATE: 2023-02-13 04:31:42 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 04:31:42 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 04:31:42 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 04:31:42 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 04:31:42 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 04:33:16 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 04:33:32 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 04:33:32 p.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist
+DATE: 2023-02-13 04:33:32 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist;
+DATE: 2023-02-13 04:33:42 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 4 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 04:36:04 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 04:41:33 p.m.  Server is Up & Running
+DATE: 2023-02-13 04:41:33 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 04:41:33 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 04:41:33 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 04:41:33 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 04:41:33 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 04:43:00 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 04:45:27 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 04:46:05 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 04:46:05 p.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist
+DATE: 2023-02-13 04:46:05 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist;
+DATE: 2023-02-13 04:51:05 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 04:51:20 p.m.  Server is Up & Running
+DATE: 2023-02-13 04:51:20 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 04:51:20 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 04:51:20 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 04:51:20 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 04:51:20 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 04:52:19 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 04:52:36 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 04:52:36 p.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist
+DATE: 2023-02-13 04:52:36 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist;
+DATE: 2023-02-13 04:55:01 p.m.  Server is Up & Running
+DATE: 2023-02-13 04:55:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 04:55:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 04:55:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 04:55:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 04:55:01 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 04:55:58 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 04:56:15 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 04:56:15 p.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist
+DATE: 2023-02-13 04:56:15 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist;
+DATE: 2023-02-13 05:05:09 p.m.  Server is Up & Running
+DATE: 2023-02-13 05:05:09 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 05:05:09 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 05:05:09 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 05:05:09 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 05:05:09 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 05:06:00 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:06:02 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 05:07:27 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:07:27 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 05:07:55 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:07:55 p.m. ClientID: Admin | RequestType:  RMI removeMovieSlot  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist
+DATE: 2023-02-13 05:07:55 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Failed: Movie ATWM110223 Does Not Exist;
+DATE: 2023-02-13 05:13:41 p.m.  Server is Up & Running
+DATE: 2023-02-13 05:13:41 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 05:13:41 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 05:13:41 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 05:13:41 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 05:13:41 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 05:14:47 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:15:10 p.m. ClientID: VERC1111 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:18:43 p.m.  Server is Up & Running
+DATE: 2023-02-13 05:18:43 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 05:18:43 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 05:18:43 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 05:18:43 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 05:18:43 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 05:20:28 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:21:10 p.m. ClientID: VERC1111 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:24:54 p.m.  Server is Up & Running
+DATE: 2023-02-13 05:24:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 05:24:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 05:24:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 05:24:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 05:24:54 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 05:31:20 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:31:26 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 05:32:04 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:32:04 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:32:04 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully;
+DATE: 2023-02-13 05:32:21 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 05:33:50 p.m.  Server is Up & Running
+DATE: 2023-02-13 05:33:50 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 05:33:50 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 05:33:50 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 05:33:50 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 05:33:50 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 05:35:05 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:35:08 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 05:36:00 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:36:00 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:36:00 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully;
+DATE: 2023-02-13 05:36:28 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:36:28 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 05:36:45 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWM110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 05:42:13 p.m.  Server is Up & Running
+DATE: 2023-02-13 05:42:13 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 05:42:13 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 05:42:13 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 05:42:13 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 05:42:13 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 05:44:02 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:44:41 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:44:41 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully
+DATE: 2023-02-13 05:44:41 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM110223 eventType: Avtar  | ServerResponse: Success: Movie Show ATWM110223 Booked Successfully;
+DATE: 2023-02-13 05:45:14 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 05:46:43 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 05:47:28 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 05:48:49 p.m.  Server is Up & Running
+DATE: 2023-02-13 05:48:49 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 05:48:49 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 05:48:49 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 05:48:49 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 05:48:49 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 05:50:00 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 05:52:04 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:52:04 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 05:52:28 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA110223 Booked Successfully
+DATE: 2023-02-13 05:52:43 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 05:53:13 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWE110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 05:53:13 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWE110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWE110223 Booked Successfully
+DATE: 2023-02-13 05:53:13 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWE110223 eventType: Avtar  | ServerResponse: Success: Movie Show ATWE110223 Booked Successfully;
+DATE: 2023-02-13 05:53:25 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWE110223 , #ticket: 5 ||
+ATWA110223 , #ticket: 5 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 05:59:28 p.m.  Server is Up & Running
+DATE: 2023-02-13 05:59:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 05:59:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 05:59:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 05:59:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 05:59:28 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 06:02:14 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWA110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA110223 Booked Successfully
+DATE: 2023-02-13 06:02:19 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWA110223 , #ticket: 4 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 06:03:02 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWE110223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 06:03:02 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWE110223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWE110223 Booked Successfully
+DATE: 2023-02-13 06:03:02 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWE110223 eventType: Avtar  | ServerResponse: Success: Movie Show ATWE110223 Booked Successfully;
+DATE: 2023-02-13 06:03:06 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 06:03:18 p.m. ClientID: VERC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: ATWE110223 , #ticket: 4 ||
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
+DATE: 2023-02-13 06:04:38 p.m. ClientID: OUTC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 06:05:05 p.m. ClientID: OUTC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 06:06:12 p.m. ClientID: VERC1111 | RequestType:  UDP request received removeMovieSlot  | RequestParameters:  eventID: ATWM120223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 06:06:12 p.m. ClientID: VERC1111 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: ATWM120223 movieName: Avtar  | ServerResponse: Success: Movie Show ATWM120223 Booked Successfully
+DATE: 2023-02-13 06:06:12 p.m. ClientID: VERC1111 | RequestType:  UDP reply sent removeMovieSlot  | RequestParameters:  eventID: ATWM120223 eventType: Avtar  | ServerResponse: Success: Movie Show ATWM120223 Booked Successfully;
+DATE: 2023-02-13 06:06:24 p.m. ClientID: OUTC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: ;
+DATE: 2023-02-13 06:45:16 p.m.  Server is Up & Running
+DATE: 2023-02-13 06:45:16 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 06:45:16 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 06:45:16 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 06:45:16 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 06:45:16 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 06:46:38 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 06:46:38 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 06:53:17 p.m. ClientID: ATWC3579 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 06:53:17 p.m. ClientID: ATWC3579 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse: Success: Movie Show VERM100223 Booked Successfully;
+DATE: 2023-02-13 06:53:40 p.m. ClientID: ATWC3579 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERA100223 eventType: Avenger  | ServerResponse:  ...
+DATE: 2023-02-13 06:55:03 p.m.  Server is Up & Running
+DATE: 2023-02-13 06:55:03 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 06:55:03 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 06:55:03 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 06:55:03 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 06:55:03 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 06:56:28 p.m. ClientID: ATWC3579 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 06:56:28 p.m. ClientID: ATWC3579 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse: Success: Movie Show VERM100223 Booked Successfully;
+DATE: 2023-02-13 06:58:14 p.m. ClientID: ATWC3579 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: VERDUN:
+Avtar:
+VERM100223 , #ticket: 2 ||
+;
+DATE: 2023-02-13 06:58:54 p.m.  Server is Up & Running
+DATE: 2023-02-13 06:58:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 06:58:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 06:58:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 06:58:54 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 06:58:54 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 06:59:29 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA120223 eventType: Avtar bookingCapacity 25  | ServerResponse: Success: Movie VERA120223 added successfully
+DATE: 2023-02-13 07:00:16 p.m. ClientID: ATWA3579 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 07:00:16 p.m. ClientID: ATWA3579 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse: Success: Movie Show VERM100223 Booked Successfully;
+DATE: 2023-02-13 07:00:47 p.m. ClientID: ATWA3579 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERA120223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 07:00:47 p.m. ClientID: ATWA3579 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  eventID: VERA120223 eventType: Avtar  | ServerResponse: Success: Movie Show VERA120223 Booked Successfully;
+DATE: 2023-02-13 07:01:13 p.m. ClientID: ATWA3579 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: VERDUN:
+Avtar:
+VERA120223 , #ticket: 6 ||
+VERM100223 , #ticket: 2 ||
+;
+DATE: 2023-02-13 07:01:33 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 07:01:33 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA120223) in the Afternoon of 12/02/2023 Total[Remaining] Capacity: 25[19] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[18] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 07:02:20 p.m. ClientID: ATWA3579 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: VERDUN:
+Avtar:
+VERA120223 , #ticket: 6 ||
+VERM100223 , #ticket: 2 ||
+;
+DATE: 2023-02-13 07:02:28 p.m. ClientID: ATWA3579 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: VERDUN:
+Avtar:
+VERA120223 , #ticket: 6 ||
+VERM100223 , #ticket: 2 ||
+;
+DATE: 2023-02-13 07:02:34 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 07:02:34 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA120223) in the Afternoon of 12/02/2023 Total[Remaining] Capacity: 25[19] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[18] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 07:04:03 p.m. ClientID: ATWC1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For ATWC1111
+DATE: 2023-02-13 07:04:03 p.m. ClientID: ATWC1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: Booking Schedule Empty For ATWC1111;
+DATE: 2023-02-13 07:04:13 p.m. ClientID: ATWC2222 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For ATWC2222
+DATE: 2023-02-13 07:04:13 p.m. ClientID: ATWC2222 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: Booking Schedule Empty For ATWC2222;
+DATE: 2023-02-13 07:04:26 p.m. ClientID: ATWC2222 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERA100223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 07:04:26 p.m. ClientID: ATWC2222 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  eventID: VERA100223 eventType: Avtar  | ServerResponse: Success: Movie Show VERA100223 Booked Successfully;
+DATE: 2023-02-13 07:04:29 p.m. ClientID: ATWC2222 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: VERDUN:
+Avtar:
+VERA100223 , #ticket: 3 ||
+;
+DATE: 2023-02-13 07:04:43 p.m. ClientID: ATWC2222 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: VERDUN:
+Avtar:
+VERA100223 , #ticket: 3 ||
+;
+DATE: 2023-02-13 07:25:45 p.m.  Server is Up & Running
+DATE: 2023-02-13 07:25:45 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 07:25:45 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 07:25:45 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 07:25:45 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 07:25:45 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 07:33:57 p.m. ClientID: ATWA1111 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For ATWA1111
+DATE: 2023-02-13 07:33:57 p.m. ClientID: ATWA1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: Booking Schedule Empty For ATWA1111;
+DATE: 2023-02-13 07:38:25 p.m.  Server is Up & Running
+DATE: 2023-02-13 07:38:25 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 07:38:25 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 07:38:25 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 07:38:25 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 07:38:25 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 07:38:38 p.m. ClientID: ATWA7895 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For ATWA7895
+DATE: 2023-02-13 07:38:38 p.m. ClientID: ATWA7895 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: Booking Schedule Empty For ATWA7895;
+DATE: 2023-02-13 07:40:39 p.m.  Server is Up & Running
+DATE: 2023-02-13 07:40:39 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 07:40:39 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 07:40:39 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 07:40:39 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 07:40:39 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 07:40:57 p.m. ClientID: ATWA8975 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For ATWA8975
+
+DATE: 2023-02-13 07:40:57 p.m. ClientID: ATWA8975 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: Booking Schedule Empty For ATWA8975
+;
+DATE: 2023-02-13 07:43:06 p.m.  Server is Up & Running
+DATE: 2023-02-13 07:43:06 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 07:43:06 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 07:43:06 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 07:43:06 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 07:43:06 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 07:43:22 p.m. ClientID: ATWA5647 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For ATWA5647
+
+DATE: 2023-02-13 07:43:22 p.m. ClientID: ATWA5647 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: Booking Schedule Empty For ATWA5647
+;
+DATE: 2023-02-13 07:45:24 p.m.  Server is Up & Running
+DATE: 2023-02-13 07:45:24 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 07:45:24 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 07:45:24 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 07:45:24 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 07:45:24 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 07:45:46 p.m. ClientID: ATWC4562 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Booking Schedule Empty For ATWC4562
+
+DATE: 2023-02-13 07:45:46 p.m. ClientID: ATWC4562 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: Booking Schedule Empty For ATWC4562
+;
+DATE: 2023-02-13 07:48:04 p.m.  Server is Up & Running
+DATE: 2023-02-13 07:48:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 07:48:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 07:48:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 07:48:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 07:48:04 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 07:48:19 p.m. ClientID: ATWC7894 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-02-13 07:48:19 p.m. ClientID: ATWC7894 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: 
+VERDUN:
+Booking Schedule Empty For ATWC7894
+;
+DATE: 2023-02-13 07:49:02 p.m. ClientID: ATWC7894 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-02-13 07:49:02 p.m. ClientID: ATWC7894 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  eventID: null eventType: null  | ServerResponse: 
+VERDUN:
+Booking Schedule Empty For ATWC7894
+;
+DATE: 2023-02-13 08:02:28 p.m.  Server is Up & Running
+DATE: 2023-02-13 08:02:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 08:02:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 08:02:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 08:02:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 08:02:28 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 08:25:47 p.m. ClientID: VERC1234 | RequestType:  RMI bookMovieShow  | RequestParameters:  movieID: OUTM100223 movieName: Avtar  | ServerResponse: Success: Movie Show OUTM100223 Booked Successfully
+DATE: 2023-02-13 08:30:16 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 08:30:16 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 09:15:12 p.m.  Server is Up & Running
+DATE: 2023-02-13 09:15:12 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 09:15:12 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 09:15:12 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 09:15:12 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 09:15:12 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 09:27:17 p.m.  Server is Up & Running
+DATE: 2023-02-13 09:27:17 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 09:27:17 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 09:27:17 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 09:27:17 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 09:27:17 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 09:29:30 p.m.  Server is Up & Running
+DATE: 2023-02-13 09:29:30 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 09:29:30 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 09:29:30 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 09:29:30 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 09:29:30 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 09:31:34 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 09:31:34 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 09:32:30 p.m. ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 09:32:30 p.m. ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  eventID: null eventType: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-02-13 09:35:01 p.m.  Server is Up & Running
+DATE: 2023-02-13 09:35:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 09:35:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 09:35:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 09:35:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 09:35:01 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 09:54:01 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM130223 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie VERM130223 added successfully
+DATE: 2023-02-13 09:54:19 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE150223 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie VERE150223 added successfully
+DATE: 2023-02-13 09:55:32 p.m. ClientID: ATWC1234 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 09:55:32 p.m. ClientID: ATWC1234 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse: Success: Movie Show VERM100223 Booked Successfully;
+DATE: 2023-02-13 09:56:24 p.m. ClientID: ATWC1234 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERE150223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 09:56:24 p.m. ClientID: ATWC1234 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  eventID: VERE150223 eventType: Avtar  | ServerResponse: Success: Movie Show VERE150223 Booked Successfully;
+DATE: 2023-02-13 09:56:37 p.m. ClientID: ATWC1234 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERA100223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 09:56:37 p.m. ClientID: ATWC1234 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  eventID: VERA100223 eventType: Avtar  | ServerResponse: Success: Movie Show VERA100223 Booked Successfully;
+DATE: 2023-02-13 10:01:14 p.m.  Server is Up & Running
+DATE: 2023-02-13 10:01:14 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 10:01:14 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 10:01:14 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 10:01:14 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 10:01:14 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 10:01:50 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA150223 eventType: Avtar bookingCapacity 10  | ServerResponse: Success: Movie VERA150223 added successfully
+DATE: 2023-02-13 10:02:07 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE160223 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie VERE160223 added successfully
+DATE: 2023-02-13 10:02:23 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA170223 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie VERA170223 added successfully
+DATE: 2023-02-13 10:03:07 p.m.  Server is Up & Running
+DATE: 2023-02-13 10:03:07 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 10:03:07 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 10:03:07 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 10:03:07 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 10:03:07 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 10:11:36 p.m.  Server is Up & Running
+DATE: 2023-02-13 10:11:36 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 10:11:36 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 10:11:36 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 10:11:36 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 10:11:36 p.m.  UDP Server Started at port 7777
+DATE: 2023-02-13 10:13:28 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA140223 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie VERA140223 added successfully
+DATE: 2023-02-13 10:13:38 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA150223 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie VERA150223 added successfully
+DATE: 2023-02-13 10:13:53 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA160223 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie VERA160223 added successfully
+DATE: 2023-02-13 10:15:54 p.m. ClientID: ATWC1111 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  eventID: VERM100223 eventType: Avtar  | ServerResponse:  ...
+DATE: 2023-02-13 10:16:04 p.m.  Server is Up & Running
+DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show VERA100223 updated with number of booking seats 20
+DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERA100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERA100223 added successfully
+DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERM100223 added successfully
+DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: VERE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie VERE100223 added successfully
+DATE: 2023-02-13 10:16:04 p.m.  UDP Server Started at port 7777

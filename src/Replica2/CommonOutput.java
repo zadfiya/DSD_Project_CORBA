@@ -88,16 +88,16 @@ public class CommonOutput {
 	}
 
 	//Format for output EventType+ one space + EventID
-	public static String getBookingScheduleOutput(boolean isSuccess, Map<String, Map<String, Integer>> events, String reason) {
+	public static String getBookingScheduleOutput(boolean isSuccess, Map<String, Map<String, Integer>> movieShows, String reason) {
 		if (isSuccess) {
 			reason = general_success;
-			if (events.size() > 0) {
+			if (movieShows.size() > 0) {
 				StringBuilder reasonBuilder = new StringBuilder();
-				for (String eventType :
-						events.keySet()) {
-					for (String eventID :
-							events.get(eventType)) {
-						reasonBuilder.append(eventType).append(" ").append(eventID).append("@");
+				for (String movieName :
+						movieShows.keySet()) {
+					for (String movieID :
+							movieShows.get(movieName).keySet()) {
+						reasonBuilder.append(movieName).append(" ").append(movieID).append("@");
 					}
 				}
 				reason = reasonBuilder.toString();

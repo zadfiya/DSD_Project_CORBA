@@ -1,0 +1,16 @@
+DATE: 2023-02-10 04:27:24 p.m.  Customer Login successful
+DATE: 2023-02-10 06:53:42 p.m.  Customer Login successful
+DATE: 2023-02-13 09:55:15 p.m.  Customer Login successful
+DATE: 2023-02-13 09:55:32 p.m.  attempting to book movie for Avtar with movieId VERM100223 and number of Tickets : 3
+DATE: 2023-02-13 09:55:32 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: VERM100223 movieName: Avtar  | Server Response: Success: Movie Show VERM100223 Booked Successfully
+DATE: 2023-02-13 09:55:56 p.m.  attempting to book movie for Avtar with movieId OUTE130223 and number of Tickets : 8
+DATE: 2023-02-13 09:55:56 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: OUTE130223 movieName: Avtar  | Server Response: Success: Movie Show OUTE130223 Booked Successfully
+DATE: 2023-02-13 09:56:24 p.m.  attempting to book movie for Avtar with movieId VERE150223 and number of Tickets : 3
+DATE: 2023-02-13 09:56:24 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: VERE150223 movieName: Avtar  | Server Response: Success: Movie Show VERE150223 Booked Successfully
+DATE: 2023-02-13 09:56:37 p.m.  attempting to book movie for Avtar with movieId VERA100223 and number of Tickets : 6
+DATE: 2023-02-13 09:56:37 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: VERA100223 movieName: Avtar  | Server Response: Success: Movie Show VERA100223 Booked Successfully
+DATE: 2023-02-13 10:14:25 p.m.  Customer Login successful
+DATE: 2023-02-13 10:14:39 p.m.  attempting to book movie for Avtar with movieId VERA140223 and number of Tickets : 5
+DATE: 2023-02-13 10:16:42 p.m.  Customer Login successful
+DATE: 2023-02-13 10:17:01 p.m.  attempting to book movie for Avtar with movieId ATWA150223 and number of Tickets : 16
+DATE: 2023-02-13 10:17:01 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA150223 movieName: Avtar  | Server Response: Does not have asked number seats Might Theater get Full

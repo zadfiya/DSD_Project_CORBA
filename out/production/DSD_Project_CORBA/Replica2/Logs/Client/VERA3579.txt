@@ -1,0 +1,4 @@
+DATE: 2023-02-13 06:59:13 p.m.  Admin Login successful
+DATE: 2023-02-13 06:59:29 p.m.  attempting to Add Slot for Avtar with movieIdVERA120223 and capacity: 25
+DATE: 2023-02-13 06:59:29 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: VERA120223 movieName: Avtar capacity: 25  | Server Response: Success: Movie VERA120223 added successfully
+DATE: 2023-02-13 06:59:32 p.m.  Logout Successfully

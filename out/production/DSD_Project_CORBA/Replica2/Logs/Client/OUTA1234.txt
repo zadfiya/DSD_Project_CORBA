@@ -1,0 +1,10 @@
+DATE: 2023-02-13 10:14:06 p.m.  Admin Login successful
+DATE: 2023-02-13 10:14:18 p.m.  attempting to Add Slot for Avtar with movieId OUTA170223 and capacity: 15
+DATE: 2023-02-13 10:14:18 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: OUTA170223 movieName: Avtar capacity: 15  | Server Response: Success: Movie OUTA170223 added successfully
+DATE: 2023-02-13 10:14:19 p.m.  Logout Successfully
+DATE: 2023-02-13 10:15:05 p.m.  Admin Login successful
+DATE: 2023-02-13 10:15:17 p.m.  attempting to Add Slot for Avtar with movieId OUTA170223 and capacity: 12
+DATE: 2023-02-13 10:15:17 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: OUTA170223 movieName: Avtar capacity: 12  | Server Response: Success: Movie OUTA170223 added successfully
+DATE: 2023-02-13 10:15:29 p.m.  attempting to Add Slot for Avtar with movieId OUTA160223 and capacity: 12
+DATE: 2023-02-13 10:15:29 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: OUTA160223 movieName: Avtar capacity: 12  | Server Response: Success: Movie OUTA160223 added successfully
+DATE: 2023-02-13 10:15:31 p.m.  Logout Successfully

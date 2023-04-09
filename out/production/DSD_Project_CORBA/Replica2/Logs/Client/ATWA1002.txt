@@ -1,0 +1,31 @@
+DATE: 2023-02-10 04:26:16 p.m.  Manager Login successful
+DATE: 2023-02-10 05:28:50 p.m.  Manager Login successful
+DATE: 2023-02-10 06:32:07 p.m.  Manager Login successful
+DATE: 2023-02-10 07:12:35 p.m.  Manager Login successful
+DATE: 2023-02-10 08:43:22 p.m.  Manager Login successful
+DATE: 2023-02-13 08:30:12 p.m.  Admin Login successful
+DATE: 2023-02-13 08:30:16 p.m.  attempting to list schedule of movie for Avtar
+DATE: 2023-02-13 08:30:16 p.m. Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 4[4] ||
+ (ATWM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWA140223) in the Afternoon of 14/02/2023 Total[Remaining] Capacity: 5[5] ||
+ (ATWA200223) in the Afternoon of 20/02/2023 Total[Remaining] Capacity: 25[25] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (OUTM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[15] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-02-13 09:12:00 p.m.  Logout Successfully

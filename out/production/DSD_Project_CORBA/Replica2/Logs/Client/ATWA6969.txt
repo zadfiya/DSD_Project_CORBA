@@ -1,0 +1,49 @@
+DATE: 2023-02-13 09:29:49 p.m.  Admin Login successful
+DATE: 2023-02-13 09:30:36 p.m.  attempting to book Slot for Avtar with movieIdATWA240223 and capacity: 25
+DATE: 2023-02-13 09:30:36 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA240223 movieName: Avtar  | Server Response: Movie Show is not opened yet by Administration
+DATE: 2023-02-13 09:31:34 p.m.  attempting to list schedule of movie for Avtar
+DATE: 2023-02-13 09:31:34 p.m. Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (OUTM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-02-13 09:32:23 p.m.  attempting to book Slot for Avtar with movieIdATWE100223 and capacity: 21
+DATE: 2023-02-13 09:32:23 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: ATWE100223 movieName: Avtar  | Server Response: Success: Movie Show ATWE100223 Booked Successfully
+DATE: 2023-02-13 09:32:30 p.m.  attempting to list schedule of movie for Avtar
+DATE: 2023-02-13 09:32:30 p.m. Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[0] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTE100223) in the Evening of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+  (OUTM100223) in the Morning of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
