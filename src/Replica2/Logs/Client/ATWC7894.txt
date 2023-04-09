@@ -1,0 +1,28 @@
+DATE: 2023-02-13 07:48:15 p.m.  Customer Login successful
+DATE: 2023-02-13 07:48:18 p.m.  attempting to get Movie Schedule
+DATE: 2023-02-13 07:48:19 p.m. Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: 
+VERDUN:
+Booking Schedule Empty For ATWC7894
+
+OUTREMONT:
+Booking Schedule Empty For ATWC7894
+
+ATWATER:
+Booking Schedule Empty For ATWC7894
+DATE: 2023-02-13 07:48:55 p.m.  attempting to book movie for Avtar with movieIdATWA100223 and number of Tickets : 6
+DATE: 2023-02-13 07:48:55 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA100223 movieName: Avtar  | Server Response: Success: Movie Show ATWA100223 Booked Successfully
+DATE: 2023-02-13 07:49:02 p.m.  attempting to get Movie Schedule
+DATE: 2023-02-13 07:49:02 p.m. Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: 
+VERDUN:
+Booking Schedule Empty For ATWC7894
+
+OUTREMONT:
+Booking Schedule Empty For ATWC7894
+
+ATWATER:
+Avtar:
+ATWA100223 , #ticket: 6 ||
+
+=====================================
+
+DATE: 2023-02-13 07:49:20 p.m.  Logout Successfully

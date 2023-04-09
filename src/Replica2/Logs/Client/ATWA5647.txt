@@ -1,0 +1,7 @@
+DATE: 2023-02-13 07:43:19 p.m.  Admin Login successful
+DATE: 2023-02-13 07:43:22 p.m.  attempting to get Movie Schedule
+DATE: 2023-02-13 07:43:22 p.m. Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Booking Schedule Empty For ATWA5647
+Booking Schedule Empty For ATWA5647
+
+ATWATER:
+Booking Schedule Empty For ATWA5647

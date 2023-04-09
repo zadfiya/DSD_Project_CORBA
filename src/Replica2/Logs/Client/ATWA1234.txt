@@ -1,0 +1,41 @@
+DATE: 2023-02-10 02:45:37 p.m.  Manager Login successful
+DATE: 2023-02-10 03:04:40 p.m.  Manager Login successful
+DATE: 2023-02-10 03:43:08 p.m.  Manager Login successful
+DATE: 2023-02-10 04:05:51 p.m.  Manager Login successful
+DATE: 2023-02-10 04:12:47 p.m.  Manager Login successful
+DATE: 2023-02-10 04:13:23 p.m.  Manager Login successful
+DATE: 2023-02-10 04:29:08 p.m.  Manager Login successful
+DATE: 2023-02-10 04:49:09 p.m.  Manager Login successful
+DATE: 2023-02-10 05:14:52 p.m.  Manager Login successful
+DATE: 2023-02-10 05:23:27 p.m.  Manager Login successful
+DATE: 2023-02-10 06:04:24 p.m.  Manager Login successful
+DATE: 2023-02-10 06:44:05 p.m.  Manager Login successful
+DATE: 2023-02-10 06:52:55 p.m.  Manager Login successful
+DATE: 2023-02-10 07:07:09 p.m.  Manager Login successful
+DATE: 2023-02-10 07:23:06 p.m.  Manager Login successful
+DATE: 2023-02-10 07:28:15 p.m.  Manager Login successful
+DATE: 2023-02-10 07:34:03 p.m.  Manager Login successful
+DATE: 2023-02-10 07:41:38 p.m.  Manager Login successful
+DATE: 2023-02-10 07:56:50 p.m.  Manager Login successful
+DATE: 2023-02-10 07:59:19 p.m.  Manager Login successful
+DATE: 2023-02-10 08:16:10 p.m.  Manager Login successful
+DATE: 2023-02-10 08:51:44 p.m.  Manager Login successful
+DATE: 2023-02-13 02:26:11 a.m.  Manager Login successful
+DATE: 2023-02-13 02:31:58 a.m.  Manager Login successful
+DATE: 2023-02-13 02:34:53 a.m.  Manager Login successful
+DATE: 2023-02-13 02:39:18 a.m.  Manager Login successful
+DATE: 2023-02-13 02:40:41 a.m.  Manager Login successful
+DATE: 2023-02-13 03:05:22 a.m.  Manager Login successful
+DATE: 2023-02-13 03:18:37 a.m.  Manager Login successful
+DATE: 2023-02-13 06:52:27 p.m.  Admin Login successful
+DATE: 2023-02-13 06:52:28 p.m.  Logout Successfully
+DATE: 2023-02-13 08:15:12 p.m.  Admin Login successful
+DATE: 2023-02-13 08:15:23 p.m.  attempting to Add Slot for Avtar with movieIdATWA200223 and capacity: 25
+DATE: 2023-02-13 08:15:23 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA200223 movieName: Avtar capacity: 25  | Server Response: Success: Movie ATWA200223 added successfully
+DATE: 2023-02-13 08:15:37 p.m.  attempting to Add Slot for Avtar with movieIdATWA140223 and capacity: 2
+DATE: 2023-02-13 08:15:37 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA140223 movieName: Avtar capacity: 2  | Server Response: Success: Movie ATWA140223 added successfully
+DATE: 2023-02-13 08:15:48 p.m.  attempting to Add Slot for Avtar with movieIdATWA100223 and capacity: 4
+DATE: 2023-02-13 08:15:48 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA100223 movieName: Avtar capacity: 4  | Server Response: Success: Movie ATWA100223 added successfully
+DATE: 2023-02-13 09:35:13 p.m.  Admin Login successful
+DATE: 2023-02-13 09:35:45 p.m.  attempting to book Slot for Avtar with movieIdATWA100223 and capacity: 21
+DATE: 2023-02-13 09:35:45 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA100223 movieName: Avtar  | Server Response: Does not have asked number seats
