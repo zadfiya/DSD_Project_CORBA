@@ -1,0 +1,16 @@
+DATE: 2023-02-10 03:06:18 p.m.  Manager Login successful
+DATE: 2023-02-10 06:54:08 p.m.  Manager Login successful
+DATE: 2023-02-10 07:07:37 p.m.  Manager Login successful
+DATE: 2023-02-10 07:12:55 p.m.  Manager Login successful
+DATE: 2023-02-10 07:30:49 p.m.  Manager Login successful
+DATE: 2023-02-10 08:06:39 p.m.  Manager Login successful
+DATE: 2023-02-10 08:18:00 p.m.  Manager Login successful
+DATE: 2023-02-10 08:44:27 p.m.  Manager Login successful
+DATE: 2023-02-10 08:52:14 p.m.  Manager Login successful
+DATE: 2023-02-13 03:23:38 a.m.  Manager Login successful
+DATE: 2023-02-13 09:53:50 p.m.  Admin Login successful
+DATE: 2023-02-13 09:54:01 p.m.  attempting to Add Slot for Avtar with movieId VERM130223 and capacity: 15
+DATE: 2023-02-13 09:54:01 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: VERM130223 movieName: Avtar capacity: 15  | Server Response: Success: Movie VERM130223 added successfully
+DATE: 2023-02-13 09:54:19 p.m.  attempting to Add Slot for Avtar with movieId VERE150223 and capacity: 15
+DATE: 2023-02-13 09:54:19 p.m. Client Action:  addMovieSlot | RequestParameters:  movieID: VERE150223 movieName: Avtar capacity: 15  | Server Response: Success: Movie VERE150223 added successfully
+DATE: 2023-02-13 09:54:22 p.m.  Logout Successfully

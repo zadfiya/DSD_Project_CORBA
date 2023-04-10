@@ -1,6 +1,6 @@
 package Frontend;
 
-import ServerObjectInterfaceApp.ServerObjectInterfacePOA;
+import Frontend.FEInterfaceApp.FEObjectInterfacePOA;
 import org.omg.CORBA.ORB;
 
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-public class FrontEndImplementation extends ServerObjectInterfacePOA {
+public class    FrontEndImplementation extends FEObjectInterfacePOA {
     private static long DYNAMIC_TIMEOUT = 10000;
     private static int Rm1BugCount = 0;
     private static int Rm2BugCount = 0;
@@ -65,7 +65,7 @@ public class FrontEndImplementation extends ServerObjectInterfacePOA {
 
     @Override
     public synchronized String bookMovieTickets(String customerID, String movieID, String movieName, int numberOfTickets) {
-        MyRequest myRequest = new MyRequest("bookMovieTicket", customerID);
+        MyRequest myRequest = new MyRequest("bookMovieTickets", customerID);
         myRequest.setMovieID(movieID);
         myRequest.setMovieName(movieName);
         myRequest.setNumberOfTickets(numberOfTickets);

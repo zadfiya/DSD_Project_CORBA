@@ -842,7 +842,9 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 e.printStackTrace();
             }
             response = builder.toString();
-            return response;
+            System.out.println(serverName + ">>>" + response);
+            return CommonOutput.getBookingScheduleOutput(false, new HashMap<>(), null);
+            //return response;
         }
         Map<String, Map<String,Integer>> movieShows = clientEvents.get(customerID);
         if (movieShows.size() == 0) {
@@ -853,7 +855,8 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 e.printStackTrace();
             }
             response = builder.toString();
-            return response;
+            System.out.println(serverName + ">>>" + response);
+            return CommonOutput.getBookingScheduleOutput(false, new HashMap<>(), null);
         }
 
         for (String movieName :
@@ -868,9 +871,9 @@ public class ServerImplement extends ServerObjectInterface2POA {
 
         }
         response = builder.toString();
+        System.out.println(serverName + ">>>" + response);
 
-
-        return response;
+        return CommonOutput.getBookingScheduleOutput(true, movieShows, null);
 
     }
 

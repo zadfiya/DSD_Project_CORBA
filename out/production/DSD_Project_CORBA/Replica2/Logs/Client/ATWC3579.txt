@@ -1,0 +1,12 @@
+DATE: 2023-02-13 06:52:36 p.m.  Customer Login successful
+DATE: 2023-02-13 06:53:17 p.m.  attempting to book movie for Avtar with movieIdVERM100223 and number of Tickets : 5
+DATE: 2023-02-13 06:53:17 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: VERM100223 movieName: Avtar  | Server Response: Success: Movie Show VERM100223 Booked Successfully
+DATE: 2023-02-13 06:53:40 p.m.  attempting to book movie for Avenger with movieIdVERA100223 and number of Tickets : 5
+DATE: 2023-02-13 06:56:08 p.m.  Customer Login successful
+DATE: 2023-02-13 06:56:28 p.m.  attempting to book movie for Avtar with movieIdVERM100223 and number of Tickets : 2
+DATE: 2023-02-13 06:56:28 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: VERM100223 movieName: Avtar  | Server Response: Success: Movie Show VERM100223 Booked Successfully
+DATE: 2023-02-13 06:56:44 p.m.  attempting to book movie for Avtar with movieIdOUTM100223 and number of Tickets : 10
+DATE: 2023-02-13 06:56:44 p.m. Client Action:  bookMovieShow | RequestParameters:  movieID: OUTM100223 movieName: Avtar  | Server Response: Success: Movie Show OUTM100223 Booked Successfully
+DATE: 2023-02-13 06:57:11 p.m.  attempting to book movie for Avenger with movieIdOUTE100223 and number of Tickets : 4
+DATE: 2023-02-13 06:58:12 p.m.  Customer Login successful
+DATE: 2023-02-13 06:58:14 p.m.  attempting to get Movie Schedule

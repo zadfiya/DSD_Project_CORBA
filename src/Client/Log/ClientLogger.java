@@ -88,7 +88,7 @@ public class ClientLogger {
         String path="E:\\Concordia\\Winter 2023\\DSD\\Assignments\\Assignment 1\\DSD_40232646\\src\\Logs";
 
             //fileName=path+"\\Client\\" + ID + ".txt";
-            fileName = dir + "\\Client\\Log\\" + ID + ".txt";
+            fileName = dir + "\\src\\Client\\Log\\" + ID + ".txt";
 
         return fileName;
     }

@@ -1,7 +1,7 @@
 package Frontend;
 
-import ServerObjectInterfaceApp.ServerObjectInterface;
-import ServerObjectInterfaceApp.ServerObjectInterfaceHelper;
+import Frontend.FEInterfaceApp.FEObjectInterface;
+import Frontend.FEInterfaceApp.FEObjectInterfaceHelper;
 import org.omg.CORBA.ORB;
 import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NamingContextExt;
@@ -17,14 +17,14 @@ import java.net.SocketException;
 
 public class FE {
     private static final int sequencerPort = 1333;
-    private static final String sequencerIP = "192.168.2.17";
-//        private static final String sequencerIP = "localhost";
+//    private static final String sequencerIP = "192.168.2.17";
+        private static final String sequencerIP = "localhost";
     private static final String RM_Multicast_group_address = "230.1.1.10";
     private static final int FE_SQ_PORT = 1414;
     private static final int FE_PORT = 1999;
     private static final int RM_Multicast_Port = 1234;
-    public static String FE_IP_Address = "192.168.2.11";
-//    public static String FE_IP_Address = "localhost";
+//    public static String FE_IP_Address = "192.168.2.11";
+    public static String FE_IP_Address = "localhost";
 
     public static void main(String[] args) {
         try {
@@ -76,7 +76,7 @@ public class FE {
 
             // get object reference from the servant
             org.omg.CORBA.Object ref = rootpoa.servant_to_reference(servant);
-            ServerObjectInterface href = ServerObjectInterfaceHelper.narrow(ref);
+            FEObjectInterface href = FEObjectInterfaceHelper.narrow(ref);
 
             org.omg.CORBA.Object objRef = orb.resolve_initial_references("NameService");
             NamingContextExt ncRef = NamingContextExtHelper.narrow(objRef);
