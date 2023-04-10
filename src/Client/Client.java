@@ -6,6 +6,10 @@ package Client;
 
 import Constant.Constant;
 import Client.Log.ClientLogger;
+import Frontend.FEInterfaceApp.FEObjectInterface;
+import Frontend.FEInterfaceApp.FEObjectInterfaceHelper;
+import Replica2.ServerObjectInterfaceApp2.ServerObjectInterface2;
+import Replica2.ServerObjectInterfaceApp2.ServerObjectInterface2Helper;
 import ServerObjectInterfaceApp.ServerObjectInterface;
 import ServerObjectInterfaceApp.ServerObjectInterfaceHelper;
 import org.omg.CORBA.ORB;
@@ -188,7 +192,7 @@ public class Client {
 
 //        Registry registry = LocateRegistry.getRegistry(serverPort);
 //        MovieManagementInterface remoteObject = (MovieManagementInterface) registry.lookup(Constant.MOVIE_MANAGEMENT_REGISTERED_NAME);
-        ServerObjectInterface servant = ServerObjectInterfaceHelper.narrow(ncRef.resolve_str(serverID));
+        FEObjectInterface servant = FEObjectInterfaceHelper.narrow(ncRef.resolve_str("FrontEnd"));
 
         boolean repeat = true;
         Constant.printMenu(Constant.USER_TYPE_CUSTOMER);
@@ -284,7 +288,7 @@ public class Client {
 
 //        Registry registry = LocateRegistry.getRegistry(serverPort);
 //        MovieManagementInterface remoteObject = (MovieManagementInterface) registry.lookup(Constant.MOVIE_MANAGEMENT_REGISTERED_NAME);
-        ServerObjectInterface servant = ServerObjectInterfaceHelper.narrow(ncRef.resolve_str(serverID));
+        FEObjectInterface servant = FEObjectInterfaceHelper.narrow(ncRef.resolve_str("FrontEnd"));
         boolean repeat = true;
         Constant.printMenu(Constant.USER_TYPE_ADMIN);
 

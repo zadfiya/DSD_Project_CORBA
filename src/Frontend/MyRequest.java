@@ -132,7 +132,7 @@ public class MyRequest {
                 getFunction().toUpperCase() + ";" +
                 getClientID().toUpperCase() + ";" +
                 getMovieID().toUpperCase() + ";" +
-                getMovieName().toUpperCase() + ";" +
+                getMovieName() + ";" +
                 getOldMovieID().toUpperCase() + ";" +
                 getNumberOfTickets()+";"+
                 //getOldMovieName().toUpperCase() + ";" +
