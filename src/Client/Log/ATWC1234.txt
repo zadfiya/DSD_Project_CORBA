@@ -59,6 +59,7 @@ DATE: 2023-04-10 10:46:19 PM  attempting to get Movie Schedule
 DATE: 2023-04-10 10:46:29 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule > Avtar ATWA110423
 DATE: 2023-04-10 10:50:15 PM  Logout Successfully
 <<<<<<< HEAD
+<<<<<<< HEAD
 DATE: 2023-04-10 10:57:19 PM  Customer Login successful
 DATE: 2023-04-10 10:57:29 PM  attempting to cancel movie for Avtar with movieId ATWA120423 and number of Tickets : 2
 DATE: 2023-04-10 10:57:39 PM Client Action:  cancelMovieShow | RequestParameters:  movieID: ATWA120423 movieName: Avtar numberOfTickets: 2  | Server Response: Null response from serverATW
@@ -132,3 +133,6 @@ DATE: 2023-04-11 02:01:28 AM  attempting to Exchange Ticket
 DATE: 2023-04-11 02:01:38 AM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: VERA150423 movieName: Avtar new MovieID: VERA160423  | Server Response: Fail:exchangeTickets > failed
 DATE: 2023-04-11 02:05:39 AM  attempting to Exchange Ticket
 DATE: 2023-04-11 02:05:49 AM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: VERA150423 movieName: Avtar new MovieID: OUTA170423  | Server Response: Fail:exchangeTickets > failed
+=======
+>>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
+>>>>>>> e28ea3b83a4da5e29f3fe9faa369f964e1bb86b0

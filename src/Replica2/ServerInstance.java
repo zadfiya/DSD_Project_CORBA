@@ -1,5 +1,5 @@
 package Replica2; /**
- * author: Naren Zadafiya (40232646)
+ * Team 22
  */
 
 import Replica2.ServerObjectInterfaceApp2.ServerObjectInterface2;

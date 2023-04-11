@@ -42,6 +42,7 @@ DATE: 2023-04-10 10:53:12 PM Client Action:  addMovieSlot | RequestParameters:  
 DATE: 2023-04-10 10:53:51 PM  attempting to get Movie Schedule
 DATE: 2023-04-10 10:54:01 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Null response from serverATW
 <<<<<<< HEAD
+<<<<<<< HEAD
 DATE: 2023-04-10 10:57:15 PM  Logout Successfully
 DATE: 2023-04-10 11:02:03 PM  Admin Login successful
 DATE: 2023-04-10 11:02:09 PM  attempting to list schedule of movie for Avtar
@@ -73,3 +74,6 @@ DATE: 2023-04-11 01:45:54 AM  Admin Login successful
 DATE: 2023-04-11 01:46:04 AM  attempting to Add Slot for Avtar with movieId ATWA150423 and capacity: 15
 DATE: 2023-04-11 01:46:14 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA150423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
 DATE: 2023-04-11 01:46:49 AM  Logout Successfully
+=======
+>>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
+>>>>>>> e28ea3b83a4da5e29f3fe9faa369f964e1bb86b0

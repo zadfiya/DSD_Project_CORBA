@@ -6,7 +6,11 @@ import java.util.Scanner;
 
 
 /**
+<<<<<<< HEAD
  * author: Naren Zadafiya (40232646)
+=======
+ * Team 22
+>>>>>>> e28ea3b83a4da5e29f3fe9faa369f964e1bb86b0
  */
 public class Constant {
 

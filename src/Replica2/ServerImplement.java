@@ -3,7 +3,7 @@ package Replica2;
 import Replica2.ServerObjectInterfaceApp2.ServerObjectInterface2POA;
 import org.omg.CORBA.ORB;
 /**
- * author: Naren Zadafiya (40232646)
+ * Team 22
  */
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -25,16 +25,10 @@ public class ServerImplement extends ServerObjectInterface2POA {
     public static final String THEATER_SERVER_OUTREMONT = "OUTREMONT";
     private String serverID;
     private String serverName;
-    // HashMap<MovieName, HashMap <MovieID, booking Capacity>>
     private Map<String, Map<String, MovieModel>> allMovieShows;
-    // HashMap<CustomerID, HashMap <MovieName, List<MovieID>>>
-    //private Map<String, Map<String, List<String>>> clientEvents;
 
-    // HashMap<CustomerID, HashMap <MovieName, HashMap<MovieID,number of tickets>>>
     private Map<String, Map<String, Map<String, Integer>>> clientEvents;
 
-    // HashMap<ClientID, Client>
-    //private Map<String, ClientModel> serverClients;
 
     /**
      *
@@ -55,10 +49,6 @@ public class ServerImplement extends ServerObjectInterface2POA {
     }
 
     private void addTestData() {
-//        ClientModel testManager = new ClientModel(serverID + "M1111");
-        //ClientModel testCustomer = new ClientModel(serverID + "C1111");
-//        serverClients.put(testManager.getClientID(), testManager);
-        //serverClients.put(testCustomer.getClientID(), testCustomer);
         clientEvents.put(serverID+"C1111", new ConcurrentHashMap<>());
         //System.out.println(this.serverID +" Srever ID");
         MovieModel avtar = new MovieModel(Constant.MOVIE_AVTAR, serverID + "A100223", 20);

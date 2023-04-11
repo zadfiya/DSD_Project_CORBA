@@ -60,6 +60,7 @@ public class Logger {
         {
             fileWriter = new FileWriter(getFileName(clientID, Constant.LOG_TYPE_CLIENT), false);
         }
+<<<<<<< HEAD
 //        if(file.exists())
 //        {
 //             fileWriter = new FileWriter(getFileName(clientID, Constant.LOG_TYPE_CLIENT), true);
@@ -72,6 +73,8 @@ public class Logger {
 //            System.out.println(file.createNewFile());
 //            fileWriter = new FileWriter(file, false);
 //        }
+=======
+>>>>>>> e28ea3b83a4da5e29f3fe9faa369f964e1bb86b0
 
         PrintWriter printWriter = new PrintWriter(fileWriter);
         printWriter.println("DATE: " + getFormattedDate() + " " + msg);

@@ -1,5 +1,5 @@
 package Replica2; /**
- * author: Naren Zadafiya (40232646)
+ * Team 22
  */
 import java.util.ArrayList;
 import java.util.List;
