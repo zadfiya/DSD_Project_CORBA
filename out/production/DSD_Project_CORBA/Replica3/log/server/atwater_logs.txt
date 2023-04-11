@@ -118,3 +118,4 @@
 2023-03-06 08:38:29 PM Customer ATWC0001 | Get movie slot | ATWC0001 | Success | Verdun Movies : -Avatar-VERM130323-3
 2023-04-10 09:40:40 PM Admin | Add Movie | ATWM110423-Avtar-90 | Success | New Movie added Successfully
 2023-04-10 09:48:00 PM Admin | Add Movie | ATWM120423-Avtar-80 | Success | New Movie added Successfully
+2023-04-10 10:23:33 PM Admin | Add Movie | ATWM130423-Avtar-80 | Success | New Movie added Successfully

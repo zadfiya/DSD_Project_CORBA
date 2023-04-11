@@ -1,0 +1,6 @@
+DATE: 2023-04-10 10:42:31 PM  Customer Login successful
+DATE: 2023-04-10 10:42:54 PM  attempting to book movie for Avtar with movieId ATWA110423 and number of Tickets : 8
+DATE: 2023-04-10 10:43:04 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA110423 movieName: Avtar  | Server Response: Fail:bookMovieTickets > Movie show is full
+DATE: 2023-04-10 10:44:27 PM  attempting to get Movie Schedule
+DATE: 2023-04-10 10:44:37 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule > successful
+DATE: 2023-04-10 10:45:43 PM  Logout Successfully

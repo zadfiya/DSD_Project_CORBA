@@ -27,3 +27,8 @@ DATE: 2023-04-10 09:48:00 PM  attempting to Add Slot for Avtar with movieId ATWM
 DATE: 2023-04-10 09:48:10 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM120423 movieName: Avtar capacity: 80  | Server Response: New Movie added Successfully
 DATE: 2023-04-10 09:48:40 PM  attempting to list schedule of movie for Avtar
 DATE: 2023-04-10 09:48:50 PM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Null response from serverATW
+DATE: 2023-04-10 10:23:11 PM  Admin Login successful
+DATE: 2023-04-10 10:23:33 PM  attempting to Add Slot for Avtar with movieId ATWM130423 and capacity: 80
+DATE: 2023-04-10 10:23:43 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM130423 movieName: Avtar capacity: 80  | Server Response: New Movie added Successfully
+DATE: 2023-04-10 10:24:22 PM  attempting to list schedule of movie for Avtar
+DATE: 2023-04-10 10:24:32 PM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Null response from serverATW

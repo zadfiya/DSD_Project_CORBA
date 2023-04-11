@@ -119,3 +119,5 @@
 2023-04-10 09:40:40 PM Admin | Add Movie | ATWM110423-Avtar-90 | Success | New Movie added Successfully
 2023-04-10 09:48:00 PM Admin | Add Movie | ATWM120423-Avtar-80 | Success | New Movie added Successfully
 2023-04-10 10:23:33 PM Admin | Add Movie | ATWM130423-Avtar-80 | Success | New Movie added Successfully
+2023-04-10 11:15:49 PM Admin | Add Movie | ATWM150423-Avtar-80 | Success | New Movie added Successfully
+2023-04-10 11:16:11 PM Admin | List Movie availability | Avtar | Success | ATWM150423 80

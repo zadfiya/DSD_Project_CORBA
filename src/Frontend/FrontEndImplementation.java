@@ -56,10 +56,10 @@ public class    FrontEndImplementation extends FEObjectInterfacePOA {
 
     @Override
     public synchronized String listMovieShowAvailability(String adminID, String movieName) {
-        MyRequest myRequest = new MyRequest("listEventAvailability", adminID);
+        MyRequest myRequest = new MyRequest("listMovieShowAvailability", adminID);
         myRequest.setMovieName(movieName);
         myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
-        System.out.println("FE Implementation:listEventAvailability>>>" + myRequest.toString());
+        System.out.println("FE Implementation:listMovieShowAvailability>>>" + myRequest.toString());
         return validateResponses(myRequest);
     }
 
