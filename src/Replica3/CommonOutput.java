@@ -8,16 +8,6 @@ public class CommonOutput {
 	public static final String general_success = "successful";
 	public static final String addEvent_fail_cannot_decrease_capacity = "Cannot decrease capacity";
 	public static final String addMovieSlot_success_added = "Movie Slot added successfully";
-<<<<<<< HEAD
-	public static final String addMovieSlot_success_capacity_updated = "Event updated successfully";
-	public static final String removeMovieSlot_fail_no_such_movieShow = "No such event";
-	public static final String bookMovieShow_fail_no_such_movieShow = "No such event";
-	public static final String bookMovieShow_no_capacity = "Event is full";
-	public static final String bookMovieShow_fail_weekly_limit = "Weekly limit reached";
-	public static final String cancelMovieShow_fail_not_registered_in_movieShow = "You are not registered in event";
-	public static final String cancelMovieShow_fail_no_such_movieShow = "No such event";
-	public static final String exchangeTicket_fail_no_such_movieShow = "No such event";
-=======
 	public static final String addMovieSlot_fail_another_server = "can not add movie slot to different server";
 
 	public static final String addMovieSlot_success_capacity_updated = "Movie Slot capacity updated successfully";
@@ -36,7 +26,6 @@ public class CommonOutput {
 	public static final String cancelMovieShow_success_movieShow = "Movie show canceled Successful";
 	public static final String cancelMovieShow_fail_no_such_movieShow = "No such event";
 	public static final String exchangeTicket_fail_no_such_movieShow = "No such Movie";
->>>>>>> e28ea3b83a4da5e29f3fe9faa369f964e1bb86b0
 	public static final String exchangeTicket_fail_not_registered_in_movieShow = "You are not registered in event";
 	private static final String SUCCESS = "Success:";
 	private static final String FAIL = "Fail:";
