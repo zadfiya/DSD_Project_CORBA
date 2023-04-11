@@ -195,7 +195,7 @@ public class RM2 {
         String newMovieID = parts[5];
         String newMovieName = parts[6];
         String oldMovieID = parts[7];
-         int numberOfTickets = Integer.parseInt(parts[8]);
+        int numberOfTickets = Integer.parseInt(parts[8]);
         int bookingCapacity = Integer.parseInt(parts[9]);
         Message message = new Message(sequenceId, FrontIpAddress, MessageType, Function, userID, newMovieID, newMovieName, oldMovieID, numberOfTickets, bookingCapacity);
         return message;

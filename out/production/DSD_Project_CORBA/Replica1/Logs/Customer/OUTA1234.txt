@@ -1,0 +1,9 @@
+DATE: 2023-03-06 09:15:32 PM  login attempt
+DATE: 2023-03-06 09:15:44 PM  attempting to addMovie
+DATE: 2023-03-06 09:15:44 PM Client Action:  addMovie | RequestParameters:  movieID: OUTM010222 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie OUTM010222 added successfully
+DATE: 2023-03-06 09:25:02 PM  login attempt
+DATE: 2023-03-06 09:25:13 PM  attempting to addMovie
+DATE: 2023-03-06 09:25:13 PM Client Action:  addMovie | RequestParameters:  movieID: OUTM010222 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie OUTM010222 added successfully
+DATE: 2023-03-06 09:45:19 PM  login attempt
+DATE: 2023-03-06 09:45:31 PM  attempting to addMovie
+DATE: 2023-03-06 09:45:31 PM Client Action:  addMovie | RequestParameters:  movieID: OUTM070323 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie OUTM070323 added successfully

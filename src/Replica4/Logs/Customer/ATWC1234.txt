@@ -1,0 +1,66 @@
+DATE: 2023-02-24 08:43:23 PM  login attempt
+DATE: 2023-02-24 08:43:36 PM  attempting to bookMovie
+DATE: 2023-02-24 08:43:36 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | Server Response: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-02-24 09:05:47 PM  login attempt
+DATE: 2023-02-24 09:05:57 PM  attempting to bookMovie
+DATE: 2023-02-24 09:05:57 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | Server Response: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-02-24 09:06:24 PM  attempting to swapEvent
+DATE: 2023-02-24 09:06:24 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWM010222 movieName: Avatar new MovieID: ATWA020222  | Server Response: Success: Event ATWM010222 swapped with ATWA020222
+DATE: 2023-02-24 09:06:27 PM  attempting to getBookingSchedule
+DATE: 2023-02-24 09:06:27 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWA020222 || 
+=====================================
+
+DATE: 2023-02-24 09:06:54 PM  attempting to swapEvent
+DATE: 2023-02-24 09:06:54 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWA020222 movieName: Avatar new MovieID: ATWE010222  | Server Response: Failed: Your newEvent ATWE010222 Could not be Booked reason: Failed: Movie ATWE010222 doest not exist And your oldMovieID Rolling back: Success: Movie ATWA020222 Booked Successfully
+DATE: 2023-03-06 09:10:35 PM  login attempt
+DATE: 2023-03-06 09:10:47 PM  attempting to bookMovie
+DATE: 2023-03-06 09:10:47 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | Server Response: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-03-06 09:11:18 PM  attempting to swapMovie
+DATE: 2023-03-06 09:11:18 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWM010222 movieName: Avatar new MovieID: ATWA010222  | Server Response: Success: Event ATWM010222 swapped with ATWA010222
+DATE: 2023-03-06 09:11:47 PM  attempting to swapMovie
+DATE: 2023-03-06 09:11:47 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWA010222 movieName: Avatar new MovieID: ATWM010222  | Server Response: Failed: Your newEvent ATWM010222 Could not be Booked reason: Failed: Movie ATWM010222 Already Booked And your oldMovieID Rolling back: Success: Movie ATWA010222 Booked Successfully
+DATE: 2023-03-06 09:13:43 PM  login attempt
+DATE: 2023-03-06 09:13:53 PM  attempting to bookMovie
+DATE: 2023-03-06 09:13:53 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | Server Response: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-03-06 09:14:10 PM  attempting to swapMovie
+DATE: 2023-03-06 09:14:10 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWM010222 movieName: Avatar new MovieID: ATWA010222  | Server Response: Failed: on Both newEvent ATWA010222 Booking reason: Failed: did not send book request for your new Movie ATWA010222 and oldMovieID ATWM010222 Canceling reason: Failed : Customer have only booked 5so you cannot cancel 6
+DATE: 2023-03-06 09:15:53 PM  login attempt
+DATE: 2023-03-06 09:16:02 PM  attempting to bookMovie
+DATE: 2023-03-06 09:16:02 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | Server Response: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-03-06 09:16:21 PM  attempting to swapMovie
+DATE: 2023-03-06 09:16:21 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWM010222 movieName: Avatar new MovieID: OUTM010222  | Server Response: Success: Event ATWM010222 swapped with OUTM010222
+DATE: 2023-03-06 09:25:31 PM  login attempt
+DATE: 2023-03-06 09:25:42 PM  attempting to bookMovie
+DATE: 2023-03-06 09:25:42 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | Server Response: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-03-06 09:26:14 PM  login attempt
+DATE: 2023-03-06 09:26:16 PM  attempting to getBookingSchedule
+DATE: 2023-03-06 09:26:16 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWM010222 || 
+=====================================
+
+DATE: 2023-03-06 09:26:41 PM  attempting to swapMovie
+DATE: 2023-03-06 09:26:41 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWM010222 movieName: Avatar new MovieID: OUTM010222  | Server Response: Failed: on Both newEvent OUTM010222 Booking reason: Failed: did not send book request for your new Movie OUTM010222 and oldMovieID ATWM010222 Canceling reason: Failed : Customer have only booked 5so you cannot cancel 7
+DATE: 2023-03-06 09:26:44 PM  attempting to getBookingSchedule
+DATE: 2023-03-06 09:26:44 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWM010222 || 
+=====================================
+
+DATE: 2023-03-06 09:51:55 PM  login attempt
+DATE: 2023-03-06 09:52:08 PM  attempting to bookMovie
+DATE: 2023-03-06 09:52:08 PM Client Action:  bookMovie | RequestParameters:  movieID: ATWM070323 movieType: Avatar  | Server Response: Success: Movie ATWM070323 Booked Successfully
+DATE: 2023-03-06 09:52:39 PM  login attempt
+DATE: 2023-03-06 09:52:41 PM  attempting to getBookingSchedule
+DATE: 2023-03-06 09:52:41 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWM070323 || 
+=====================================
+
+DATE: 2023-03-06 09:53:17 PM  attempting to swapMovie
+DATE: 2023-03-06 09:53:17 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWM070323 movieName: Avatar new MovieID: OUTM070323  | Server Response: Failed: on Both newEvent OUTM070323 Booking reason: Failed: did not send book request for your new Movie OUTM070323 and oldMovieID ATWM070323 Canceling reason: Failed : Customer have only booked 5so you cannot cancel 7
+DATE: 2023-03-06 09:53:24 PM  attempting to getBookingSchedule
+DATE: 2023-03-06 09:53:24 PM Client Action:  bookMovie | RequestParameters:  null  | Server Response: Avatar:
+ATWM070323 || 
+=====================================
+
+DATE: 2023-03-06 09:53:51 PM  attempting to swapMovie
+DATE: 2023-03-06 09:53:51 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWM070323 movieName: Avatar new MovieID: OUTM070323  | Server Response: Success: Event ATWM070323 swapped with OUTM070323
