@@ -11,7 +11,7 @@ public class CommonOutput {
 	public static final String addMovieSlot_fail_another_server = "can not add movie slot to different server";
 
 	public static final String addMovieSlot_success_capacity_updated = "Movie Slot capacity updated successfully";
-	public static final String removeMovieSlot_fail_no_such_movieShow = "No such event";
+	public static final String removeMovieSlot_fail_no_such_movieShow = "Movie Slot doesn't Exist";
 	public static final String removeMovieSlot_success_removed = "Movie Slot removed successfully";
 	public static final String removeMovieSlot_fail_another_server = "can not remove movie slot to different server";
 

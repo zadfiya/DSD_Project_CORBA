@@ -583,6 +583,13 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 clientEvents.put(customerID, temp2);
             }
 
+            if (!allMovieShows.get(movieName).containsKey(movieID))
+            {
+                 response = "Fail: Movie Show doesn't exist";
+                System.out.println(serverName + ">>>" + response);
+                return CommonOutput.bookMovieTicketsOutput(false, CommonOutput.bookMovieShow_fail_no_such_movieShow);
+            }
+
             MovieModel movieSlot = allMovieShows.get(movieName).get(movieID);
 
             if (movieSlot.addRegisteredClientID(customerID) == Constant.ADD_SUCCESS_FLAG) {
@@ -590,6 +597,7 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 movieSlot.seatBooked(numberOfTickets);
                 allMovieShows.get(movieName).put(movieID, movieSlot);
                 response = "Success: Movie Show " + movieID + " Booked Successfully";
+                System.out.println(serverName + ">>>" + response);
                 return CommonOutput.bookMovieTicketsOutput(true, CommonOutput.bookMovieShow_success_booked);
 
             }

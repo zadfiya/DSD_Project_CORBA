@@ -304,11 +304,11 @@ public class RM2 {
                 String response = obj.getBookingSchedule(input.userID);
                 System.out.println(response);
                 return response;
-            } else if (input.Function.equalsIgnoreCase("cancelMovieTickets")) {
+            } else if (input.Function.equalsIgnoreCase("cancelMovieTicket")) {
                 String response = obj.cancelMovieTickets(input.userID, input.newMovieID, input.newMovieName, input.numberOfTickets);
                 System.out.println(response);
                 return response;
-            } else if (input.Function.equalsIgnoreCase("exchangeTickets")) {
+            } else if (input.Function.equalsIgnoreCase("exchangeTicket")) {
                 String response = obj.exchangeTickets(input.userID, input.newMovieID, input.newMovieName, input.oldMovieID, input.numberOfTickets);
                 System.out.println(response);
                 return response;
