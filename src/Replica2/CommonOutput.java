@@ -10,13 +10,13 @@ public class CommonOutput {
 	public static final String addMovieSlot_success_added = "Movie Slot added successfully";
 	public static final String addMovieSlot_fail_another_server = "can not add movie slot to different server";
 
-	public static final String addMovieSlot_success_capacity_updated = "Event updated successfully";
+	public static final String addMovieSlot_success_capacity_updated = "Movie Slot capacity updated successfully";
 	public static final String removeMovieSlot_fail_no_such_movieShow = "No such event";
 	public static final String removeMovieSlot_success_removed = "Movie Slot removed successfully";
 	public static final String removeMovieSlot_fail_another_server = "can not remove movie slot to different server";
 
 	public static final String bookMovieShow_fail_no_such_movieShow = "No such Movie Show";
-	public static final String bookMovieShow_fail_already_booked_movieShow = "No such Movie Show";
+	public static final String bookMovieShow_fail_already_booked_movieShow = "You have booked already";
 	public static final String bookMovieShow_success_booked = "Movie Show booked Successfully";
 
 	public static final String bookMovieShow_no_capacity = "Movie show is full";
