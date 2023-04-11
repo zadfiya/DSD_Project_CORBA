@@ -26,12 +26,9 @@ DATE: 2023-04-10 10:11:19 PM Client Action:  addMovieSlot | RequestParameters:  
 DATE: 2023-04-10 10:41:33 PM  Admin Login successful
 DATE: 2023-04-10 10:41:44 PM  attempting to Add Slot for Avtar with movieId ATWM140423 and capacity: 10
 DATE: 2023-04-10 10:42:04 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM140423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
-<<<<<<< HEAD
-=======
 DATE: 2023-04-10 11:06:12 PM  Admin Login successful
 DATE: 2023-04-10 11:06:22 PM  attempting to Add Slot for Avtar with movieId ATWA140423 and capacity: 10
 DATE: 2023-04-10 11:06:42 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA140423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
->>>>>>> e28ea3b83a4da5e29f3fe9faa369f964e1bb86b0
 =======
 DATE: 2023-04-10 10:23:28 PM  Admin Login successful
 DATE: 2023-04-10 10:24:00 PM  attempting to Add Slot for Avtar with movieId ATWA110423 and capacity: 10
@@ -44,4 +41,108 @@ DATE: 2023-04-10 10:53:02 PM  attempting to Add Slot for Avtar with movieId VERA
 DATE: 2023-04-10 10:53:12 PM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA110423 movieName: Avtar capacity: 5  | Server Response: Fail:addMovieSlot > can not add movie slot to different server
 DATE: 2023-04-10 10:53:51 PM  attempting to get Movie Schedule
 DATE: 2023-04-10 10:54:01 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Null response from serverATW
+<<<<<<< HEAD
+<<<<<<< HEAD
+DATE: 2023-04-10 10:57:15 PM  Logout Successfully
+DATE: 2023-04-10 11:02:03 PM  Admin Login successful
+DATE: 2023-04-10 11:02:09 PM  attempting to list schedule of movie for Avtar
+DATE: 2023-04-10 11:02:19 PM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Null response from serverATW
+DATE: 2023-04-10 11:03:12 PM  attempting to remove movie slot for Avtar with movieIdATWA140423
+DATE: 2023-04-10 11:03:22 PM Client Action:  removeMovieSlot | RequestParameters:  movieID: ATWA140423 movieName: Avtar  | Server Response: Fail:removeMovieSlot > No such event
+DATE: 2023-04-10 11:04:45 PM  attempting to remove movie slot for Avtar with movieIdVERA120423
+DATE: 2023-04-10 11:04:55 PM Client Action:  removeMovieSlot | RequestParameters:  movieID: VERA120423 movieName: Avtar  | Server Response: Success:removeMovieSlot > successful
+DATE: 2023-04-10 11:05:49 PM  attempting to remove movie slot for Avtar with movieIdOUTA130423
+DATE: 2023-04-10 11:05:59 PM Client Action:  removeMovieSlot | RequestParameters:  movieID: OUTA130423 movieName: Avtar  | Server Response: Success:removeMovieSlot > successful
+DATE: 2023-04-10 11:06:35 PM  attempting to remove movie slot for Avtar with movieIdATWA180423
+DATE: 2023-04-10 11:06:45 PM Client Action:  removeMovieSlot | RequestParameters:  movieID: ATWA180423 movieName: Avtar  | Server Response: Fail:removeMovieSlot > No such event
+DATE: 2023-04-10 11:07:57 PM  attempting to Add Slot for Avtar with movieId ATWE110423 and capacity: 15
+DATE: 2023-04-10 11:08:07 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWE110423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-10 11:08:19 PM  attempting to remove movie slot for Avtar with movieIdATWA110423
+DATE: 2023-04-10 11:08:29 PM Client Action:  removeMovieSlot | RequestParameters:  movieID: ATWA110423 movieName: Avtar  | Server Response: Success:removeMovieSlot > successful
+DATE: 2023-04-10 11:09:34 PM  Logout Successfully
+=======
 >>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
+>>>>>>> f9b43e8d1216d3ccf87348a380fc180a4a230670
+DATE: 2023-04-11 01:21:40 AM  Admin Login successful
+DATE: 2023-04-11 01:22:04 AM  attempting to Add Slot for Avtar with movieId ATWA120423 and capacity: 15
+DATE: 2023-04-11 01:22:25 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA120423 movieName: Avtar capacity: 15  | Server Response: Fail: No response from any server
+DATE: 2023-04-11 01:23:35 AM  Admin Login successful
+DATE: 2023-04-11 01:23:55 AM  attempting to Add Slot for Avtar with movieId ATWA140423 and capacity: 15
+DATE: 2023-04-11 01:24:05 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA140423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 01:24:16 AM  Logout Successfully
+DATE: 2023-04-11 01:45:54 AM  Admin Login successful
+DATE: 2023-04-11 01:46:04 AM  attempting to Add Slot for Avtar with movieId ATWA150423 and capacity: 15
+DATE: 2023-04-11 01:46:14 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA150423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 01:46:49 AM  Logout Successfully
+=======
+>>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
+>>>>>>> e28ea3b83a4da5e29f3fe9faa369f964e1bb86b0
+DATE: 2023-04-11 09:31:30 AM  Admin Login successful
+DATE: 2023-04-11 09:31:58 AM  attempting to Add Slot for Avtar with movieId ATWA120423 and capacity: 15
+DATE: 2023-04-11 09:32:08 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA120423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 09:32:36 AM  attempting to remove movie slot for Avtar with movieIdVERA100223
+DATE: 2023-04-11 09:32:46 AM Client Action:  removeMovieSlot | RequestParameters:  movieID: VERA100223 movieName: Avtar  | Server Response: Success:removeMovieSlot > successful
+DATE: 2023-04-11 09:33:01 AM  attempting to list schedule of movie for Avtar
+DATE: 2023-04-11 09:33:11 AM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Success:listMovieShowAvailability > ATWA100223 20@ATWA120423 15@VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+@OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+DATE: 2023-04-11 09:36:27 AM  attempting to remove movie slot for Avtar with movieIdVERA150423
+DATE: 2023-04-11 09:36:37 AM Client Action:  removeMovieSlot | RequestParameters:  movieID: VERA150423 movieName: Avtar  | Server Response: Success:removeMovieSlot > successful
+DATE: 2023-04-11 09:39:00 AM  attempting to remove movie slot for Avtar with movieIdATWA150423
+DATE: 2023-04-11 09:39:10 AM Client Action:  removeMovieSlot | RequestParameters:  movieID: ATWA150423 movieName: Avtar  | Server Response: Fail:removeMovieSlot > Movie Slot doesn't Exist
+DATE: 2023-04-11 09:40:53 AM  attempting to remove movie slot for Avtar with movieIdVERA160423
+DATE: 2023-04-11 09:41:13 AM Client Action:  removeMovieSlot | RequestParameters:  movieID: VERA160423 movieName: Avtar  | Server Response: Fail: No response from any server
+DATE: 2023-04-11 09:48:07 AM  Admin Login successful
+DATE: 2023-04-11 09:48:31 AM  attempting to remove movie slot for Avtar with movieIdVERA160423
+DATE: 2023-04-11 09:48:51 AM Client Action:  removeMovieSlot | RequestParameters:  movieID: VERA160423 movieName: Avtar  | Server Response: Fail: No response from any server
+DATE: 2023-04-11 09:50:55 AM  attempting to remove movie slot for Avtar with movieIdVERA100423
+DATE: 2023-04-11 09:51:15 AM Client Action:  removeMovieSlot | RequestParameters:  movieID: VERA100423 movieName: Avtar  | Server Response: Fail: No response from any server
+DATE: 2023-04-11 10:05:54 AM  Admin Login successful
+DATE: 2023-04-11 10:06:02 AM  attempting to remove movie slot for Avtar with movieIdVERA150423
+DATE: 2023-04-11 10:06:12 AM Client Action:  removeMovieSlot | RequestParameters:  movieID: VERA150423 movieName: Avtar  | Server Response: Fail:removeMovieSlot > can not remove movie slot to different server
+DATE: 2023-04-11 10:16:50 AM  Admin Login successful
+DATE: 2023-04-11 10:16:55 AM  attempting to list schedule of movie for Avtar
+DATE: 2023-04-11 10:17:15 AM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Fail: No response from any server
+DATE: 2023-04-11 10:21:57 AM  Admin Login successful
+DATE: 2023-04-11 10:22:00 AM  attempting to list schedule of movie for Avtar
+DATE: 2023-04-11 10:22:10 AM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Success:listMovieShowAvailability >  (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+@VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+@OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+DATE: 2023-04-11 10:24:46 AM  Admin Login successful
+DATE: 2023-04-11 10:24:49 AM  attempting to list schedule of movie for Avtar
+DATE: 2023-04-11 10:24:59 AM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Success:listMovieShowAvailability > ATWATER Server Avtar:
+@ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+@VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+@OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+DATE: 2023-04-11 10:27:01 AM  Admin Login successful
+DATE: 2023-04-11 10:27:04 AM  attempting to list schedule of movie for Avtar
+DATE: 2023-04-11 10:27:24 AM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Fail: No response from any server
+DATE: 2023-04-11 10:31:04 AM  Admin Login successful
+DATE: 2023-04-11 10:31:08 AM  attempting to list schedule of movie for Avtar
+DATE: 2023-04-11 10:31:18 AM Client Action:  listMovieShowAvailability | RequestParameters:  movieName: Avtar  | Server Response: Success:listMovieShowAvailability > ATWATER Server Avtar:
+@ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+@VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+@OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================

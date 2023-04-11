@@ -172,12 +172,13 @@ public class ServerImplement extends ServerObjectInterface2POA {
             }
         } else {
             response = "Failed: Cannot Remove Movie Show from servers other than " + serverName;
+            System.out.println(serverName + ">>>" + response);
             try {
                 Logger.serverLog(serverID, "null", " CORBA removeMovieSlot ", " movieID: " + movieID + " movieName: " + movieName + " ", response);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return CommonOutput.removeMovieSlotOutput(true, CommonOutput.removeMovieSlot_fail_another_server);
+            return CommonOutput.removeMovieSlotOutput(false, CommonOutput.removeMovieSlot_fail_another_server);
         }
 
     }
@@ -360,15 +361,17 @@ public class ServerImplement extends ServerObjectInterface2POA {
         Map<String, MovieModel> movieShows = allMovieShows.get(movieName);
         StringBuilder builder = new StringBuilder();
         builder.append(serverName + " Server " + movieName + ":\n");
+
         if (movieShows.size() == 0) {
             builder.append("No Movie show for movie " + movieName);
         } else {
             movieShows.entrySet().forEach(items -> {
-                allMovieShowIDsWithCapacity.add(items.getValue().getMovieID() + " " + items.getValue().getTheaterRemainCapacity());
+                //allMovieShowIDsWithCapacity.add(items.getValue().getMovieID() + " " + items.getValue().getTheaterRemainCapacity());
+
                 builder.append(items.getValue().toString() + " ||\n");
                 //builder.append(items.getKey() + " "+ items.getValue().getBookingCapacity() + " & Booked seats: "+ items.getValue().getBookedSeats()+" || ");
             });
-
+            allMovieShowIDsWithCapacity.add(builder.toString()+" \n");
         } builder.append("\n=====================================\n");
         String otherServer1, otherServer2;
         if (serverID.equals("ATW")) {

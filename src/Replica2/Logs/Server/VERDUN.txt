@@ -936,3 +936,93 @@ DATE: 2023-04-10 08:29:12 PM  UDP Server Started at port 7777
 DATE: 2023-04-10 08:36:43 PM  Server is Up & Running
 DATE: 2023-04-10 08:36:43 PM  UDP Server Started at port 7777
 >>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
+DATE: 2023-04-11 09:30:21 AM  Server is Up & Running
+DATE: 2023-04-11 09:30:21 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 09:33:01 AM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 09:33:01 AM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 09:40:14 AM  Server is Up & Running
+DATE: 2023-04-11 09:40:14 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 09:40:31 AM  Server is Up & Running
+DATE: 2023-04-11 09:40:31 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 09:45:13 AM  Server is Up & Running
+DATE: 2023-04-11 09:45:14 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 09:46:46 AM  Server is Up & Running
+DATE: 2023-04-11 09:46:46 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 09:47:42 AM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: VERA140423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie VERA140423 added successfully
+DATE: 2023-04-11 09:52:36 AM  Server is Up & Running
+DATE: 2023-04-11 09:52:36 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:05:09 AM  Server is Up & Running
+DATE: 2023-04-11 10:05:09 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:15:33 AM  Server is Up & Running
+DATE: 2023-04-11 10:15:33 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:15:40 AM  Server is Up & Running
+DATE: 2023-04-11 10:15:40 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:16:55 AM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 10:16:55 AM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 10:21:12 AM  Server is Up & Running
+DATE: 2023-04-11 10:21:12 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:22:00 AM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 10:22:00 AM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 10:23:58 AM  Server is Up & Running
+DATE: 2023-04-11 10:23:58 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:24:49 AM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 10:24:49 AM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 10:26:20 AM  Server is Up & Running
+DATE: 2023-04-11 10:26:20 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:27:04 AM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 10:27:04 AM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 10:30:38 AM  Server is Up & Running
+DATE: 2023-04-11 10:30:38 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:31:08 AM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 10:31:08 AM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 10:33:07 AM  Server is Up & Running
+DATE: 2023-04-11 10:33:07 AM  UDP Server Started at port 7777
+DATE: 2023-04-11 10:33:34 AM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 10:33:34 AM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 10:35:52 AM ClientID: VERC1111 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: ATWA120423 movieName: Avtar  | ServerResponse: Success:bookMovieTickets > successful
+DATE: 2023-04-11 10:36:23 AM ClientID: VERC1111 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+ATWATER:
+Avtar:
+ATWA120423 , #ticket: 15 ||
+
+OUTREMONT:
+Booking Schedule Empty For VERC1111
+
+VERDUN:
+Avenger:
+VERM100223 , #ticket: 3 ||
+Avtar:
+VERA100223 , #ticket: 3 ||
+Titanic:
+VERE100223 , #ticket: 3 ||
+
+=====================================
+
