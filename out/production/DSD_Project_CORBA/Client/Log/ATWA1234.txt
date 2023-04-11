@@ -1,6 +1,7 @@
 DATE: 2023-04-09 01:46:28 PM  Admin Login successful
 DATE: 2023-04-09 01:59:36 PM  Admin Login successful
 DATE: 2023-04-09 02:05:03 PM  Admin Login successful
+<<<<<<< HEAD
 DATE: 2023-04-10 07:38:32 PM  Admin Login successful
 DATE: 2023-04-10 07:38:36 PM  Logout Successfully
 DATE: 2023-04-10 09:42:36 PM  Admin Login successful
@@ -25,3 +26,16 @@ DATE: 2023-04-10 10:11:19 PM Client Action:  addMovieSlot | RequestParameters:  
 DATE: 2023-04-10 10:41:33 PM  Admin Login successful
 DATE: 2023-04-10 10:41:44 PM  attempting to Add Slot for Avtar with movieId ATWM140423 and capacity: 10
 DATE: 2023-04-10 10:42:04 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM140423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
+=======
+DATE: 2023-04-10 10:23:28 PM  Admin Login successful
+DATE: 2023-04-10 10:24:00 PM  attempting to Add Slot for Avtar with movieId ATWA110423 and capacity: 10
+DATE: 2023-04-10 10:24:10 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA110423 movieName: Avtar capacity: 10  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-10 10:29:08 PM  Logout Successfully
+DATE: 2023-04-10 10:50:20 PM  Admin Login successful
+DATE: 2023-04-10 10:50:46 PM  attempting to Add Slot for Avtar with movieId ATWA110423 and capacity: 15
+DATE: 2023-04-10 10:50:56 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA110423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Event updated successfully
+DATE: 2023-04-10 10:53:02 PM  attempting to Add Slot for Avtar with movieId VERA110423 and capacity: 5
+DATE: 2023-04-10 10:53:12 PM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA110423 movieName: Avtar capacity: 5  | Server Response: Fail:addMovieSlot > can not add movie slot to different server
+DATE: 2023-04-10 10:53:51 PM  attempting to get Movie Schedule
+DATE: 2023-04-10 10:54:01 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Null response from serverATW
+>>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b

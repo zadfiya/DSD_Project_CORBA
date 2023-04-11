@@ -1,0 +1,31 @@
+2023-03-06 03:23:12 PM | List Movie Availibility | Avatar | ATWM080323 21,ATWE130323 50
+2023-03-06 03:24:07 PM | Add Movie slot  | VERM080323 Power 70 | New Movie added Successfully
+2023-03-06 03:24:15 PM | List Movie Availibility | Power | VERM080323 70
+2023-03-06 03:24:44 PM | Add Movie slot  | VERE120323 SK 30 | New Movie added Successfully
+2023-03-06 03:33:10 PM | Add Movie slot  | VERM080323 Avatar 45 | New Movie added Successfully
+2023-03-06 03:38:47 PM | Add Movie slot  | VERM080323 Avatar 56 | It already contains the Movie. booking capacity updated
+2023-03-06 03:48:04 PM | Add Movie slot  | VERM090323 Avatar 60 | New Movie added Successfully
+2023-03-06 04:01:26 PM | List Movie Availibility | Avatar | 
+2023-03-06 04:02:23 PM | Get Customer Movie Schedule | VERA0000 | 
+2023-03-06 04:04:06 PM | List Movie Availibility | Avatar | 
+2023-03-06 04:04:24 PM | Add Movie slot  | VERM090323 Avatar 60 | New Movie added Successfully
+2023-03-06 04:35:02 PM | Add Movie slot  | VERM150323 Avatar 80 | You have exceed your week limit for adding the movie
+2023-03-06 04:35:08 PM | List Movie Availibility | Avatar | 
+2023-03-06 04:36:24 PM | Add Movie slot  | VERM120323 Avatar 80 | New Movie added Successfully
+2023-03-06 04:36:28 PM | List Movie Availibility | Avatar | VERM120323 80
+2023-03-06 04:44:05 PM | List Movie Availibility | Avatar | VERM120323 80
+2023-03-06 04:59:28 PM | Add Movie slot  | VERM130323 Avatar 60 | New Movie added Successfully
+2023-03-06 04:59:33 PM | List Movie Availibility | Avatar | VERM130323 60
+2023-03-06 05:14:12 PM | List Movie Availibility | Avatar | 
+2023-03-06 05:14:26 PM | Add Movie slot  | VERM130323 Avatar 40 | New Movie added Successfully
+2023-03-06 05:14:33 PM | List Movie Availibility | Avatar | VERM130323 40
+2023-03-06 05:17:02 PM | List Movie Availibility | Avatar | VERM130323 35
+2023-03-06 05:22:27 PM | Add Movie slot  | VERM130323 Avatar 40 | New Movie added Successfully
+2023-03-06 05:24:45 PM | List Movie Availibility | Avatar | VERM130323 36
+2023-03-06 07:45:16 PM | Add Movie slot  | VERM130323 Avatar 40 | New Movie added Successfully
+2023-03-06 07:45:22 PM | List Movie Availibility | Avatar | VERM130323 40
+2023-03-06 07:47:32 PM | List Movie Availibility | Avatar | VERM130323 40
+2023-03-06 07:58:12 PM | Add Movie slot  | VERM130323 Avatar 40 | New Movie added Successfully
+2023-03-06 08:06:23 PM | Add Movie slot  | VERM130323 Avatar 40 | New Movie added Successfully
+2023-03-06 08:15:30 PM | List Movie Availibility | Avatar | VERM130323 35
+2023-03-06 08:36:07 PM | Add Movie slot  | VERM130323 Avatar 40 | New Movie added Successfully
