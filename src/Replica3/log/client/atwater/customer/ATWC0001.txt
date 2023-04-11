@@ -1,0 +1,55 @@
+2023-03-06 03:16:28 PM | Book Movie tickets  | ATWC0001 ATWM080323 Avatar | Movie slot booked Successfully
+2023-03-06 03:16:32 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:17:25 PM | Book Movie tickets  | ATWC0001 ATWE120323 Pushup | Movie slot booked Successfully
+2023-03-06 03:17:28 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM080323,Pushup,ATWE120323
+2023-03-06 03:36:15 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM080323,Pushup,ATWE120323
+2023-03-06 03:47:33 PM | Book Movie tickets  | ATWC0001 ATWM080323 Avatar | Movie slot booked Successfully
+2023-03-06 03:48:18 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:50:37 PM | Exchange movie tickets | ATWC0001 ATWM080323 Avatar VERM090323 Avatar | This operation cannot be perfomed by the customer ATWC0001 because he/she neither booked the tickets nor canceled it
+2023-03-06 03:50:46 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM080323,Verdun Movies : ,Avatar,VERM090323
+2023-03-06 04:04:35 PM | Get Customer Movie Schedule | ATWC0001 | 
+2023-03-06 04:04:58 PM | Book Movie tickets  | ATWC0001 ATWM080323 Avatar | Movie booked Successfully
+2023-03-06 04:05:02 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 04:21:11 PM | Get Customer Movie Schedule | ATWC0001 | 
+2023-03-06 04:26:40 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323,ATWM120323,ATWM120323,ATWM120323,ATWM120323
+2023-03-06 04:26:55 PM | Cancel Movie tickets  | ATWC0001 ATWM120323 | the Movie booking has been cancelled for the customer ATWC0001
+2023-03-06 04:26:57 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323,ATWM120323
+2023-03-06 04:33:41 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-6
+2023-03-06 04:33:53 PM | Cancel Movie tickets  | ATWC0001 ATWM120323 | the Movie booking has been cancelled for the customer ATWC0001
+2023-03-06 04:33:55 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-3
+2023-03-06 04:36:42 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-3
+2023-03-06 04:37:30 PM | Exchange movie tickets | ATWC0001 ATWM120323 Avatar VERM120323 Avatar | the Movie booking has been cancelled for the customer ATWC0001 that's why exchange operation cannot be performed
+2023-03-06 04:38:29 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-1
+2023-03-06 05:10:34 PM | Get Customer Movie Schedule | ATWC0001 | ATWM120323-0
+2023-03-06 05:13:40 PM | Get Customer Movie Schedule | ATWC0001 | 
+2023-03-06 05:13:52 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 05:13:54 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 05:15:00 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 05:15:54 PM | Exchange movie tickets | ATWC0001 ATWM120323 Avatar VERM130323 Avatar | The Movie Ticket has been exchanged for the customer ATWC0001 from old movie id ATWM120323 to VERM130323
+2023-03-06 05:16:04 PM | Get Customer Movie Schedule | ATWC0001 | Verdun Movies : ,Avatar,VERM130323-5
+2023-03-06 05:22:40 PM | Get Customer Movie Schedule | ATWC0001 | 
+2023-03-06 05:22:51 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 05:22:54 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 05:23:20 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 05:24:20 PM | Exchange movie tickets | ATWC0001 ATWM120323 Avatar VERM130323 Avatar | The Movie Ticket has been exchanged for the customer ATWC0001 from old movie id ATWM120323 to VERM130323
+2023-03-06 05:24:25 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-1,Verdun Movies : ,Avatar,VERM130323-4
+2023-03-06 07:45:57 PM | Get Customer Movie Schedule | ATWC0001 | 
+2023-03-06 07:46:10 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 07:46:12 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 07:48:30 PM | Exchange movie tickets | ATWC0001 ATWM120323 Avatar VERM130323 Avatar | The Movie Ticket has been exchanged for the customer ATWC0001 from old movie id ATWM120323 to VERM130323
+2023-03-06 07:48:59 PM | Get Customer Movie Schedule | ATWC0001 | Verdun Movies : ,Avatar,VERM130323-6
+2023-03-06 07:58:28 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 07:58:29 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 07:59:03 PM | Exchange movie tickets | ATWC0001 ATWM120323 Avatar VERM130323 Avatar | The Movie Ticket has been exchanged for the customer ATWC0001 from old movie id ATWM120323 to VERM130323
+2023-03-06 07:59:06 PM | Get Customer Movie Schedule | ATWC0001 | Verdun Movies : ,Avatar,VERM130323-6
+2023-03-06 08:06:02 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 08:06:52 PM | Exchange movie tickets | ATWC0001 ATWM120323 Avatar VERM130323 Avatar | The Movie Ticket has been exchanged for the customer ATWC0001 from old movie id ATWM120323 to VERM130323
+2023-03-06 08:06:55 PM | Get Customer Movie Schedule | ATWC0001 | Verdun Movies : ,Avatar,VERM130323-5
+2023-03-06 08:07:31 PM | Exchange movie tickets | ATWC0001 VERM130323 Avatar ATWM120323 Avatar | The Movie is not booked by ATWC0001 so he/she cannot book more then booked  that's why exchange operation cannot be performed
+2023-03-06 08:07:36 PM | Get Customer Movie Schedule | ATWC0001 | Verdun Movies : ,Avatar,VERM130323-5
+2023-03-06 08:36:44 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 08:36:46 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 08:37:27 PM | Exchange movie tickets | ATWC0001 ATWM120323 Avatar VERM130323 Avatar | The Movie is not booked by ATWC0001 so he/she cannot exchange more then booked  that's why exchange operation cannot be performed
+2023-03-06 08:37:41 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 08:38:27 PM | Exchange movie tickets | ATWC0001 ATWM120323 Avatar VERM130323 Avatar | The Movie Ticket has been exchanged for the customer ATWC0001 from old movie id ATWM120323 to VERM130323
+2023-03-06 08:38:29 PM | Get Customer Movie Schedule | ATWC0001 | Verdun Movies : ,Avatar,VERM130323-3

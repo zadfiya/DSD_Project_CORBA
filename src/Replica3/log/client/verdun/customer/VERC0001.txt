@@ -1,0 +1,16 @@
+2023-03-06 03:25:01 PM | Get Customer Movie Schedule | VERC0001 | 
+2023-03-06 03:26:21 PM | Book Movie tickets  | VERC0001 VERM080323 Power | Movie slot booked Successfully
+2023-03-06 03:26:24 PM | Get Customer Movie Schedule | VERC0001 | Verdun Movies : ,Power,VERM080323
+2023-03-06 03:32:21 PM | Exchange movie tickets | VERC0001 VERM080323 Avatar ATWM080323 Avatar | This operation cannot be perfomed by the customer VERC0001 because he/she neither booked the tickets nor canceled it
+2023-03-06 03:33:23 PM | Get Customer Movie Schedule | VERC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:34:49 PM | Get Customer Movie Schedule | VERC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:36:52 PM | Get Customer Movie Schedule | VERC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:37:14 PM | Get Customer Movie Schedule | VERC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:37:25 PM | Get Customer Movie Schedule | VERC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:38:00 PM | Book Movie tickets  | VERC0001 VERM080323 Avatar | Movie slot is not enough for you request
+2023-03-06 03:38:03 PM | Get Customer Movie Schedule | VERC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:42:43 PM | Get Customer Movie Schedule | VERC0001 | Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 03:42:56 PM | Book Movie tickets  | VERC0001 VERM080323 Avatar | Movie slot booked Successfully
+2023-03-06 03:42:59 PM | Get Customer Movie Schedule | VERC0001 | Verdun Movies : ,Avatar,VERM080323,Atwater Movies : ,Avatar,ATWM080323
+2023-03-06 05:00:31 PM | Book Movie tickets  | VERC0001 VERM130323 Avatar | Movie booked Successfully
+2023-03-06 05:00:34 PM | Get Customer Movie Schedule | VERC0001 | Verdun Movies : ,Avatar,VERM130323-5

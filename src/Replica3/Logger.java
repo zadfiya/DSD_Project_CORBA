@@ -1,6 +1,6 @@
-package Replica2;
+package Replica3;
 /**
- * author: Naren Zadafiya (40232646)
+ * author: Nayankumar Sorathiya (40227432)
  */
 import java.io.File;
 import java.io.FileWriter;

@@ -799,3 +799,9 @@ DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot 
 DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: ATWE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie ATWE100223 added successfully
 DATE: 2023-02-13 10:16:04 p.m.  UDP Server Started at port 8888
 DATE: 2023-02-13 10:16:34 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: ATWA150223 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie ATWA150223 added successfully
+DATE: 2023-04-10 07:34:53 PM  Server is Up & Running
+DATE: 2023-04-10 07:34:53 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 08:29:12 PM  Server is Up & Running
+DATE: 2023-04-10 08:29:12 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 08:36:43 PM  Server is Up & Running
+DATE: 2023-04-10 08:36:43 PM  UDP Server Started at port 8888

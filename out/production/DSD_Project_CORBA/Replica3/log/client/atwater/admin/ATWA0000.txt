@@ -1,0 +1,53 @@
+2023-03-06 03:13:48 PM | Add Movie slot  | ATWE130423 Avatar 45 | You have exceed your week limit for adding the movie
+2023-03-06 03:13:54 PM | List Movie Availibility | Avatar | ATWM080323 25,ATWE130323 50
+2023-03-06 03:14:01 PM | List Movie Availibility | Pushup | ATWE120323 60
+2023-03-06 03:47:16 PM | Add Movie slot  | ATWM080323 Avatar 50 | New Movie added Successfully
+2023-03-06 04:01:00 PM | Add Movie slot  | ATWM080323 Avatar 50 | New Movie added Successfully
+2023-03-06 04:03:37 PM | List Movie Availibility | Avatar | ATWM080323 50
+2023-03-06 04:11:51 PM | Add Movie slot  | ATWM020323 Avatar 50 | You have exceed your week limit for adding the movie
+2023-03-06 04:12:22 PM | Book Movie tickets  | ATWC0001 ATWM020323 Avatar | There are no Movie slot for Avatar
+2023-03-06 04:12:49 PM | Add Movie slot  | ATWM0120323 Avatar 50 | You have exceed your week limit for adding the movie
+2023-03-06 04:13:11 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | There are no Movie slot for Avatar
+2023-03-06 04:13:35 PM | List Movie Availibility | Avatar | 
+2023-03-06 04:13:55 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 04:14:00 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 04:14:25 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 04:14:31 PM | List Movie Availibility | Avatar | ATWM120323 45
+2023-03-06 04:17:09 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 04:17:23 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 04:19:41 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 04:20:06 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 04:20:13 PM | List Movie Availibility | Avatar | ATWM120323 45
+2023-03-06 04:20:23 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323,ATWM120323,ATWM120323,ATWM120323,ATWM120323
+2023-03-06 04:25:27 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 04:25:34 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 04:25:51 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 04:26:02 PM | List Movie Availibility | Avatar | ATWM120323 45
+2023-03-06 04:26:16 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323,ATWM120323,ATWM120323,ATWM120323,ATWM120323
+2023-03-06 04:26:29 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323,ATWM120323,ATWM120323,ATWM120323,ATWM120323
+2023-03-06 04:32:38 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 04:32:43 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 04:32:58 PM | Book Movie tickets  | ATWC0001 ATWM120323 Avatar | Movie booked Successfully
+2023-03-06 04:33:03 PM | List Movie Availibility | Avatar | ATWM120323 44
+2023-03-06 04:33:20 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-6
+2023-03-06 04:34:14 PM | List Movie Availibility | Avatar | ATWM120323 47
+2023-03-06 04:43:42 PM | List Movie Availibility | Avatar | ATWM120323 49
+2023-03-06 04:58:55 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 04:59:03 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 05:03:35 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 05:10:01 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 05:13:25 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 05:13:31 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 05:16:26 PM | List Movie Availibility | Avatar | ATWM120323 51
+2023-03-06 05:22:07 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 05:23:11 PM | List Movie Availibility | Avatar | ATWM120323 45
+2023-03-06 05:25:01 PM | List Movie Availibility | Avatar | ATWM120323 49
+2023-03-06 07:44:16 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 07:44:22 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 07:47:00 PM | List Movie Availibility | Avatar | ATWM120323 45
+2023-03-06 07:47:07 PM | Get Customer Movie Schedule | ATWC0001 | Atwater Movies : ,Avatar,ATWM120323-5
+2023-03-06 07:49:21 PM | List Movie Availibility | Avatar | ATWM120323 51
+2023-03-06 07:57:56 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 08:05:31 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
+2023-03-06 08:15:20 PM | List Movie Availibility | Avatar | ATWM120323 50
+2023-03-06 08:35:48 PM | Add Movie slot  | ATWM120323 Avatar 50 | New Movie added Successfully
