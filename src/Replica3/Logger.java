@@ -60,18 +60,6 @@ public class Logger {
         {
             fileWriter = new FileWriter(getFileName(clientID, Constant.LOG_TYPE_CLIENT), false);
         }
-//        if(file.exists())
-//        {
-//             fileWriter = new FileWriter(getFileName(clientID, Constant.LOG_TYPE_CLIENT), true);
-//        }
-//        else
-//        {
-//            file.mkdirs();
-//            file.createTempFile(clientID,".txt");
-//            System.out.println(getFileName(clientID, Constant.LOG_TYPE_CLIENT));
-//            System.out.println(file.createNewFile());
-//            fileWriter = new FileWriter(file, false);
-//        }
 
         PrintWriter printWriter = new PrintWriter(fileWriter);
         printWriter.println("DATE: " + getFormattedDate() + " " + msg);

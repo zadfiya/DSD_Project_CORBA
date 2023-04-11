@@ -1,6 +1,6 @@
 package Replica3; 
 /**
- * author: Nayankumar Sorathiya (40227432)
+ * Team 22
  */
 import java.util.ArrayList;
 import java.util.List;

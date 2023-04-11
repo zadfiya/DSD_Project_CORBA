@@ -1,1 +1,8 @@
 DATE: 2023-04-10 07:36:13 PM  Customer Login successful
+DATE: 2023-04-11 01:44:06 AM  Customer Login successful
+DATE: 2023-04-11 01:44:13 AM  Logout Successfully
+DATE: 2023-04-11 01:45:01 AM  Customer Login successful
+DATE: 2023-04-11 01:45:15 AM  attempting to book movie for Avtar with movieId ATWM140423 and number of Tickets : 5
+DATE: 2023-04-11 01:45:25 AM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWM140423 movieName: Avtar  | Server Response: Movie booked Successfully
+DATE: 2023-04-11 01:45:51 AM  attempting to get Movie Schedule
+DATE: 2023-04-11 01:46:11 AM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Fail: No response from any server

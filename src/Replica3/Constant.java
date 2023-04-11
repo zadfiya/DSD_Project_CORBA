@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 /**
- * author: Nayankumar Sorathiya (40227432)
+ * Team 22
  */
 public class Constant {
     

@@ -131,30 +131,21 @@ public class RM1 {
                         try {
                             //suspend the execution of messages untill all servers are up. (serversFlag=false)
                             serversFlag = false;
-                            //reboot Monteal Server
-                            //Registry montreal_registry = LocateRegistry.getRegistry(SERVER_MONTREAL);
+                            
                             DMTBS atwater_obj = DMTBSHelper.narrow(ncRef.resolve_str("ATW"));
-                            //EventManagementInterface montreal_obj = (EventManagementInterface) montreal_registry.lookup(EVENT_MANAGEMENT_REGISTERED_NAME);
                             atwater_obj.shutdown();
-//                            Montreal.main(new String[0]);
+                            
                             System.out.println("RM1 shutdown Atwater Server");
 
-                            //reboot Quebec Server
-//                            Registry quebec_registry = LocateRegistry.getRegistry(SERVER_QUEBEC);
-//                            EventManagementInterface quebec_obj = (EventManagementInterface) quebec_registry.lookup(EVENT_MANAGEMENT_REGISTERED_NAME);
-//                            quebec_obj.shutDown();
-//                            Quebec.main(new String[0]);
+                            
                             DMTBS verdun_obj = DMTBSHelper.narrow(ncRef.resolve_str("VER"));
                             verdun_obj.shutdown();
                             System.out.println("RM1 shutdown Verdun Server");
 
-                            //reboot Sherbrooke Server
-//                            Registry sherbrook_registry = LocateRegistry.getRegistry(SERVER_SHERBROOKE);
-//                            EventManagementInterface sherbrook_obj = (EventManagementInterface) sherbrook_registry.lookup(EVENT_MANAGEMENT_REGISTERED_NAME);
-//                            sherbrook_obj.shutDown();
+                           
                             DMTBS outremont_obj = DMTBSHelper.narrow(ncRef.resolve_str("OUT"));
                             outremont_obj.shutdown();
-//                            Sherbrooke.main(new String[0]);
+
                             System.out.println("RM1 shutdown Outremont Server");
 
                             //This is going to start all the servers for this implementation
@@ -275,11 +266,9 @@ public class RM1 {
         }
     }
 
-    //Send RMI request to server
+    //Send Corba request to server
     private static String requestToServers(Message input,NamingContextExt ncRef) throws Exception {
         String serverID = getServerID(input.userID.substring(0, 3));
-//        Registry registry = LocateRegistry.getRegistry(portNumber);
-//        EventManagementInterface obj = (EventManagementInterface) registry.lookup(EVENT_MANAGEMENT_REGISTERED_NAME);
         DMTBS obj = DMTBSHelper.narrow(ncRef.resolve_str(serverID));
 
         if (input.userID.substring(3, 4).equalsIgnoreCase("A")) {

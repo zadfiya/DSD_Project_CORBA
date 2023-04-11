@@ -33,3 +33,4 @@
 2023-03-06 08:36:46 PM Customer ATWC0001 | Get movie slot | ATWC0001 | Success | 
 2023-03-06 08:37:41 PM Customer ATWC0001 | Get movie slot | ATWC0001 | Success | 
 2023-03-06 08:38:29 PM Customer ATWC0001 | Get movie slot | ATWC0001 | Success | 
+2023-04-11 01:45:51 AM Customer ATWC0001 | Get movie slot | ATWC0001 | Success | 
