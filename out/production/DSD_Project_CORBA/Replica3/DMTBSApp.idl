@@ -1,0 +1,17 @@
+module DMTBSApp
+{
+	interface DMTBS
+	{
+		typedef sequence<string> list;
+
+		string addMovieSlots(in string movieID,in string movieName,in list bookingCapacity);
+		string removeMovieSlots(in string movieID, in string movieName);
+		list listMovieShowsAvailability(in string movieName);
+
+		string bookMovieTickets(in string customerID,in string movieID,in string movieName,in long numberOfTickets);
+		list getBookingSchedule(in string customerID);
+		string cancelMovieTickets(in string customerID,in string movieID,in string movieName,in long numberOfTickets);
+		string exchangeTickets(in string customerID,in string oldMovieID, in string newMovieID, in string newMovieName,in long numberOfTickets);
+		oneway void shutdown();
+	};
+};

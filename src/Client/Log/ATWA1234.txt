@@ -1,6 +1,35 @@
 DATE: 2023-04-09 01:46:28 PM  Admin Login successful
 DATE: 2023-04-09 01:59:36 PM  Admin Login successful
 DATE: 2023-04-09 02:05:03 PM  Admin Login successful
+<<<<<<< HEAD
+DATE: 2023-04-10 07:38:32 PM  Admin Login successful
+DATE: 2023-04-10 07:38:36 PM  Logout Successfully
+DATE: 2023-04-10 09:42:36 PM  Admin Login successful
+DATE: 2023-04-10 09:43:11 PM  attempting to Add Slot for Avtar with movieId ATWM120423 and capacity: 100
+DATE: 2023-04-10 09:43:31 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM120423 movieName: Avtar capacity: 100  | Server Response: Fail: No response from any server
+DATE: 2023-04-10 09:44:44 PM  Admin Login successful
+DATE: 2023-04-10 09:44:55 PM  attempting to Add Slot for Avtar with movieId ATWM120423 and capacity: 10
+DATE: 2023-04-10 09:45:15 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM120423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
+DATE: 2023-04-10 09:59:37 PM  attempting to Add Slot for Avtar with movieId ATWM120423 and capacity: 10
+DATE: 2023-04-10 09:59:57 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM120423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
+DATE: 2023-04-10 10:01:02 PM  Admin Login successful
+DATE: 2023-04-10 10:01:14 PM  attempting to Add Slot for Avtar with movieId ATWM120423 and capacity: 10
+DATE: 2023-04-10 10:01:34 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM120423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
+DATE: 2023-04-10 10:05:39 PM  Admin Login successful
+DATE: 2023-04-10 10:05:50 PM  attempting to Add Slot for Avtar with movieId ATWM120423 and capacity: 10
+DATE: 2023-04-10 10:06:10 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM120423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
+DATE: 2023-04-10 10:06:57 PM  Admin Login successful
+DATE: 2023-04-10 10:08:27 PM  Admin Login successful
+DATE: 2023-04-10 10:09:42 PM  Admin Login successful
+DATE: 2023-04-10 10:09:54 PM  attempting to Add Slot for Avtar with movieId ATWA140423 and capacity: 10
+DATE: 2023-04-10 10:11:19 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA140423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
+DATE: 2023-04-10 10:41:33 PM  Admin Login successful
+DATE: 2023-04-10 10:41:44 PM  attempting to Add Slot for Avtar with movieId ATWM140423 and capacity: 10
+DATE: 2023-04-10 10:42:04 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWM140423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
+DATE: 2023-04-10 11:06:12 PM  Admin Login successful
+DATE: 2023-04-10 11:06:22 PM  attempting to Add Slot for Avtar with movieId ATWA140423 and capacity: 10
+DATE: 2023-04-10 11:06:42 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA140423 movieName: Avtar capacity: 10  | Server Response: Fail: No response from any server
+=======
 DATE: 2023-04-10 10:23:28 PM  Admin Login successful
 DATE: 2023-04-10 10:24:00 PM  attempting to Add Slot for Avtar with movieId ATWA110423 and capacity: 10
 DATE: 2023-04-10 10:24:10 PM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA110423 movieName: Avtar capacity: 10  | Server Response: Success:addMovieSlot > Movie Slot added successfully
@@ -12,6 +41,7 @@ DATE: 2023-04-10 10:53:02 PM  attempting to Add Slot for Avtar with movieId VERA
 DATE: 2023-04-10 10:53:12 PM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA110423 movieName: Avtar capacity: 5  | Server Response: Fail:addMovieSlot > can not add movie slot to different server
 DATE: 2023-04-10 10:53:51 PM  attempting to get Movie Schedule
 DATE: 2023-04-10 10:54:01 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Null response from serverATW
+<<<<<<< HEAD
 DATE: 2023-04-10 10:57:15 PM  Logout Successfully
 DATE: 2023-04-10 11:02:03 PM  Admin Login successful
 DATE: 2023-04-10 11:02:09 PM  attempting to list schedule of movie for Avtar
@@ -29,3 +59,17 @@ DATE: 2023-04-10 11:08:07 PM Client Action:  addMovieSlot | RequestParameters:  
 DATE: 2023-04-10 11:08:19 PM  attempting to remove movie slot for Avtar with movieIdATWA110423
 DATE: 2023-04-10 11:08:29 PM Client Action:  removeMovieSlot | RequestParameters:  movieID: ATWA110423 movieName: Avtar  | Server Response: Success:removeMovieSlot > successful
 DATE: 2023-04-10 11:09:34 PM  Logout Successfully
+=======
+>>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
+>>>>>>> f9b43e8d1216d3ccf87348a380fc180a4a230670
+DATE: 2023-04-11 01:21:40 AM  Admin Login successful
+DATE: 2023-04-11 01:22:04 AM  attempting to Add Slot for Avtar with movieId ATWA120423 and capacity: 15
+DATE: 2023-04-11 01:22:25 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA120423 movieName: Avtar capacity: 15  | Server Response: Fail: No response from any server
+DATE: 2023-04-11 01:23:35 AM  Admin Login successful
+DATE: 2023-04-11 01:23:55 AM  attempting to Add Slot for Avtar with movieId ATWA140423 and capacity: 15
+DATE: 2023-04-11 01:24:05 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA140423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 01:24:16 AM  Logout Successfully
+DATE: 2023-04-11 01:45:54 AM  Admin Login successful
+DATE: 2023-04-11 01:46:04 AM  attempting to Add Slot for Avtar with movieId ATWA150423 and capacity: 15
+DATE: 2023-04-11 01:46:14 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA150423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 01:46:49 AM  Logout Successfully

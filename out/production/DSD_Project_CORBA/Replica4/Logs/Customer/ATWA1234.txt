@@ -1,0 +1,32 @@
+DATE: 2023-02-24 08:40:07 PM  login attempt
+DATE: 2023-02-24 08:40:55 PM  attempting to addMovie
+DATE: 2023-02-24 08:40:55 PM Client Action:  addMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar movieCapacity: 100  | Server Response: Success: Movie ATWM010222 added successfully
+DATE: 2023-02-24 08:41:17 PM  attempting to addMovie
+DATE: 2023-02-24 08:41:17 PM Client Action:  addMovie | RequestParameters:  movieID: ATWA020222 movieType: Avatar movieCapacity: 100  | Server Response: Success: Movie ATWA020222 added successfully
+DATE: 2023-02-24 09:04:55 PM  login attempt
+DATE: 2023-02-24 09:05:21 PM  attempting to addMovie
+DATE: 2023-02-24 09:05:21 PM Client Action:  addMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar movieCapacity: 100  | Server Response: Success: Movie ATWM010222 added successfully
+DATE: 2023-02-24 09:05:40 PM  attempting to addMovie
+DATE: 2023-02-24 09:05:40 PM Client Action:  addMovie | RequestParameters:  movieID: ATWA020222 movieType: Avatar movieCapacity: 100  | Server Response: Success: Movie ATWA020222 added successfully
+DATE: 2023-03-06 09:09:44 PM  login attempt
+DATE: 2023-03-06 09:10:15 PM  attempting to addMovie
+DATE: 2023-03-06 09:10:15 PM Client Action:  addMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie ATWM010222 added successfully
+DATE: 2023-03-06 09:10:26 PM  attempting to addMovie
+DATE: 2023-03-06 09:10:27 PM Client Action:  addMovie | RequestParameters:  movieID: ATWA010222 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie ATWA010222 added successfully
+DATE: 2023-03-06 09:13:19 PM  login attempt
+DATE: 2023-03-06 09:13:28 PM  attempting to addMovie
+DATE: 2023-03-06 09:13:28 PM Client Action:  addMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie ATWM010222 added successfully
+DATE: 2023-03-06 09:13:37 PM  attempting to addMovie
+DATE: 2023-03-06 09:13:37 PM Client Action:  addMovie | RequestParameters:  movieID: ATWA010222 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie ATWA010222 added successfully
+DATE: 2023-03-06 09:14:59 PM  login attempt
+DATE: 2023-03-06 09:15:09 PM  attempting to addMovie
+DATE: 2023-03-06 09:15:09 PM Client Action:  addMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie ATWM010222 added successfully
+DATE: 2023-03-06 09:15:23 PM attempting to Logout
+DATE: 2023-03-06 09:24:42 PM  login attempt
+DATE: 2023-03-06 09:24:51 PM  attempting to addMovie
+DATE: 2023-03-06 09:24:51 PM Client Action:  addMovie | RequestParameters:  movieID: ATWM010222 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie ATWM010222 added successfully
+DATE: 2023-03-06 09:24:58 PM attempting to Logout
+DATE: 2023-03-06 09:44:45 PM  login attempt
+DATE: 2023-03-06 09:45:07 PM  attempting to addMovie
+DATE: 2023-03-06 09:45:07 PM Client Action:  addMovie | RequestParameters:  movieID: ATWM070323 movieType: Avatar movieCapacity: 10  | Server Response: Success: Movie ATWM070323 added successfully
+DATE: 2023-03-06 09:45:13 PM attempting to Logout

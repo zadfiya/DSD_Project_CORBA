@@ -41,3 +41,21 @@ DATE: 2023-04-09 08:53:45 PM Client Action:  bookMovieShow | RequestParameters: 
 DATE: 2023-04-09 08:55:05 PM  Customer Login successful
 DATE: 2023-04-09 08:55:15 PM  attempting to book movie for Avtar with movieId ATWA100223 and number of Tickets : 5
 DATE: 2023-04-09 08:55:25 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA100223 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+<<<<<<< HEAD
+DATE: 2023-04-10 07:38:39 PM  Customer Login successful
+=======
+DATE: 2023-04-10 10:29:14 PM  Customer Login successful
+DATE: 2023-04-10 10:29:24 PM  attempting to book movie for Avtar with movieId ATWA140423 and number of Tickets : 2
+DATE: 2023-04-10 10:29:34 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA140423 movieName: Avtar  | Server Response: Fail:bookMovieTickets > No such Movie Show
+DATE: 2023-04-10 10:33:01 PM  attempting to book movie for Avtar with movieId ATWA110423 and number of Tickets : 5
+DATE: 2023-04-10 10:33:11 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA110423 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+DATE: 2023-04-10 10:39:31 PM  attempting to book movie for Avtar with movieId ATWA110423 and number of Tickets : 2
+DATE: 2023-04-10 10:39:41 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA110423 movieName: Avtar  | Server Response: Fail:bookMovieTickets > No such Movie Show
+DATE: 2023-04-10 10:42:21 PM  Logout Successfully
+DATE: 2023-04-10 10:45:48 PM  Customer Login successful
+DATE: 2023-04-10 10:46:04 PM  attempting to book movie for Avtar with movieId ATWA150423 and number of Tickets : 5
+DATE: 2023-04-10 10:46:14 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA150423 movieName: Avtar  | Server Response: Fail:bookMovieTickets > No such Movie Show
+DATE: 2023-04-10 10:46:19 PM  attempting to get Movie Schedule
+DATE: 2023-04-10 10:46:29 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule > Avtar ATWA110423
+DATE: 2023-04-10 10:50:15 PM  Logout Successfully
+>>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b

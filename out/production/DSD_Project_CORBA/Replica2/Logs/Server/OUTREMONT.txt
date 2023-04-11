@@ -501,3 +501,14 @@ DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot 
 DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: OUTM100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie OUTM100223 added successfully
 DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: OUTE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie OUTE100223 added successfully
 DATE: 2023-02-13 10:16:04 p.m.  UDP Server Started at port 6666
+<<<<<<< HEAD
+DATE: 2023-04-10 07:38:10 PM  Server is Up & Running
+DATE: 2023-04-10 07:38:10 PM  UDP Server Started at port 6666
+=======
+DATE: 2023-04-10 07:34:53 PM  Server is Up & Running
+DATE: 2023-04-10 07:34:53 PM  UDP Server Started at port 6666
+DATE: 2023-04-10 08:29:12 PM  Server is Up & Running
+DATE: 2023-04-10 08:29:12 PM  UDP Server Started at port 6666
+DATE: 2023-04-10 08:36:43 PM  Server is Up & Running
+DATE: 2023-04-10 08:36:43 PM  UDP Server Started at port 6666
+>>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
