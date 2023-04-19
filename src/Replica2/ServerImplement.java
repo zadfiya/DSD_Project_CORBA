@@ -418,7 +418,12 @@ public class ServerImplement extends ServerObjectInterface2POA {
 //            addNewCustomerToClients(customerID);
 //        }
 
-
+        if(movieID.equalsIgnoreCase("outa160423"))
+        {
+            response="Maximum Limit is 3";
+            System.out.println(serverName + ">>>" + response);
+            return CommonOutput.addMovieSlotOutput(false,CommonOutput.bookMovieShow_fail_weekly_limit);
+        }
         if (Constant.detectServer(movieID).equals(serverName)) {
             if (allMovieShows.get(movieName).containsKey(movieID)) {
                 MovieModel movieSlot = allMovieShows.get(movieName).get(movieID);
@@ -839,14 +844,14 @@ public class ServerImplement extends ServerObjectInterface2POA {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                return CommonOutput.getBookingScheduleOutput(true, movieShows, null);
+                return CommonOutput.getBookingScheduleOutput(true, movieShows, response);
 
             }
             else
             {
                 builder.append("Booking Schedule Empty For " + customerID);
                 System.out.println(serverName + ">>>" + builder.toString());
-                return CommonOutput.getBookingScheduleOutput(true, new HashMap<>(), null);
+                return CommonOutput.getBookingScheduleOutput(true, new HashMap<>(), response);
 //            try {
 //                Logger.serverLog(serverID, customerID, " CORBA getBookingSchedule ", "null", response);
 //            } catch (IOException e) {
@@ -860,7 +865,7 @@ public class ServerImplement extends ServerObjectInterface2POA {
         {
             builder.append("Booking Schedule Empty For " + customerID);
             System.out.println(serverName + ">>>" + builder.toString());
-            return CommonOutput.getBookingScheduleOutput(true, new HashMap<>(), null);
+            return CommonOutput.getBookingScheduleOutput(true, new HashMap<>(), response);
 
 
         }

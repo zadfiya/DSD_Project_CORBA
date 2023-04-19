@@ -131,19 +131,20 @@ public class RM2 {
                             
                             serversFlag = false;
                             
-                            ServerObjectInterface2 atwater_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("ATW"));
-                          atwater_obj.shutdown();
-                            System.out.println("RM2 shutdown Atwater Server");
+//                            ServerObjectInterface2 atwater_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("ATW"));
+//                          atwater_obj.shutdown();
+//                            System.out.println("RM2 shutdown Atwater Server");
+//
+//                            ServerObjectInterface2 verdun_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("VER"));
+//                            verdun_obj.shutdown();
+//                            System.out.println("RM2 shutdown Verdun Server");
+//
+//                            ServerObjectInterface2 outremont_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("OUT"));
+//                            outremont_obj.shutdown();
+//                            System.out.println("RM2 shutdown Outremont Server");
+                            String []args = {"-ORBInitialPort", "1050" ,"-ORBInitialHost", "localhost"};
+                            Replica2.Server.main(args);
 
-                            ServerObjectInterface2 verdun_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("VER"));
-                            verdun_obj.shutdown();
-                            System.out.println("RM2 shutdown Verdun Server");
-
-                            ServerObjectInterface2 outremont_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("OUT"));
-                            outremont_obj.shutdown();
-                            System.out.println("RM2 shutdown Outremont Server");
-
-                            Server.main(new String[0]);
 
                             Thread.sleep(5000);
 

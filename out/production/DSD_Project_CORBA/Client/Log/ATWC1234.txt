@@ -136,3 +136,58 @@ DATE: 2023-04-11 02:05:49 AM Client Action:  Exchange Movie Ticket | RequestPara
 =======
 >>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
 >>>>>>> e28ea3b83a4da5e29f3fe9faa369f964e1bb86b0
+DATE: 2023-04-11 11:11:28 AM  Customer Login successful
+DATE: 2023-04-11 11:17:01 AM  attempting to book movie for Avtar with movieId VERA120423 and number of Tickets : 2
+DATE: 2023-04-11 11:17:11 AM Client Action:  bookMovieShow | RequestParameters:  movieID: VERA120423 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+DATE: 2023-04-11 11:17:20 AM  attempting to book movie for Avtar with movieId VERA130423 and number of Tickets : 2
+DATE: 2023-04-11 11:17:30 AM Client Action:  bookMovieShow | RequestParameters:  movieID: VERA130423 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+DATE: 2023-04-11 11:17:48 AM  attempting to book movie for Avtar with movieId VERA140423 and number of Tickets : 2
+DATE: 2023-04-11 11:17:58 AM Client Action:  bookMovieShow | RequestParameters:  movieID: VERA140423 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+DATE: 2023-04-11 11:18:03 AM  attempting to get Movie Schedule
+DATE: 2023-04-11 11:18:13 AM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule > successful
+DATE: 2023-04-11 11:21:02 AM  attempting to book movie for Avtar with movieId VERA150423 and number of Tickets : 2
+DATE: 2023-04-11 11:21:12 AM Client Action:  bookMovieShow | RequestParameters:  movieID: VERA150423 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+DATE: 2023-04-11 11:21:26 AM  attempting to get Movie Schedule
+DATE: 2023-04-11 11:21:36 AM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule > successful
+DATE: 2023-04-11 02:57:09 PM  Customer Login successful
+DATE: 2023-04-11 02:57:21 PM  attempting to book movie for Avtar with movieId OUTA160423 and number of Tickets : 2
+DATE: 2023-04-11 02:57:21 PM Client Action:  bookMovieShow | RequestParameters:  movieID: OUTA160423 movieName: Avtar  | Server Response: Fail:addMovieSlot > Weekly limit reached
+DATE: 2023-04-12 01:15:18 PM  Customer Login successful
+DATE: 2023-04-12 01:15:33 PM  attempting to book movie for Avtar with movieId ATWA140423 and number of Tickets : 25
+DATE: 2023-04-12 01:15:33 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA140423 movieName: Avtar  | Server Response: Fail:bookMovieTickets > Movie show is full
+DATE: 2023-04-12 01:15:52 PM  attempting to book movie for Avtar with movieId ATWA140423 and number of Tickets : 5
+DATE: 2023-04-12 01:15:53 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA140423 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+DATE: 2023-04-12 01:16:01 PM  attempting to get Movie Schedule
+DATE: 2023-04-12 01:16:02 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule > Avtar ATWA140423
+DATE: 2023-04-12 01:16:18 PM  attempting to cancel movie for Avtar with movieId ATWA140423 and number of Tickets : 18
+DATE: 2023-04-12 01:16:19 PM Client Action:  cancelMovieShow | RequestParameters:  movieID: ATWA140423 movieName: Avtar numberOfTickets: 18  | Server Response: Fail:cancelMovieTickets > Asked number of Tickets are more than booked
+DATE: 2023-04-12 01:16:45 PM  attempting to cancel movie for Avtar with movieId ATWA140423 and number of Tickets : 3
+DATE: 2023-04-12 01:16:45 PM Client Action:  cancelMovieShow | RequestParameters:  movieID: ATWA140423 movieName: Avtar numberOfTickets: 3  | Server Response: Success:cancelMovieTickets > successful
+DATE: 2023-04-12 01:16:49 PM  attempting to get Movie Schedule
+DATE: 2023-04-12 01:16:49 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule > Avtar ATWA140423
+DATE: 2023-04-12 01:17:07 PM  attempting to cancel movie for Avtar with movieId ATWA140423 and number of Tickets : 2
+DATE: 2023-04-12 01:17:08 PM Client Action:  cancelMovieShow | RequestParameters:  movieID: ATWA140423 movieName: Avtar numberOfTickets: 2  | Server Response: Success:cancelMovieTickets > successful
+DATE: 2023-04-12 01:17:11 PM  attempting to get Movie Schedule
+DATE: 2023-04-12 01:17:21 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule >
+DATE: 2023-04-12 01:25:13 PM  Customer Login successful
+DATE: 2023-04-12 01:25:22 PM  attempting to book movie for Avtar with movieId ATWA120423 and number of Tickets : 5
+DATE: 2023-04-12 01:25:22 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWA120423 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+DATE: 2023-04-12 01:25:39 PM  attempting to cancel movie for Avtar with movieId ATWA120423 and number of Tickets : 3
+DATE: 2023-04-12 01:25:39 PM Client Action:  cancelMovieShow | RequestParameters:  movieID: ATWA120423 movieName: Avtar numberOfTickets: 3  | Server Response: Success:cancelMovieTickets > successful
+DATE: 2023-04-12 01:25:42 PM  attempting to get Movie Schedule
+DATE: 2023-04-12 01:25:42 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule > Avtar ATWA120423
+DATE: 2023-04-12 01:25:53 PM  attempting to cancel movie for Avtar with movieId ATWA120423 and number of Tickets : 2
+DATE: 2023-04-12 01:25:53 PM Client Action:  cancelMovieShow | RequestParameters:  movieID: ATWA120423 movieName: Avtar numberOfTickets: 2  | Server Response: Success:cancelMovieTickets > successful
+DATE: 2023-04-12 01:25:57 PM  attempting to get Movie Schedule
+DATE: 2023-04-12 01:25:57 PM Client Action:  getBookingSchedule | RequestParameters:  null  | Server Response: Success:getBookingSchedule >
+DATE: 2023-04-12 01:26:50 PM  Logout Successfully
+DATE: 2023-04-12 01:28:00 PM  Customer Login successful
+DATE: 2023-04-12 01:28:22 PM  attempting to Exchange Ticket
+DATE: 2023-04-12 01:28:22 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWE120423 movieName: Avtar new MovieID: ATWA130423  | Server Response: Fail:exchangeTickets > You are not registered in event
+DATE: 2023-04-12 01:28:45 PM  attempting to book movie for Avtar with movieId ATWE120423 and number of Tickets : 5
+DATE: 2023-04-12 01:28:45 PM Client Action:  bookMovieShow | RequestParameters:  movieID: ATWE120423 movieName: Avtar  | Server Response: Success:bookMovieTickets > successful
+DATE: 2023-04-12 01:29:06 PM  attempting to Exchange Ticket
+DATE: 2023-04-12 01:29:07 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWE120423 movieName: Avtar new MovieID: ATWA130423  | Server Response: Fail:exchangeTickets > failed
+DATE: 2023-04-12 01:30:01 PM  attempting to Exchange Ticket
+DATE: 2023-04-12 01:30:02 PM Client Action:  Exchange Movie Ticket | RequestParameters:  old movieID: ATWE120423 movieName: Avtar new MovieID: ATWA130423  | Server Response: Success:exchangeTickets > successful
+DATE: 2023-04-12 01:30:38 PM  Logout Successfully

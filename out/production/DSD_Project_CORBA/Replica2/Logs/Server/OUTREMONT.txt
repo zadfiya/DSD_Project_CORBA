@@ -574,3 +574,157 @@ DATE: 2023-04-11 10:31:08 AM ClientID: Admin | RequestType:  UDP reply sent list
  
 =====================================
 ;
+DATE: 2023-04-11 10:33:07 AM  Server is Up & Running
+DATE: 2023-04-11 10:33:07 AM  UDP Server Started at port 6666
+DATE: 2023-04-11 10:33:34 AM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 10:33:34 AM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 10:36:23 AM ClientID: VERC1111 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-04-11 10:36:23 AM ClientID: VERC1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+OUTREMONT:
+Booking Schedule Empty For VERC1111
+;
+DATE: 2023-04-11 11:18:03 AM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-04-11 11:18:03 AM ClientID: ATWC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+;
+DATE: 2023-04-11 11:21:26 AM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-04-11 11:21:26 AM ClientID: ATWC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+;
+DATE: 2023-04-11 11:41:01 AM  Server is Up & Running
+DATE: 2023-04-11 11:41:01 AM  UDP Server Started at port 6666
+DATE: 2023-04-11 11:55:18 AM  Server is Up & Running
+DATE: 2023-04-11 11:55:18 AM  UDP Server Started at port 6666
+DATE: 2023-04-11 12:26:50 PM  Server is Up & Running
+DATE: 2023-04-11 12:26:50 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 12:39:15 PM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 12:39:15 PM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 12:41:05 PM  Server is Up & Running
+DATE: 2023-04-11 12:41:05 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 12:50:20 PM  Server is Up & Running
+DATE: 2023-04-11 12:50:20 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 12:53:09 PM  Server is Up & Running
+DATE: 2023-04-11 12:53:09 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 12:57:10 PM  Server is Up & Running
+DATE: 2023-04-11 12:57:10 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 01:00:16 PM  Server is Up & Running
+DATE: 2023-04-11 01:00:16 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 01:02:32 PM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 01:02:32 PM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-11 01:23:49 PM  Server is Up & Running
+DATE: 2023-04-11 01:23:49 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:02:48 PM  Server is Up & Running
+DATE: 2023-04-11 02:02:48 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:14:30 PM  Server is Up & Running
+DATE: 2023-04-11 02:14:30 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:18:28 PM  Server is Up & Running
+DATE: 2023-04-11 02:18:28 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:19:56 PM  Server is Up & Running
+DATE: 2023-04-11 02:19:56 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:22:27 PM  Server is Up & Running
+DATE: 2023-04-11 02:22:27 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:22:31 PM  Server is Up & Running
+DATE: 2023-04-11 02:22:31 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:22:42 PM  Server is Up & Running
+DATE: 2023-04-11 02:22:42 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:24:34 PM  Server is Up & Running
+DATE: 2023-04-11 02:24:34 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:29:34 PM  Server is Up & Running
+DATE: 2023-04-11 02:29:34 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:33:25 PM  Server is Up & Running
+DATE: 2023-04-11 02:33:25 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:39:25 PM  Server is Up & Running
+DATE: 2023-04-11 02:39:25 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:45:01 PM  Server is Up & Running
+DATE: 2023-04-11 02:45:01 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:49:22 PM  Server is Up & Running
+DATE: 2023-04-11 02:49:22 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 02:56:09 PM  Server is Up & Running
+DATE: 2023-04-11 02:56:09 PM  UDP Server Started at port 6666
+DATE: 2023-04-11 03:23:34 PM  Server is Up & Running
+DATE: 2023-04-11 03:23:34 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 12:43:01 PM  Server is Up & Running
+DATE: 2023-04-12 12:43:02 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 12:58:20 PM  Server is Up & Running
+DATE: 2023-04-12 12:58:20 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 01:01:54 PM  Server is Up & Running
+DATE: 2023-04-12 01:01:54 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 01:03:03 PM  Server is Up & Running
+DATE: 2023-04-12 01:03:03 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 01:08:45 PM  Server is Up & Running
+DATE: 2023-04-12 01:08:45 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 01:13:12 PM  Server is Up & Running
+DATE: 2023-04-12 01:13:12 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 01:14:32 PM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-12 01:14:32 PM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-12 01:16:02 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-04-12 01:16:02 PM ClientID: ATWC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+;
+DATE: 2023-04-12 01:16:49 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-04-12 01:16:49 PM ClientID: ATWC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+;
+DATE: 2023-04-12 01:17:11 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-04-12 01:17:11 PM ClientID: ATWC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+;
+DATE: 2023-04-12 01:24:15 PM  Server is Up & Running
+DATE: 2023-04-12 01:24:15 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 01:24:59 PM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-12 01:24:59 PM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-12 01:25:42 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-04-12 01:25:42 PM ClientID: ATWC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+;
+DATE: 2023-04-12 01:25:57 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+DATE: 2023-04-12 01:25:57 PM ClientID: ATWC1234 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+;
+DATE: 2023-04-12 01:27:33 PM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-12 01:27:33 PM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-12 01:34:14 PM  Server is Up & Running
+DATE: 2023-04-12 01:34:14 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 01:36:48 PM ClientID: Admin | RequestType:  UDP request received listMovieShowAvailability  | RequestParameters:  movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-12 01:36:48 PM ClientID: Admin | RequestType:  UDP reply sent listMovieShowAvailability  | RequestParameters:  movieID: null movieName: Avtar  | ServerResponse: OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+;
+DATE: 2023-04-12 01:51:06 PM  Server is Up & Running
+DATE: 2023-04-12 01:51:06 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 03:09:09 PM  Server is Up & Running
+DATE: 2023-04-12 03:09:09 PM  UDP Server Started at port 6666
+DATE: 2023-04-12 03:11:06 PM  Server is Up & Running
+DATE: 2023-04-12 03:11:06 PM  UDP Server Started at port 6666
