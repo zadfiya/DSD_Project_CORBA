@@ -1,0 +1,108 @@
+DATE: 2023-02-23 05:40:53 PM  Server is Up & Running
+DATE: 2023-02-23 05:40:53 PM  UDP Server Started at port 8888
+DATE: 2023-02-24 06:45:55 PM  Server is Up & Running
+DATE: 2023-02-24 06:45:55 PM  UDP Server Started at port 8888
+DATE: 2023-02-24 08:39:40 PM  Server is Up & Running
+DATE: 2023-02-24 08:39:40 PM  UDP Server Started at port 8888
+DATE: 2023-02-24 08:40:55 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar bookingCapacity 100  | ServerResponse: Success: Movie ATWM010222 added successfully
+DATE: 2023-02-24 08:41:17 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWA020222 movieType: Avatar bookingCapacity 100  | ServerResponse: Success: Movie ATWA020222 added successfully
+DATE: 2023-02-24 08:43:36 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-02-24 09:04:36 PM  Server is Up & Running
+DATE: 2023-02-24 09:04:36 PM  UDP Server Started at port 8888
+DATE: 2023-02-24 09:05:21 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar bookingCapacity 100  | ServerResponse: Success: Movie ATWM010222 added successfully
+DATE: 2023-02-24 09:05:40 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWA020222 movieType: Avatar bookingCapacity 100  | ServerResponse: Success: Movie ATWA020222 added successfully
+DATE: 2023-02-24 09:05:57 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-02-24 09:06:24 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Canceled for ATWC1234
+DATE: 2023-02-24 09:06:24 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWA020222 movieType: Avatar  | ServerResponse: Success: Movie ATWA020222 Booked Successfully
+DATE: 2023-02-24 09:06:24 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWM010222 oldMovieName: Avatar new_movieID: ATWA020222 new_movieName: Avatar  | ServerResponse: Success: Event ATWM010222 swapped with ATWA020222
+DATE: 2023-02-24 09:06:27 PM ClientID: ATWC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWA020222 || 
+=====================================
+
+DATE: 2023-02-24 09:06:54 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWA020222 movieType: Avatar  | ServerResponse: Success: Movie ATWA020222 Canceled for ATWC1234
+DATE: 2023-02-24 09:06:54 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWE010222 movieType: Avatar  | ServerResponse: Failed: Movie ATWE010222 doest not exist
+DATE: 2023-02-24 09:06:54 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWA020222 movieType: Avatar  | ServerResponse: Success: Movie ATWA020222 Booked Successfully
+DATE: 2023-02-24 09:06:54 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWA020222 oldMovieName: Avatar new_movieID: ATWE010222 new_movieName: Avatar  | ServerResponse: Failed: Your newEvent ATWE010222 Could not be Booked reason: Failed: Movie ATWE010222 doest not exist And your oldMovieID Rolling back: Success: Movie ATWA020222 Booked Successfully
+DATE: 2023-03-06 09:09:06 PM  Server is Up & Running
+DATE: 2023-03-06 09:09:06 PM  UDP Server Started at port 8888
+DATE: 2023-03-06 09:10:15 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar bookingCapacity 10  | ServerResponse: Success: Movie ATWM010222 added successfully
+DATE: 2023-03-06 09:10:26 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWA010222 movieType: Avatar bookingCapacity 10  | ServerResponse: Success: Movie ATWA010222 added successfully
+DATE: 2023-03-06 09:10:47 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-03-06 09:11:18 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Canceled for ATWC1234
+DATE: 2023-03-06 09:11:18 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWA010222 movieType: Avatar  | ServerResponse: Success: Movie ATWA010222 Booked Successfully
+DATE: 2023-03-06 09:11:18 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWM010222 oldMovieName: Avatar new_movieID: ATWA010222 new_movieName: Avatar  | ServerResponse: Success: Event ATWM010222 swapped with ATWA010222
+DATE: 2023-03-06 09:11:47 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWA010222 movieType: Avatar  | ServerResponse: Success: Movie ATWA010222 Canceled for ATWC1234
+DATE: 2023-03-06 09:11:47 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Failed: Movie ATWM010222 Already Booked
+DATE: 2023-03-06 09:11:47 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWA010222 movieType: Avatar  | ServerResponse: Success: Movie ATWA010222 Booked Successfully
+DATE: 2023-03-06 09:11:47 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWA010222 oldMovieName: Avatar new_movieID: ATWM010222 new_movieName: Avatar  | ServerResponse: Failed: Your newEvent ATWM010222 Could not be Booked reason: Failed: Movie ATWM010222 Already Booked And your oldMovieID Rolling back: Success: Movie ATWA010222 Booked Successfully
+DATE: 2023-03-06 09:12:46 PM  Server is Up & Running
+DATE: 2023-03-06 09:12:46 PM  UDP Server Started at port 8888
+DATE: 2023-03-06 09:13:28 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar bookingCapacity 10  | ServerResponse: Success: Movie ATWM010222 added successfully
+DATE: 2023-03-06 09:13:37 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWA010222 movieType: Avatar bookingCapacity 10  | ServerResponse: Success: Movie ATWA010222 added successfully
+DATE: 2023-03-06 09:13:53 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-03-06 09:14:10 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Failed : Customer have only booked 5so you cannot cancel 6
+DATE: 2023-03-06 09:14:10 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWM010222 oldMovieName: Avatar new_movieID: ATWA010222 new_movieName: Avatar  | ServerResponse: Failed: on Both newEvent ATWA010222 Booking reason: Failed: did not send book request for your new Movie ATWA010222 and oldMovieID ATWM010222 Canceling reason: Failed : Customer have only booked 5so you cannot cancel 6
+DATE: 2023-03-06 09:14:45 PM  Server is Up & Running
+DATE: 2023-03-06 09:14:45 PM  UDP Server Started at port 8888
+DATE: 2023-03-06 09:15:09 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar bookingCapacity 10  | ServerResponse: Success: Movie ATWM010222 added successfully
+DATE: 2023-03-06 09:16:02 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-03-06 09:16:21 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Canceled for ATWC1234
+DATE: 2023-03-06 09:16:21 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieID: OUTM010222 movieType: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-06 09:16:21 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieID: OUTM010222 movieType: Avatar  | ServerResponse: Success: Movie OUTM010222 Booked Successfully
+DATE: 2023-03-06 09:16:21 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: OUTM010222 movieType: Avatar  | ServerResponse: Success: Movie OUTM010222 Booked Successfully
+DATE: 2023-03-06 09:16:21 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWM010222 oldMovieName: Avatar new_movieID: OUTM010222 new_movieName: Avatar  | ServerResponse: Success: Event ATWM010222 swapped with OUTM010222
+DATE: 2023-03-06 09:24:27 PM  Server is Up & Running
+DATE: 2023-03-06 09:24:27 PM  UDP Server Started at port 8888
+DATE: 2023-03-06 09:24:51 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar bookingCapacity 10  | ServerResponse: Success: Movie ATWM010222 added successfully
+DATE: 2023-03-06 09:25:42 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Success: Movie ATWM010222 Booked Successfully
+DATE: 2023-03-06 09:26:16 PM ClientID: ATWC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWM010222 || 
+=====================================
+
+DATE: 2023-03-06 09:26:41 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWM010222 movieType: Avatar  | ServerResponse: Failed : Customer have only booked 5so you cannot cancel 7
+DATE: 2023-03-06 09:26:41 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWM010222 oldMovieName: Avatar new_movieID: OUTM010222 new_movieName: Avatar  | ServerResponse: Failed: on Both newEvent OUTM010222 Booking reason: Failed: did not send book request for your new Movie OUTM010222 and oldMovieID ATWM010222 Canceling reason: Failed : Customer have only booked 5so you cannot cancel 7
+DATE: 2023-03-06 09:26:44 PM ClientID: ATWC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWM010222 || 
+=====================================
+
+DATE: 2023-03-06 09:44:23 PM  Server is Up & Running
+DATE: 2023-03-06 09:44:23 PM  UDP Server Started at port 8888
+DATE: 2023-03-06 09:45:07 PM ClientID: Event Manager | RequestType:  RMI addMovie  | RequestParameters:  movieID: ATWM070323 movieType: Avatar bookingCapacity 10  | ServerResponse: Success: Movie ATWM070323 added successfully
+DATE: 2023-03-06 09:52:08 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: ATWM070323 movieType: Avatar  | ServerResponse: Success: Movie ATWM070323 Booked Successfully
+DATE: 2023-03-06 09:52:41 PM ClientID: ATWC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWM070323 || 
+=====================================
+
+DATE: 2023-03-06 09:53:17 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWM070323 movieType: Avatar  | ServerResponse: Failed : Customer have only booked 5so you cannot cancel 7
+DATE: 2023-03-06 09:53:17 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWM070323 oldMovieName: Avatar new_movieID: OUTM070323 new_movieName: Avatar  | ServerResponse: Failed: on Both newEvent OUTM070323 Booking reason: Failed: did not send book request for your new Movie OUTM070323 and oldMovieID ATWM070323 Canceling reason: Failed : Customer have only booked 5so you cannot cancel 7
+DATE: 2023-03-06 09:53:24 PM ClientID: ATWC1234 | RequestType:  RMI getBookingSchedule  | RequestParameters: null | ServerResponse: Avatar:
+ATWM070323 || 
+=====================================
+
+DATE: 2023-03-06 09:53:51 PM ClientID: ATWC1234 | RequestType:  RMI cancelMovie  | RequestParameters:  movieID: ATWM070323 movieType: Avatar  | ServerResponse: Success: Movie ATWM070323 Canceled for ATWC1234
+DATE: 2023-03-06 09:53:51 PM ClientID: ATWC1234 | RequestType:  UDP request sent bookMovie  | RequestParameters:  movieID: OUTM070323 movieType: Avatar  | ServerResponse:  ... 
+DATE: 2023-03-06 09:53:51 PM ClientID: ATWC1234 | RequestType:  UDP reply receivedbookMovie  | RequestParameters:  movieID: OUTM070323 movieType: Avatar  | ServerResponse: Success: Movie OUTM070323 Booked Successfully
+DATE: 2023-03-06 09:53:51 PM ClientID: ATWC1234 | RequestType:  RMI bookMovie  | RequestParameters:  movieID: OUTM070323 movieType: Avatar  | ServerResponse: Success: Movie OUTM070323 Booked Successfully
+DATE: 2023-03-06 09:53:51 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWM070323 oldMovieName: Avatar new_movieID: OUTM070323 new_movieName: Avatar  | ServerResponse: Success: Event ATWM070323 swapped with OUTM070323
+DATE: 2023-04-10 09:41:57 PM  Server is Up & Running
+DATE: 2023-04-10 09:41:57 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 09:44:05 PM  Server is Up & Running
+DATE: 2023-04-10 09:44:05 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 09:59:57 PM Exception: org.omg.CORBA.BAD_INV_ORDER:   vmcid: OMG  minor code: 4  completed: No
+DATE: 2023-04-10 09:59:57 PM  Server Shutting down
+DATE: 2023-04-10 09:59:59 PM Exception: org.omg.CORBA.COMM_FAILURE:   vmcid: SUN  minor code: 201  completed: No
+DATE: 2023-04-10 09:59:59 PM  Server Shutting down
+DATE: 2023-04-10 10:00:27 PM  Server is Up & Running
+DATE: 2023-04-10 10:00:27 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 10:05:23 PM  Server is Up & Running
+DATE: 2023-04-10 10:05:23 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 10:06:36 PM  Server is Up & Running
+DATE: 2023-04-10 10:06:36 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 10:07:59 PM  Server is Up & Running
+DATE: 2023-04-10 10:07:59 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 10:09:24 PM  Server is Up & Running
+DATE: 2023-04-10 10:09:24 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 10:41:06 PM  Server is Up & Running
+DATE: 2023-04-10 10:41:06 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 11:05:35 PM  Server is Up & Running
+DATE: 2023-04-10 11:05:35 PM  UDP Server Started at port 8888

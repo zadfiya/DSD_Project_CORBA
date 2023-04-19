@@ -1,6 +1,6 @@
 package Replica2;
 /**
- * author: Naren Zadafiya (40232646)
+ * author: Team 22
  */
 import java.io.File;
 import java.io.FileWriter;
@@ -60,18 +60,7 @@ public class Logger {
         {
             fileWriter = new FileWriter(getFileName(clientID, Constant.LOG_TYPE_CLIENT), false);
         }
-//        if(file.exists())
-//        {
-//             fileWriter = new FileWriter(getFileName(clientID, Constant.LOG_TYPE_CLIENT), true);
-//        }
-//        else
-//        {
-//            file.mkdirs();
-//            file.createTempFile(clientID,".txt");
-//            System.out.println(getFileName(clientID, Constant.LOG_TYPE_CLIENT));
-//            System.out.println(file.createNewFile());
-//            fileWriter = new FileWriter(file, false);
-//        }
+
 
         PrintWriter printWriter = new PrintWriter(fileWriter);
         printWriter.println("DATE: " + getFormattedDate() + " " + msg);
@@ -154,23 +143,23 @@ public class Logger {
      * @return
      */
     private static String getFileName(String ID, int logType) {
-        final String dir = System.getProperty("user.dir");
+        final String dir = System.getProperty("user.dir")+"\\src\\Replica2";
         String fileName = dir;
-        String path="E:\\Concordia\\Winter 2023\\DSD\\Assignments\\Assignment 1\\DSD_40232646\\src\\Logs";
+//        String path="E:\\Concordia\\Winter 2023\\DSD\\Assignments\\Assignment 1\\DSD_40232646\\src\\Logs";
         if (logType == Constant.LOG_TYPE_SERVER) {
             if (ID.equalsIgnoreCase("ATW")) {
-                fileName=path+"\\Server\\ATWATER.txt";
-                //fileName = dir + "\\Logs\\Server\\ATWATER.txt";
+//                fileName=path+"\\Server\\ATWATER.txt";
+                fileName = dir + "\\Logs\\Server\\ATWATER.txt";
             } else if (ID.equalsIgnoreCase("VER")) {
-                fileName=path+"\\Server\\VERDUN.txt";
-                //fileName = dir + "\\Logs\\Server\\VERDUN.txt";
+//                fileName=path+"\\Server\\VERDUN.txt";
+                fileName = dir + "\\Logs\\Server\\VERDUN.txt";
             } else if (ID.equalsIgnoreCase("OUT")) {
-                fileName=path+"\\Server\\OUTREMONT.txt";
-                //fileName = dir + "\\Logs\\Server\\OUTREMONT.txt";
+//                fileName=path+"\\Server\\OUTREMONT.txt";
+                fileName = dir + "\\Logs\\Server\\OUTREMONT.txt";
             }
         } else {
-            fileName=path+"\\Client\\" + ID + ".txt";
-            //fileName = dir + "\\Logs\\Client\\" + ID + ".txt";
+//            fileName=path+"\\Client\\" + ID + ".txt";
+            fileName = dir + "\\Logs\\Client\\" + ID + ".txt";
         }
         return fileName;
     }

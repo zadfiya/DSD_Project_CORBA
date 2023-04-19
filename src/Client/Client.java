@@ -1,7 +1,7 @@
 package Client;
 
 /**
- * author: Naren Zadafiya (40232646)
+ * author: Team 22 
  */
 
 import Constant.Constant;
@@ -56,11 +56,6 @@ public class Client {
         System.out.println("*************************************");
         System.out.println("Please Enter your UserID:");
         userID = sc.next().trim().toUpperCase();
-//        if (userID.equalsIgnoreCase("ConTest")) {
-//            startConcurrencyTest(ncRef);
-//        } else {
-//            System.out.println("Please Enter your UserID:");
-//            userID = sc.next().trim().toUpperCase();
             switch (Constant.checkUserType(userID)) {
                 case Constant.USER_TYPE_CUSTOMER:
                     try {
@@ -97,89 +92,7 @@ public class Client {
      * @param ncRef
      * @throws Exception
      */
-//    private static void startConcurrencyTest(NamingContextExt ncRef) throws Exception {
-//        System.out.println("Concurrency Test Starting for Book Movie Show");
-//        System.out.println("Connecting Atwater Server...");
-//        String movieName = Constant.MOVIE_AVTAR;
-//        String movieID = "ATWA260223";
-//        int numberOfTickets=2;
-//        ServerObjectInterface servant = ServerObjectInterfaceHelper.narrow(ncRef.resolve_str("ATW"));
-//        System.out.println("adding " + movieID + " " + movieName + " with capacity 2 to Atwater Server...");
-//        String response = servant.addMovieSlot(movieID, movieName, 2);
-//        System.out.println(response);
-//        Runnable task1 = () -> {
-//            String customerID = "ATWC1234";
-////            System.out.println("Connecting Montreal Server for " + customerID)
-//
-//            String res = servant.bookMovieTickets(customerID, movieID, movieName,numberOfTickets);
-//            System.out.println("Booking response for " + customerID + " " + res);
-//            res = servant.cancelMovieTickets(customerID, movieID, movieName,numberOfTickets);
-//            System.out.println("Canceling response for " + customerID + " " + res);
-//        };
-//        Runnable task2 = () -> {
-//            String customerID = "ATWC3456";
-////            System.out.println("Connecting Montreal Server for " + customerID);
-//            String res = servant.bookMovieTickets(customerID, movieID, movieName, numberOfTickets);
-//            System.out.println("Booking response for " + customerID + " " + res);
-//            res = servant.cancelMovieTickets(customerID, movieID, movieName, numberOfTickets);
-//            System.out.println("Canceling response for " + customerID + " " + res);
-//        };
-//        Runnable task3 = () -> {
-//            String customerID = "ATWC4567";
-////            System.out.println("Connecting Montreal Server for " + customerID);
-//            String res = servant.bookMovieTickets(customerID, movieID, movieName, numberOfTickets);
-//            System.out.println("Booking response for " + customerID + " " + res);
-//            res = servant.cancelMovieTickets(customerID, movieID, movieName, numberOfTickets);
-//            System.out.println("Canceling response for " + customerID + " " + res);
-//        };
-//        Runnable task4 = () -> {
-//            String customerID = "ATWC6789";
-////            System.out.println("Connecting Montreal Server for " + customerID);
-//            String res = servant.bookMovieTickets(customerID, movieID, movieName, numberOfTickets);
-//            System.out.println("Booking response for " + customerID + " " + res);
-//            res = servant.cancelMovieTickets(customerID, movieID, movieName, numberOfTickets);
-//            System.out.println("Canceling response for " + customerID + " " + res);
-//        };
-//        Runnable task5 = () -> {
-//            String customerID = "ATWC7890";
-////            System.out.println("Connecting Montreal Server for " + customerID);
-//            String res = servant.bookMovieTickets(customerID, movieID, movieName, numberOfTickets);
-//            System.out.println("Booking response for " + customerID + " " + res);
-//            res = servant.cancelMovieTickets(customerID, movieID, movieName, numberOfTickets);
-//            System.out.println("Canceling response for " + customerID + " " + res);
-//        };
-//
-//        Runnable task6 = () -> {
-////            System.out.println("Connecting Montreal Server for " + customerID);
-//            String res = servant.removeMovieSlots(movieID, movieName);
-//            System.out.println("removeEvent response for " + movieID + " " + res);
-//        };
-//
-//        Thread thread1 = new Thread(task1);
-//        Thread thread2 = new Thread(task2);
-//        Thread thread3 = new Thread(task3);
-//        Thread thread4 = new Thread(task4);
-//        Thread thread5 = new Thread(task5);
-//        Thread thread6 = new Thread(task6);
-////        synchronized (thread1) {
-//        thread1.start();
-//        thread2.start();
-//        thread3.start();
-//        thread4.start();
-//        thread5.start();
-////        }
-//        thread1.join();
-//        thread2.join();
-//        thread3.join();
-//        thread4.join();
-//        thread5.join();
-////        if (!thread1.isAlive() && !thread2.isAlive() && !thread3.isAlive() && !thread4.isAlive() && !thread5.isAlive()) {
-//        System.out.println("Concurrency Test Finished for BookMovie Show");
-//        thread6.start();
-//        thread6.join();
-//        init(ncRef);
-////        }
-//    }
+
 
     /**
      *
@@ -190,8 +103,6 @@ public class Client {
     private static void customer(String customerID, NamingContextExt ncRef) throws Exception{
         String serverID = Constant.getServerID(customerID);
 
-//        Registry registry = LocateRegistry.getRegistry(serverPort);
-//        MovieManagementInterface remoteObject = (MovieManagementInterface) registry.lookup(Constant.MOVIE_MANAGEMENT_REGISTERED_NAME);
         FEObjectInterface servant = FEObjectInterfaceHelper.narrow(ncRef.resolve_str("FrontEnd"));
 
         boolean repeat = true;
@@ -286,8 +197,6 @@ public class Client {
         String serverID = Constant.getServerID(adminID);
         System.out.println(serverID);
 
-//        Registry registry = LocateRegistry.getRegistry(serverPort);
-//        MovieManagementInterface remoteObject = (MovieManagementInterface) registry.lookup(Constant.MOVIE_MANAGEMENT_REGISTERED_NAME);
         FEObjectInterface servant = FEObjectInterfaceHelper.narrow(ncRef.resolve_str("FrontEnd"));
         boolean repeat = true;
         Constant.printMenu(Constant.USER_TYPE_ADMIN);

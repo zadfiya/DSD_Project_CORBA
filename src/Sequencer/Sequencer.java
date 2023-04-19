@@ -8,8 +8,9 @@ import java.net.SocketException;
 
 public class Sequencer {
 	private static int sequencerId = 0;
-//	private static final String sequencerIP = "192.168.2.17";
-	private static final String sequencerIP = "localhost";
+//private static final String sequencerIP = "192.168.2.27";
+	private static final String sequencerIP = "192.168.137.245";
+	//private static final String sequencerIP = "localhost";
 
 	public static void main(String[] args) {
 		DatagramSocket aSocket = null;
@@ -81,11 +82,19 @@ public class Sequencer {
 			aSocket = new DatagramSocket();
 			byte[] messages = finalMessage.getBytes();
 //			InetAddress aHost = InetAddress.getByName("230.1.1.10");
-			InetAddress aHost = InetAddress.getByName("localhost");
+			//loop of all replicas
+			//String[] ips = {"192.168.2.17","192.168.2.27","192.168.2.23","192.168.2.12"};
+			String[] ips = {"192.168.137.122","192.168.137.245","192.168.137.250","192.168.137.5"};
+			for(String ip : ips)
+			{
+				InetAddress aHost = InetAddress.getByName(ip);
 
-			DatagramPacket request = new DatagramPacket(messages,
-					messages.length, aHost, port);
-			aSocket.send(request);
+				DatagramPacket request = new DatagramPacket(messages,
+						messages.length, aHost, port);
+				aSocket.send(request);
+			}
+
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

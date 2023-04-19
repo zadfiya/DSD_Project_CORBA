@@ -8,14 +8,24 @@ public class CommonOutput {
 	public static final String general_success = "successful";
 	public static final String addEvent_fail_cannot_decrease_capacity = "Cannot decrease capacity";
 	public static final String addMovieSlot_success_added = "Movie Slot added successfully";
-	public static final String addMovieSlot_success_capacity_updated = "Event updated successfully";
-	public static final String removeMovieSlot_fail_no_such_movieShow = "No such event";
-	public static final String bookMovieShow_fail_no_such_movieShow = "No such event";
-	public static final String bookMovieShow_no_capacity = "Event is full";
+	public static final String addMovieSlot_fail_another_server = "can not add movie slot to different server";
+
+	public static final String addMovieSlot_success_capacity_updated = "Movie Slot capacity updated successfully";
+	public static final String removeMovieSlot_fail_no_such_movieShow = "Movie Slot doesn't Exist";
+	public static final String removeMovieSlot_success_removed = "Movie Slot removed successfully";
+	public static final String removeMovieSlot_fail_another_server = "can not remove movie slot to different server";
+
+	public static final String bookMovieShow_fail_no_such_movieShow = "No such Movie Show";
+	public static final String bookMovieShow_fail_already_booked_movieShow = "You have booked already";
+	public static final String bookMovieShow_success_booked = "Movie Show booked Successfully";
+
+	public static final String bookMovieShow_no_capacity = "Movie show is full";
 	public static final String bookMovieShow_fail_weekly_limit = "Weekly limit reached";
-	public static final String cancelMovieShow_fail_not_registered_in_movieShow = "You are not registered in event";
+	public static final String cancelMovieShow_fail_not_registered_in_movieShow = "You are not registered in movie show";
+	public static final String cancelMovieShow_fail_overcanceled_movieShow = "Asked number of Tickets are more than booked";
+	public static final String cancelMovieShow_success_movieShow = "Movie show canceled Successful";
 	public static final String cancelMovieShow_fail_no_such_movieShow = "No such event";
-	public static final String exchangeTicket_fail_no_such_movieShow = "No such event";
+	public static final String exchangeTicket_fail_no_such_movieShow = "No such Movie";
 	public static final String exchangeTicket_fail_not_registered_in_movieShow = "You are not registered in event";
 	private static final String SUCCESS = "Success:";
 	private static final String FAIL = "Fail:";

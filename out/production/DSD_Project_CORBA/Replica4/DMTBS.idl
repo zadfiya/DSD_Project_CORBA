@@ -1,0 +1,24 @@
+module DMTBSsystem
+{
+	interface DMTBS
+	{
+
+//First Start orbd follow Command :-  orbd -ORBInitialPort 1050
+
+        string addMovieSlots(in string movieID,in string movieName,in long bookingCapacity);
+
+		string removeMovieSlots(in string movieID,in string movieName);
+
+		string listMovieShowsAvailability(in string movieName);
+
+		string bookMovieTickets(in string customerID,in string movieID,in string movieName,in long numberOfTickets);
+
+		string getBookingSchedule(in string customerID);
+
+		string cancelMovieTickets(in string customerID,in string movieID,in string movieName,in long numberOfTickets);
+
+        string exchangeTickets (in string customerID,in string movieID,in string new_movieID,in string new_movieName,in long numberOfTickets);
+
+		oneway void shutdown();
+	};
+};

@@ -1,1 +1,31 @@
 DATE: 2023-04-09 02:51:23 PM  Admin Login successful
+DATE: 2023-04-10 11:10:56 PM  Admin Login successful
+DATE: 2023-04-10 11:11:12 PM  attempting to Add Slot for Avtar with movieId VERA110423 and capacity: 15
+DATE: 2023-04-10 11:11:22 PM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA110423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-10 11:11:33 PM  Logout Successfully
+DATE: 2023-04-10 11:17:30 PM  Admin Login successful
+DATE: 2023-04-10 11:17:49 PM  attempting to Add Slot for Avtar with movieId VERA120423 and capacity: 15
+DATE: 2023-04-10 11:17:59 PM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA120423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-10 11:26:40 PM  attempting to Add Slot for Avtar with movieId VERA130423 and capacity: 15
+DATE: 2023-04-10 11:26:51 PM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA130423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-10 11:27:56 PM  Logout Successfully
+DATE: 2023-04-10 11:28:24 PM  Admin Login successful
+DATE: 2023-04-10 11:28:51 PM  attempting to Add Slot for Avtar with movieId VERA140423 and capacity: 5
+DATE: 2023-04-10 11:29:01 PM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA140423 movieName: Avtar capacity: 5  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-10 11:29:07 PM  Logout Successfully
+DATE: 2023-04-11 09:47:31 AM  Admin Login successful
+DATE: 2023-04-11 09:47:42 AM  attempting to Add Slot for Avtar with movieId VERA140423 and capacity: 15
+DATE: 2023-04-11 09:47:52 AM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA140423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 09:48:00 AM  Logout Successfully
+DATE: 2023-04-11 11:09:11 AM  Admin Login successful
+DATE: 2023-04-11 11:09:20 AM  attempting to Add Slot for Avtar with movieId VERA120423 and capacity: 15
+DATE: 2023-04-11 11:09:30 AM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA120423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 11:09:52 AM  attempting to Add Slot for Avtar with movieId ATWA130423 and capacity: 15
+DATE: 2023-04-11 11:10:02 AM Client Action:  addMovieSlot | RequestParameters:  movieID: ATWA130423 movieName: Avtar capacity: 15  | Server Response: Fail:addMovieSlot > can not add movie slot to different server
+DATE: 2023-04-11 11:10:23 AM  attempting to Add Slot for Avtar with movieId VERA130423 and capacity: 15
+DATE: 2023-04-11 11:10:33 AM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA130423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 11:10:43 AM  attempting to Add Slot for Avtar with movieId VERA140423 and capacity: 15
+DATE: 2023-04-11 11:10:53 AM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA140423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 11:11:05 AM  attempting to Add Slot for Avtar with movieId VERA150423 and capacity: 15
+DATE: 2023-04-11 11:11:15 AM Client Action:  addMovieSlot | RequestParameters:  movieID: VERA150423 movieName: Avtar capacity: 15  | Server Response: Success:addMovieSlot > Movie Slot added successfully
+DATE: 2023-04-11 11:11:23 AM  Logout Successfully

@@ -799,3 +799,470 @@ DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot 
 DATE: 2023-02-13 10:16:04 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: ATWE100223 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie ATWE100223 added successfully
 DATE: 2023-02-13 10:16:04 p.m.  UDP Server Started at port 8888
 DATE: 2023-02-13 10:16:34 p.m. ClientID: Admin | RequestType:  RMI addMovieSlot  | RequestParameters:  movieID: ATWA150223 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie ATWA150223 added successfully
+<<<<<<< HEAD
+DATE: 2023-04-10 07:38:10 PM  Server is Up & Running
+DATE: 2023-04-10 07:38:10 PM  UDP Server Started at port 8888
+=======
+DATE: 2023-04-10 07:34:53 PM  Server is Up & Running
+DATE: 2023-04-10 07:34:53 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 08:29:12 PM  Server is Up & Running
+DATE: 2023-04-10 08:29:12 PM  UDP Server Started at port 8888
+DATE: 2023-04-10 08:36:43 PM  Server is Up & Running
+DATE: 2023-04-10 08:36:43 PM  UDP Server Started at port 8888
+>>>>>>> 6a10318d7f2555949fc9b08812ca916d8307614b
+DATE: 2023-04-11 09:30:21 AM  Server is Up & Running
+DATE: 2023-04-11 09:30:21 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 09:31:58 AM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 09:32:36 AM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: VERA100223 movieName: Avtar  | ServerResponse: Failed: Cannot Remove Movie Show from servers other than ATWATER
+DATE: 2023-04-11 09:33:01 AM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWA120423) in the Afternoon of 12/04/2023 Total[Remaining] Capacity: 15[15] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 09:36:27 AM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: VERA150423 movieName: Avtar  | ServerResponse: Failed: Cannot Remove Movie Show from servers other than ATWATER
+DATE: 2023-04-11 09:39:00 AM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: ATWA150423 movieName: Avtar  | ServerResponse: Failed: Movie ATWA150423 Does Not Exist
+DATE: 2023-04-11 09:40:14 AM  Server is Up & Running
+DATE: 2023-04-11 09:40:14 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 09:40:31 AM  Server is Up & Running
+DATE: 2023-04-11 09:40:31 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 09:41:51 AM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: VERA160423 movieName: Avtar  | ServerResponse: Failed: Cannot Remove Movie Show from servers other than ATWATER
+DATE: 2023-04-11 09:45:13 AM  Server is Up & Running
+DATE: 2023-04-11 09:45:14 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 09:46:46 AM  Server is Up & Running
+DATE: 2023-04-11 09:46:46 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 09:49:06 AM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: VERA160423 movieName: Avtar  | ServerResponse: Failed: Cannot Remove Movie Show from servers other than ATWATER
+DATE: 2023-04-11 09:51:24 AM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: VERA100423 movieName: Avtar  | ServerResponse: Failed: Cannot Remove Movie Show from servers other than ATWATER
+DATE: 2023-04-11 09:52:36 AM  Server is Up & Running
+DATE: 2023-04-11 09:52:36 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:05:09 AM  Server is Up & Running
+DATE: 2023-04-11 10:05:09 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:06:02 AM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: VERA150423 movieName: Avtar  | ServerResponse: Failed: Cannot Remove Movie Show from servers other than ATWATER
+DATE: 2023-04-11 10:15:33 AM  Server is Up & Running
+DATE: 2023-04-11 10:15:33 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:15:40 AM  Server is Up & Running
+DATE: 2023-04-11 10:15:40 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:17:31 AM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 10:21:12 AM  Server is Up & Running
+DATE: 2023-04-11 10:21:12 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:22:00 AM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 10:23:58 AM  Server is Up & Running
+DATE: 2023-04-11 10:23:58 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:24:49 AM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 10:26:20 AM  Server is Up & Running
+DATE: 2023-04-11 10:26:20 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:27:04 AM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 10:30:38 AM  Server is Up & Running
+DATE: 2023-04-11 10:30:38 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:31:08 AM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 10:33:07 AM  Server is Up & Running
+DATE: 2023-04-11 10:33:07 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 10:33:34 AM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 10:35:16 AM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 10:35:52 AM ClientID: VERC1111 | RequestType:  UDP request received bookMovieShow  | RequestParameters:  movieID: ATWA120423 movieName: Avtar  | ServerResponse:  ...
+DATE: 2023-04-11 10:35:52 AM ClientID: VERC1111 | RequestType:  UDP reply sent bookMovieShow  | RequestParameters:  movieID: ATWA120423 movieName: Avtar  | ServerResponse: Success:bookMovieTickets > successful;
+DATE: 2023-04-11 10:36:23 AM ClientID: VERC1111 | RequestType:  UDP reply sent listBookingSchedule  | RequestParameters:  movieID: null movieName: null  | ServerResponse: 
+ATWATER:
+Avtar:
+ATWA120423 , #ticket: 15 ||
+;
+DATE: 2023-04-11 11:17:01 AM ClientID: ATWC1234 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: VERA120423 movieName: Avtar  | ServerResponse: Success:bookMovieTickets > successful
+DATE: 2023-04-11 11:17:20 AM ClientID: ATWC1234 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: VERA130423 movieName: Avtar  | ServerResponse: Success:bookMovieTickets > successful
+DATE: 2023-04-11 11:17:48 AM ClientID: ATWC1234 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: VERA140423 movieName: Avtar  | ServerResponse: Success:bookMovieTickets > successful
+DATE: 2023-04-11 11:21:02 AM ClientID: ATWC1234 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: VERA150423 movieName: Avtar  | ServerResponse: Success:bookMovieTickets > successful
+DATE: 2023-04-11 11:41:01 AM  Server is Up & Running
+DATE: 2023-04-11 11:41:01 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 11:55:18 AM  Server is Up & Running
+DATE: 2023-04-11 11:55:18 AM  UDP Server Started at port 8888
+DATE: 2023-04-11 12:26:50 PM  Server is Up & Running
+DATE: 2023-04-11 12:26:50 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 12:27:52 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 12:39:15 PM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWA120423) in the Afternoon of 12/04/2023 Total[Remaining] Capacity: 12[12] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 12:41:05 PM  Server is Up & Running
+DATE: 2023-04-11 12:41:05 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 12:42:12 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 12:48:30 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 16  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 16
+DATE: 2023-04-11 12:50:20 PM  Server is Up & Running
+DATE: 2023-04-11 12:50:20 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 12:51:31 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA140423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA140423 added successfully
+DATE: 2023-04-11 12:53:09 PM  Server is Up & Running
+DATE: 2023-04-11 12:53:09 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 12:54:07 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 12:57:10 PM  Server is Up & Running
+DATE: 2023-04-11 12:57:10 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 12:58:23 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 01:00:16 PM  Server is Up & Running
+DATE: 2023-04-11 01:00:16 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 01:01:03 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 01:02:32 PM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWA120423) in the Afternoon of 12/04/2023 Total[Remaining] Capacity: 15[15] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-11 01:05:59 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA160423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA160423 added successfully
+DATE: 2023-04-11 01:07:16 PM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: ATWA160423 movieName: Avtar  | ServerResponse: Success: Movie Show Removed Successfully
+DATE: 2023-04-11 01:21:48 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA160423 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie ATWA160423 added successfully
+DATE: 2023-04-11 01:23:49 PM  Server is Up & Running
+DATE: 2023-04-11 01:23:49 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 01:24:23 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA140423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA140423 added successfully
+DATE: 2023-04-11 02:02:48 PM  Server is Up & Running
+DATE: 2023-04-11 02:02:48 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:03:36 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 40  | ServerResponse: Success: Movie ATWM120423 added successfully
+DATE: 2023-04-11 02:05:19 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 400  | ServerResponse: Success: Movie Show ATWM120423 updated with number of booking seats 400
+DATE: 2023-04-11 02:06:10 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 30  | ServerResponse: Success: Movie Show ATWM120423 updated with number of booking seats 30
+DATE: 2023-04-11 02:07:02 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 400  | ServerResponse: Success: Movie Show ATWM120423 updated with number of booking seats 400
+DATE: 2023-04-11 02:08:53 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 20  | ServerResponse: Success: Movie Show ATWM120423 updated with number of booking seats 20
+DATE: 2023-04-11 02:09:47 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 23  | ServerResponse: Success: Movie Show ATWM120423 updated with number of booking seats 23
+DATE: 2023-04-11 02:14:30 PM  Server is Up & Running
+DATE: 2023-04-11 02:14:30 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:15:19 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 3000  | ServerResponse: Success: Movie ATWM120423 added successfully
+DATE: 2023-04-11 02:18:28 PM  Server is Up & Running
+DATE: 2023-04-11 02:18:28 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:18:57 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 23  | ServerResponse: Success: Movie ATWM120423 added successfully
+DATE: 2023-04-11 02:19:56 PM  Server is Up & Running
+DATE: 2023-04-11 02:19:56 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:21:15 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM140423 eventType: Avtar bookingCapacity 30  | ServerResponse: Success: Movie ATWM140423 added successfully
+DATE: 2023-04-11 02:22:27 PM  Server is Up & Running
+DATE: 2023-04-11 02:22:27 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:22:31 PM  Server is Up & Running
+DATE: 2023-04-11 02:22:31 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:22:42 PM  Server is Up & Running
+DATE: 2023-04-11 02:22:42 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:23:26 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 23  | ServerResponse: Success: Movie ATWM120423 added successfully
+DATE: 2023-04-11 02:24:34 PM  Server is Up & Running
+DATE: 2023-04-11 02:24:34 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:25:32 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 435  | ServerResponse: Success: Movie ATWM120423 added successfully
+DATE: 2023-04-11 02:26:06 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM140423 eventType: Avtar bookingCapacity 23  | ServerResponse: Success: Movie ATWM140423 added successfully
+DATE: 2023-04-11 02:26:55 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 13  | ServerResponse: Success: Movie Show ATWM120423 updated with number of booking seats 13
+DATE: 2023-04-11 02:29:34 PM  Server is Up & Running
+DATE: 2023-04-11 02:29:34 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:30:37 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 30  | ServerResponse: Success: Movie ATWM120423 added successfully
+DATE: 2023-04-11 02:30:56 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 23  | ServerResponse: Success: Movie Show ATWM120423 updated with number of booking seats 23
+DATE: 2023-04-11 02:31:17 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWM120423 eventType: Avtar bookingCapacity 40  | ServerResponse: Success: Movie Show ATWM120423 updated with number of booking seats 40
+DATE: 2023-04-11 02:33:25 PM  Server is Up & Running
+DATE: 2023-04-11 02:33:25 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:34:15 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 02:35:25 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 12
+DATE: 2023-04-11 02:35:58 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 13  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 13
+DATE: 2023-04-11 02:39:25 PM  Server is Up & Running
+DATE: 2023-04-11 02:39:25 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:40:11 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 02:40:33 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA140423 eventType: Avtar bookingCapacity 11  | ServerResponse: Success: Movie ATWA140423 added successfully
+DATE: 2023-04-11 02:41:01 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 14  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 14
+DATE: 2023-04-11 02:45:01 PM  Server is Up & Running
+DATE: 2023-04-11 02:45:01 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:45:39 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 02:46:11 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 15
+DATE: 2023-04-11 02:46:39 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 12
+DATE: 2023-04-11 02:49:22 PM  Server is Up & Running
+DATE: 2023-04-11 02:49:22 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:50:13 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 02:50:35 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 13  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 13
+DATE: 2023-04-11 02:51:04 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 12
+DATE: 2023-04-11 02:56:09 PM  Server is Up & Running
+DATE: 2023-04-11 02:56:09 PM  UDP Server Started at port 8888
+DATE: 2023-04-11 02:57:02 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-11 03:23:34 PM  Server is Up & Running
+DATE: 2023-04-11 03:23:34 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 12:43:01 PM  Server is Up & Running
+DATE: 2023-04-12 12:43:02 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 12:47:23 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 12:58:20 PM  Server is Up & Running
+DATE: 2023-04-12 12:58:20 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 12:59:46 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 112  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 01:01:54 PM  Server is Up & Running
+DATE: 2023-04-12 01:01:54 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 01:03:03 PM  Server is Up & Running
+DATE: 2023-04-12 01:03:03 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 01:04:02 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 12  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 01:08:45 PM  Server is Up & Running
+DATE: 2023-04-12 01:08:45 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 01:10:58 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 01:13:12 PM  Server is Up & Running
+DATE: 2023-04-12 01:13:12 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 01:13:48 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA140423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA140423 added successfully
+DATE: 2023-04-12 01:14:32 PM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWA140423) in the Afternoon of 14/04/2023 Total[Remaining] Capacity: 15[15] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-12 01:15:52 PM ClientID: ATWC1234 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: ATWA140423 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA140423 Booked Successfully
+DATE: 2023-04-12 01:16:02 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+VERDUN:
+Booking Schedule Empty For ATWC1234
+
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+
+ATWATER:
+Avtar:
+ATWA140423 , #ticket: 5 ||
+
+=====================================
+
+DATE: 2023-04-12 01:16:18 PM ClientID: ATWC1234 | RequestType:  CORBA cancel Movie Show  | RequestParameters:  MovieId: ATWA140423 movieName: Avtar  | ServerResponse: Failed: You cannot Canceled 18 tickets. Maximum limit is 5
+DATE: 2023-04-12 01:16:49 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+VERDUN:
+Booking Schedule Empty For ATWC1234
+
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+
+ATWATER:
+Avtar:
+ATWA140423 , #ticket: 2 ||
+
+=====================================
+
+DATE: 2023-04-12 01:17:11 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+VERDUN:
+Booking Schedule Empty For ATWC1234
+
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+
+ATWATER:
+Avtar:
+
+=====================================
+
+DATE: 2023-04-12 01:24:15 PM  Server is Up & Running
+DATE: 2023-04-12 01:24:15 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 01:24:52 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 01:24:59 PM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWA120423) in the Afternoon of 12/04/2023 Total[Remaining] Capacity: 15[15] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-12 01:25:22 PM ClientID: ATWC1234 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: ATWA120423 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA120423 Booked Successfully
+DATE: 2023-04-12 01:25:42 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+VERDUN:
+Booking Schedule Empty For ATWC1234
+
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+
+ATWATER:
+Avtar:
+ATWA120423 , #ticket: 2 ||
+
+=====================================
+
+DATE: 2023-04-12 01:25:57 PM ClientID: ATWC1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: 
+VERDUN:
+Booking Schedule Empty For ATWC1234
+
+OUTREMONT:
+Booking Schedule Empty For ATWC1234
+
+ATWATER:
+Avtar:
+
+=====================================
+
+DATE: 2023-04-12 01:27:18 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWE120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWE120423 added successfully
+DATE: 2023-04-12 01:27:27 PM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: ATWA120423 movieName: Avtar  | ServerResponse: Success: Movie Show Removed Successfully
+DATE: 2023-04-12 01:27:33 PM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ (ATWE120423) in the Evening of 12/04/2023 Total[Remaining] Capacity: 15[15] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-12 01:27:52 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA130423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA130423 added successfully
+DATE: 2023-04-12 01:28:22 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWE120423 oldMovieName: Avtar newMovieID: ATWA130423 newMovieName: Avtar  | ServerResponse: Failed: You ATWC1234 Are Not Registered in ATWE120423
+DATE: 2023-04-12 01:28:45 PM ClientID: ATWC1234 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: ATWE120423 movieName: Avtar  | ServerResponse: Success: Movie Show ATWE120423 Booked Successfully
+DATE: 2023-04-12 01:29:06 PM ClientID: ATWC1234 | RequestType:  CORBA cancel Movie Show  | RequestParameters:  MovieId: ATWE120423 movieName: Avtar  | ServerResponse: Failed: You cannot Canceled 9 tickets. Maximum limit is 5
+DATE: 2023-04-12 01:29:06 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWE120423 oldMovieName: Avtar newMovieID: ATWA130423 newMovieName: Avtar  | ServerResponse: Failed: on Both newEvent ATWA130423 Booking reason: Failed: did not send book request for your new Movie ATWA130423 and oldMovieID ATWE120423 Canceling reason: Fail:cancelMovieTickets > Asked number of Tickets are more than booked
+DATE: 2023-04-12 01:30:01 PM ClientID: ATWC1234 | RequestType:  CORBA bookMovieShow  | RequestParameters:  movieID: ATWA130423 movieName: Avtar  | ServerResponse: Success: Movie Show ATWA130423 Booked Successfully
+DATE: 2023-04-12 01:30:01 PM ClientID: ATWC1234 | RequestType:  CORBA exchangeTickets  | RequestParameters:  oldMovieID: ATWE120423 oldMovieName: Avtar newMovieID: ATWA130423 newMovieName: Avtar  | ServerResponse: Success: Event ATWE120423 swapped with ATWA130423
+DATE: 2023-04-12 01:31:01 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWE130423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWE130423 added successfully
+DATE: 2023-04-12 01:31:50 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWE130423 eventType: Avtar bookingCapacity 16  | ServerResponse: Success: Movie Show ATWE130423 updated with number of booking seats 16
+DATE: 2023-04-12 01:32:24 PM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: ATWE130423 movieName: Avtar  | ServerResponse: Success: Movie Show Removed Successfully
+DATE: 2023-04-12 01:34:14 PM  Server is Up & Running
+DATE: 2023-04-12 01:34:14 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 01:34:53 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 01:35:19 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 150  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 150
+DATE: 2023-04-12 01:35:54 PM ClientID: Admin | RequestType:  CORBA removeMovieSlot  | RequestParameters:  movieID: ATWA120423 movieName: Avtar  | ServerResponse: Success: Movie Show Removed Successfully
+DATE: 2023-04-12 01:36:48 PM ClientID: Admin | RequestType:  CORBA List Movie Show Schedule  | RequestParameters:   movieName: Avtar  | ServerResponse: ATWATER Server Avtar:
+ (ATWA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+
+=====================================
+VERDUN Server, Movie Slots forAvtar:
+ (VERA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+OUTREMONT Server, Movie Slots forAvtar:
+ (OUTA100223) in the Afternoon of 10/02/2023 Total[Remaining] Capacity: 20[20] ||
+ 
+=====================================
+
+=====================================
+
+DATE: 2023-04-12 01:39:03 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 01:39:55 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 15
+DATE: 2023-04-12 01:51:06 PM  Server is Up & Running
+DATE: 2023-04-12 01:51:06 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 01:51:37 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 01:53:56 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 15
+DATE: 2023-04-12 01:54:10 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 25  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 25
+DATE: 2023-04-12 03:09:09 PM  Server is Up & Running
+DATE: 2023-04-12 03:09:09 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 03:10:05 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 03:11:06 PM  Server is Up & Running
+DATE: 2023-04-12 03:11:06 PM  UDP Server Started at port 8888
+DATE: 2023-04-12 03:12:37 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 15  | ServerResponse: Success: Movie ATWA120423 added successfully
+DATE: 2023-04-12 03:14:09 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 16  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 16
+DATE: 2023-04-12 03:15:05 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 17  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 17
+DATE: 2023-04-12 03:15:48 PM ClientID: Admin | RequestType:  CORBA addMovieSlot  | RequestParameters:  movieID: ATWA120423 eventType: Avtar bookingCapacity 19  | ServerResponse: Success: Movie Show ATWA120423 updated with number of booking seats 19

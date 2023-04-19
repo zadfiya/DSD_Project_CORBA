@@ -128,38 +128,24 @@ public class RM2 {
                 } else if (parts[2].equalsIgnoreCase("22")) {
                     Runnable crash_task = () -> {
                         try {
-                            //suspend the execution of messages untill all servers are up. (serversFlag=false)
+                            
                             serversFlag = false;
-                            //reboot Monteal Server
-                            //Registry montreal_registry = LocateRegistry.getRegistry(SERVER_MONTREAL);
-                            ServerObjectInterface2 atwater_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("ATW"));
-                            //EventManagementInterface montreal_obj = (EventManagementInterface) montreal_registry.lookup(EVENT_MANAGEMENT_REGISTERED_NAME);
-                            atwater_obj.shutdown();
-//                            Montreal.main(new String[0]);
-                            System.out.println("RM2 shutdown Atwater Server");
+                            
+//                            ServerObjectInterface2 atwater_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("ATW"));
+//                          atwater_obj.shutdown();
+//                            System.out.println("RM2 shutdown Atwater Server");
+//
+//                            ServerObjectInterface2 verdun_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("VER"));
+//                            verdun_obj.shutdown();
+//                            System.out.println("RM2 shutdown Verdun Server");
+//
+//                            ServerObjectInterface2 outremont_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("OUT"));
+//                            outremont_obj.shutdown();
+//                            System.out.println("RM2 shutdown Outremont Server");
+                            String []args = {"-ORBInitialPort", "1050" ,"-ORBInitialHost", "localhost"};
+                            Replica2.Server.main(args);
 
-                            //reboot Quebec Server
-//                            Registry quebec_registry = LocateRegistry.getRegistry(SERVER_QUEBEC);
-//                            EventManagementInterface quebec_obj = (EventManagementInterface) quebec_registry.lookup(EVENT_MANAGEMENT_REGISTERED_NAME);
-//                            quebec_obj.shutDown();
-//                            Quebec.main(new String[0]);
-                            ServerObjectInterface2 verdun_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("VER"));
-                            verdun_obj.shutdown();
-                            System.out.println("RM2 shutdown Verdun Server");
 
-                            //reboot Sherbrooke Server
-//                            Registry sherbrook_registry = LocateRegistry.getRegistry(SERVER_SHERBROOKE);
-//                            EventManagementInterface sherbrook_obj = (EventManagementInterface) sherbrook_registry.lookup(EVENT_MANAGEMENT_REGISTERED_NAME);
-//                            sherbrook_obj.shutDown();
-                            ServerObjectInterface2 outremont_obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str("OUT"));
-                            outremont_obj.shutdown();
-//                            Sherbrooke.main(new String[0]);
-                            System.out.println("RM2 shutdown Outremont Server");
-
-                            //This is going to start all the servers for this implementation
-                            Server.main(new String[0]);
-
-                            //wait untill are servers are up
                             Thread.sleep(5000);
 
                             System.out.println("RM2 is reloading servers hashmap");
@@ -195,7 +181,7 @@ public class RM2 {
         String newMovieID = parts[5];
         String newMovieName = parts[6];
         String oldMovieID = parts[7];
-         int numberOfTickets = Integer.parseInt(parts[8]);
+        int numberOfTickets = Integer.parseInt(parts[8]);
         int bookingCapacity = Integer.parseInt(parts[9]);
         Message message = new Message(sequenceId, FrontIpAddress, MessageType, Function, userID, newMovieID, newMovieName, oldMovieID, numberOfTickets, bookingCapacity);
         return message;
@@ -274,11 +260,9 @@ public class RM2 {
         }
     }
 
-    //Send RMI request to server
+    //Send Corba request to server
     private static String requestToServers(Message input,NamingContextExt ncRef) throws Exception {
         String serverID = getServerID(input.userID.substring(0, 3));
-//        Registry registry = LocateRegistry.getRegistry(portNumber);
-//        EventManagementInterface obj = (EventManagementInterface) registry.lookup(EVENT_MANAGEMENT_REGISTERED_NAME);
         ServerObjectInterface2 obj = ServerObjectInterface2Helper.narrow(ncRef.resolve_str(serverID));
 
         if (input.userID.substring(3, 4).equalsIgnoreCase("A")) {
@@ -304,11 +288,11 @@ public class RM2 {
                 String response = obj.getBookingSchedule(input.userID);
                 System.out.println(response);
                 return response;
-            } else if (input.Function.equalsIgnoreCase("cancelMovieTickets")) {
+            } else if (input.Function.equalsIgnoreCase("cancelMovieTicket")) {
                 String response = obj.cancelMovieTickets(input.userID, input.newMovieID, input.newMovieName, input.numberOfTickets);
                 System.out.println(response);
                 return response;
-            } else if (input.Function.equalsIgnoreCase("exchangeTickets")) {
+            } else if (input.Function.equalsIgnoreCase("exchangeTicket")) {
                 String response = obj.exchangeTickets(input.userID, input.newMovieID, input.newMovieName, input.oldMovieID, input.numberOfTickets);
                 System.out.println(response);
                 return response;
